@@ -29,7 +29,7 @@ Pragul poate fi atins mai repede dacă un video „explodează” — sau mai t�
 - [ ] Verifici canalul cu numărul de telefon (YouTube Studio → Settings → Channel → Feature eligibility) — deblochează miniaturi personalizate și video-uri > 15 min
 - [ ] Încarci logo-ul și bannerul (Claude le livrează în `brand/`), scrii descrierea „About” din 02 §5.4
 - [ ] Setări de încărcare implicite (Studio → Settings → Upload defaults): categoria **Education**, limba **English**, licență standard, descrierea de bază din `templates/package-template.md`
-- [ ] Creezi playlist-urile: „Cost Autopsy”, „How They Make Money”, „Hidden Fees & Traps”, „Price History”, „Why Is [Country] So Expensive?”
+- [ ] Playlist-urile se creează **în timpul încărcării** (pasul „Adaugă în playlist” → „Playlist nou”), doar când apare primul video din ele: acum „Cost Autopsy” (001) și „How They Make Money” (002, 003); mai târziu „Hidden Fees & Traps”, „Price History”, „Why Is [Country] So Expensive?”. Vizibilitate: Public
 - [ ] Cont ElevenLabs (plan cu licență comercială), alegi vocea (02 §4) și notezi setările
 - [ ] Instalezi CapCut Desktop
 - [ ] (Opțional acum, obligatoriu la etapa 1 din 08) cont Beehiiv sau Kit pentru newsletter

@@ -11,7 +11,7 @@ Restul e **opțional**.
 4. **Descrierea:** copiezi **tot** din `description.txt` (are deja capitolele cu minutele corecte și sursele).
 5. **Vizibilitate → Programează:** data din calendar, ora **21:00 ora Germaniei** (22:00 ora României) = 15:00 New York.
    - 001 popcorn → **marți 1 decembrie** · 002 companii aeriene → **vineri 4 decembrie** · 003 Costco → **marți 8 decembrie**
-6. **Playlist:** cel scris în `upload.txt` (de ex. *How They Make Money*).
+6. **Playlist:** cel scris în `upload.txt` (de ex. *How They Make Money*). Dacă nu există încă: în același pas → **„Playlist nou”** → numele exact → Public → Creează. Asigură-te că ești pe canalul **Pricewhy** (poza de profil → Schimbă contul), nu pe „Christina”.
 7. **Public / Audiență:** **„Nu, nu este creat pentru copii”**.
 8. **Conținut modificat / AI** (Altered content / AI use): **Da** — vocea e sintetică. Nu afectează banii și nici câte vizualizări primește.
 9. **Încarcă.** Gata.
