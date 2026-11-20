@@ -84,6 +84,6 @@ Aceeași regulă pentru pragurile din `tools/analytics/review.py` și pentru doc
 
 ## Starea la 20.11.2026
 
-- Gata: planul complet (docs 01–12), 5 skill-uri testate pe cazuri reale, șabloane, unelte, logo, banner, video-urile 001–003 complete (cercetare + scenariu + ambalaj + Shorts + grafice) și trimise utilizatorului ca ZIP. Canalul @PricewhyTV e creat.
-- Utilizatorul trebuie să facă: lista din docs/10 §2 (canal, handle, ElevenLabs, CapCut) înainte de 1 decembrie.
-- Următorul pas Claude: pachetele 004–008 din `tracking/content-calendar.csv`, câte două pe săptămână, cu o săptămână înainte de publicare.
+- Gata: planul complet (docs 01–13), 6 skill-uri, uneltele de voce + montaj + Shorts, video-urile 001–003 FINITE (MP4 + kit + 5 Shorts fiecare) trimise utilizatorului. 003 Costco = lansarea, vineri 20.11.2026.
+- Utilizatorul: publică după `tracking/content-calendar.csv` (ghid: docs/13). Lunea exportă datele din Studio.
+- Următorul pas Claude: la „start week 1” — video-urile 004 (Crăciun, marți 1.12) și 005 (Australia, vineri 4.12), complete și randate, cu Shorts.
