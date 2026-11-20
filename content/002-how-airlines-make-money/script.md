@@ -1,9 +1,9 @@
 # Script: How Airlines Really Make Money (It's Your Credit Card)
-Video: 002 · Structure: **Follow-the-Dollar** (one dollar swiped on a co-branded airline card, stop by stop) · Hook type: 6 (personal consequence) + 1 (shock number) · Target length: ~12 min
-Narration words: **1,856** (≈ 11:58 at 155 wpm, ≈ 12:10 with pauses). Scene times below are estimates — the real ones come from the voice file.
-Twist (from research verdict): the bank's check is bigger than the whole airline's profit (Delta 2025: $8.2B from Amex vs $5.0B adjusted pre-tax) — **but cash is not profit**. By American's own projection only ~34–38 cents of each extra card dollar becomes pre-tax profit, and no airline discloses profit by source, so "airlines are banks that lose money flying" is wrong too. Lands at ¶20 (≈ 50% of runtime).
-Price Board: **US + Canada only** — research has no comparable UK or Australia data (only a passing Reuters mention of interchange caps in Europe/Australia). Canada = Aeroplan's 2026 stake sale (¶27–28); said on air.
-Structure check: previous video 003 is Detective; 001 has no structure logged in `tracking/video-log.csv`.
+Video: 002 · Structure: **Autopsy** (the airline credit card cut open into 5 parts: swipe fee → miles → brand → seat → unused miles; then the weighing, the cause and the verdict) · Hook type: 6 (personal consequence) + 1 (shock number) · Target length: ~12 min
+Narration words: **1,840** (≈ 11:52 at 155 wpm, ≈ 12:04 with pauses). Counted over the ¶ lines of the VOICE-READY section only, excluding `[pause]`, the ¶ labels and stand-alone dashes. Scene times below are estimates — the real ones come from the voice file.
+Twist (from research verdict): the bank's check is bigger than the whole airline's profit (Delta 2025: $8.2B from Amex vs $5.0B adjusted pre-tax) — **but cash is not profit**. By American's own projection only ~34–38 cents of each extra card dollar becomes pre-tax profit, and no airline discloses profit by source, so "airlines are banks that lose money flying" is wrong too. Lands at ¶19 (≈ 50% of runtime).
+Price Board: **US + Canada only** — research has no comparable UK or Australia data (only a passing Reuters mention of interchange caps in Europe/Australia). Canada = Aeroplan's 2026 stake sale (¶26–27); said on air.
+Structure check: 001 (publishes Tue 1 Dec, the video right before this one) is **Follow-the-Dollar** (`content/001-movie-theater-popcorn/script.md`); 003 (Tue 8 Dec) is **Detective**. So 002 is **Autopsy**: different from both neighbours (CLAUDE.md rule 4, docs/11 rule 3). `tracking/video-log.csv` has no structures logged yet.
 
 ---
 
@@ -13,133 +13,131 @@ Structure check: previous video 003 is Detective; 001 has no structure logged in
 
 ¶1 This is an airline credit card. Every time someone taps one, for a coffee, for gas, for groceries, an airline gets paid. [pause] In twenty twenty-five, American Express paid Delta Air Lines eight point two billion dollars. Delta's entire pre-tax profit that year, adjusted, was about five billion.
 
-¶2 And it isn't just Delta. American Airlines took in six point two billion dollars from its card and other partners in twenty twenty-five, and ended the year with one hundred eleven million of net income. So do airlines make their money in the air, or in your wallet? [pause] Let's follow one dollar, from a card swipe to a seat on a plane.
+¶2 And it isn't just Delta. American Airlines took in six point two billion dollars from its card and other partners in twenty twenty-five, and ended the year with one hundred eleven million of net income. So do airlines make their money in the air, or in your wallet? [pause] Let's cut one of these cards open and look inside, line by line.
 
-**[STOP 1 — The swipe: from the counter to the bank]**
+**[THE INCISION — Part 1: the swipe fee · Part 2: the miles]**
 
-¶3 So you tap a Delta card at a coffee shop. Where does your dollar go first? [pause] Not to Delta. The coffee shop pays a swipe fee, and on an American Express card, that fee goes to Amex. Add annual fees and interest from cardholders, and that's the bank's side of the deal.
+¶3 Here's the incision. Every swipe on an airline card feeds five parts: a swipe fee, a sale of miles, a brand deal, a seat the airline now owes you, and miles that may never come back. Five lines on our receipt.
 
-¶4 And for Amex, this is no side business. Pause the video and guess: what share of everything charged on American Express cards worldwide goes on Delta cards? [pause] About thirteen percent. Roughly one dollar in every eight. Plus about twenty-one percent of all the money Amex has lent to cardholders. That's from Amex's own twenty twenty-five annual report.
+¶4 Part one: the swipe fee. You tap a Delta card at a coffee shop. Who gets paid first? [pause] Not Delta. The coffee shop pays a swipe fee, and on an American Express card, that fee goes to Amex. Add annual fees and interest from cardholders, and that's the bank's side of the deal.
 
-¶5 That works out to roughly two hundred seventeen billion dollars charged on Delta cards in twenty twenty-five. More than three times Delta's own revenue. So here's the first line on our receipt: the store pays a swipe fee, and it goes to the bank.
+¶5 And for Amex, this is no side business. Pause the video and guess: what share of everything charged on American Express cards worldwide goes on Delta cards? [pause] About thirteen percent. Roughly one dollar in every eight. Plus about twenty-one percent of all the money Amex has lent to cardholders. That's from Amex's own twenty twenty-five annual report.
 
-¶6 So why would the bank send any money to an airline?
+¶6 That works out to roughly two hundred seventeen billion dollars charged on Delta cards in twenty twenty-five. More than three times Delta's own revenue. First line on our receipt: the swipe fee goes to the bank.
 
-¶7 Because you didn't just buy a coffee. You earned miles, and somebody has to pay for them. Delta's annual report says it plainly: "We sell miles to American Express which are then provided to their customers." Amex pays, typically monthly, based on how many miles it buys. [pause] Your coffee just became a sale for an airline you didn't even fly.
+¶7 Part two: the miles. Why would a bank send any money to an airline? [pause] Because you didn't just buy a coffee. You earned miles, and somebody has to pay for them. Delta's annual report says it plainly: "We sell miles to American Express which are then provided to their customers." Amex pays, typically monthly, based on how many miles it buys. Your coffee just became a sale for an airline you didn't even fly.
 
-¶8 How much per mile? That's confidential. But Delta's accounting shows what's in the box. Each payment is split across a bundle: award travel, waived bag fees, lounge access, priority boarding, and, quote, "the use of our brand." The name on the card is part of what's for sale. United sells its miles to Chase the same way.
+¶8 How much per mile? That's confidential. United sells its miles to Chase the same way, and doesn't publish the price either. Line two on our receipt: the bank buys miles, and the airline gets paid.
 
-¶9 That's line two on our receipt: the bank buys miles, and the airline gets paid. Now let's follow that money inside the airline.
+**[INSIDE THE AIRLINE — Part 3: the brand · Part 4: the seat · Part 5: the miles nobody uses]**
 
-**[STOP 2 — Inside the airline's books]**
+¶9 So the money lands at Delta. What exactly did the bank buy? [pause] A bundle. Under Delta's accounting, each payment is split across award travel, waived bag fees, lounge access, priority boarding and, quote, "the use of our brand." That's part three. The name on the card is for sale, and Delta counts that piece as revenue right away. In twenty twenty-five, that line was three point three six billion dollars.
 
-¶10 So the money lands at Delta. What happens to it there? [pause] It splits. The part that pays for the brand and the marketing counts as revenue right away. In twenty twenty-five, that line was three point three six billion dollars.
+¶10 Part four: the seat. The part that pays for your future trip can't count yet, because you haven't flown. It waits on the books as a liability: a trip Delta still owes. At the end of twenty twenty-five, Delta held nine point three billion dollars of those promises.
 
-¶11 The part that pays for your future seat can't count yet, because you haven't flown. It waits on the books as a liability: a trip Delta still owes. At the end of twenty twenty-five, Delta held nine point three billion dollars of those promises.
+¶11 When you finally redeem, it becomes revenue. Delta's award-travel revenue line came to four point two four billion dollars in twenty twenty-five. About twelve percent of the passenger miles Delta flew that year were award travel, some thirty-five million award tickets.
 
-¶12 When you finally redeem, it becomes revenue. Delta's award-travel revenue line came to four point two four billion dollars in twenty twenty-five. About twelve percent of the passenger miles Delta flew that year were award travel, some thirty-five million award tickets.
+¶12 Part five: the miles that never get used. You'll see confident numbers for that online. Delta doesn't publish one. Neither do United or American. So we won't either. [pause] Quick question before we weigh it all. What's the most miles you've ever earned without setting foot on a plane? Tell us in the comments. We read them.
 
-¶13 And the miles that never get used? You'll see confident numbers for that online. Delta doesn't publish one. Neither do United or American. So we won't either. [pause] Quick question before we zoom out. What's the most miles you've ever earned without setting foot on a plane? Tell us in the comments. We read them.
+¶13 Now weigh the whole thing over a year. American Express paid Delta about two billion dollars in twenty fourteen. Seven point four billion in twenty twenty-four. And eight point two billion in twenty twenty-five, up eleven percent. Delta expects ten billion "over the next few years." That's the total at the bottom of our receipt.
 
-¶14 Now zoom out from one swipe to a whole year. American Express paid Delta about two billion dollars in twenty fourteen. Seven point four billion in twenty twenty-four. And eight point two billion in twenty twenty-five, up eleven percent. Delta expects ten billion "over the next few years." That's the total at the bottom of our receipt.
+**[WEIGHING IT — The check vs the profit]**
 
-**[STOP 3 — The check vs the profit]**
+¶14 So is eight point two billion dollars a lot, for an airline? [pause] Write the profit under that total. Delta's adjusted pre-tax profit for twenty twenty-five was four point nine eight billion. The check from one bank was bigger than the profit of the entire airline.
 
-¶15 So is eight point two billion dollars a lot, for an airline? [pause] Write the profit under that total. Delta's adjusted pre-tax profit for twenty twenty-five was four point nine eight billion. The check from one bank was bigger than the profit of the entire airline.
+¶15 To be fair, Delta's unadjusted pre-tax profit was higher: six point two billion. But that includes a one point two billion dollar investment gain that has nothing to do with flying. Either way, the Amex cash is bigger.
 
-¶16 To be fair, Delta's unadjusted pre-tax profit was higher: six point two billion. But that includes a one point two billion dollar investment gain that has nothing to do with flying. Either way, the Amex cash is bigger. Same story in twenty twenty-four: seven point four billion from Amex, five point two billion of adjusted pre-tax profit.
+¶16 And in twenty twenty-six, the gap gets wider. Delta's fuel bill is expected to jump sixty percent, about six billion dollars. It now expects roughly four and a half billion of pre-tax profit, and "more than nine billion" from American Express. About two dollars from the bank for every dollar of profit.
 
-¶17 And in twenty twenty-six, the gap gets wider. Delta's fuel bill is expected to jump sixty percent, about six billion dollars. It now expects roughly four and a half billion of pre-tax profit, and "more than nine billion" from American Express. About two dollars from the bank for every dollar of profit.
+¶17 Why so little profit? Because flying is a thin-margin business. The global airline trade group, IATA, puts the industry's net margin at three point four percent in twenty twenty-four, and four point two in twenty twenty-five. For twenty twenty-six, with fuel soaring, it forecasts two percent: about four dollars and fifty cents of profit per passenger. Its director general said that "won't even buy you a hot dog at most of the FIFA World Cup venues."
 
-¶18 Why so little profit? Because flying is a thin-margin business. IATA, the global airline trade group, puts the industry's net margin at three point four percent in twenty twenty-four, and four point two in twenty twenty-five. For twenty twenty-six, with fuel soaring, it forecasts two percent: about four dollars and fifty cents of profit per passenger. Its director general said that "won't even buy you a hot dog at most of the FIFA World Cup venues."
-
-¶19 American shows what thin really looks like. Fifty-four point six billion dollars of revenue in twenty twenty-five, and one hundred eleven million of net income. About twenty cents of profit for every hundred dollars, in a year when its card and other partners paid it six point two billion.
+¶18 American shows what thin really looks like. Fifty-four point six billion dollars of revenue in twenty twenty-five, and one hundred eleven million of net income. About twenty cents of profit for every hundred dollars.
 
 **[THE TWIST — Cash isn't profit]**
 
-¶20 So airlines are just banks with wings, right? [pause] Not so fast. Look at the bottom of our receipt again. It says paid, not earned. Here's the part that doesn't fit the easy story: cash is not profit. Part of that money gets spent later, on the award seats, the lounges and the waived bag fees the bank paid for. Those cost real money to provide.
+¶19 So airlines are just banks with wings, right? [pause] Not so fast. Look at the bottom of our receipt again. It says paid, not earned. Here's the part that doesn't fit the easy story: cash is not profit. Part of that money gets spent later, on the award seats, the lounges and the waived bag fees the bank paid for. Those cost real money to provide.
 
-¶21 American actually put a number on it. According to a December twenty twenty-four filing, as its card cash approaches ten billion dollars a year, American expects its pre-tax income to rise by about one point five billion, compared to twenty twenty-four. By our math, that's roughly thirty-four to thirty-eight cents of extra profit per extra dollar from the bank. About a third. Not a dollar.
+¶20 American actually put a number on it. According to a December twenty twenty-four filing, as its card cash approaches ten billion dollars a year, American expects its pre-tax income to rise by about one point five billion, compared to twenty twenty-four. By our math, that's roughly thirty-four to thirty-eight cents of extra profit per extra dollar from the bank. About a third. Not a dollar.
 
-¶22 So no, this doesn't prove that airlines lose money flying. Delta doesn't report profit by source, so nobody can honestly tell you what share of its profit comes from Amex. What the numbers show is the size of the cushion. Delta's CEO, Ed Bastian, calls the company's growing loyalty ecosystem "one of the most important drivers of our structural durability." In twenty twenty-six, fuel jumped, and the bank's payments kept growing.
+¶21 So no, this doesn't prove that airlines lose money flying. Delta doesn't report profit by source, so nobody can honestly tell you what share of its profit comes from Amex. What the numbers show is the size of the cushion. Delta's CEO, Ed Bastian, calls the company's growing loyalty ecosystem "one of the most important drivers of our structural durability." In twenty twenty-six, fuel jumped, and the bank's payments kept growing.
 
-¶23 This is what Pricewhy does. Every week, we take one price apart, line by line, with the sources on screen. If you want the next one, subscribe. There's a new breakdown every Tuesday and Friday.
+¶22 This is what Pricewhy does. Every week, we take one price apart, line by line, with the sources on screen. If you want the next one, subscribe. There's a new breakdown every Tuesday and Friday.
 
-**[STOP 4 — The vault: worth more than the airline? + Price Board]**
+**[THE CAUSE — Why airlines guard the card + Price Board]**
 
-¶24 So what is a program like that worth on its own? In twenty twenty, the airlines borrowed against them, and we got a rare look. [pause] United valued MileagePlus at about twenty-one point nine billion dollars, its own estimate, and raised six point eight billion against it. At the time, according to a Financial Times analysis, the stock market valued all of United, planes included, at roughly ten billion.
+¶23 So why do airlines guard these programs so closely? In twenty twenty, they borrowed against them, and we got a rare look at what one is worth on its own. [pause] United valued MileagePlus at about twenty-one point nine billion dollars, its own estimate, and raised six point eight billion against it. At the time, according to a Financial Times analysis, the stock market valued all of United, planes included, at roughly ten billion.
 
-¶25 An outside appraisal that year put American's program, AAdvantage, at nineteen and a half to thirty-one and a half billion dollars, while American's whole market value was reportedly under ten billion.
+¶24 An outside appraisal that year put American's program, AAdvantage, at nineteen and a half to thirty-one and a half billion dollars, while American's whole market value was reportedly under ten billion.
 
-¶26 Two caveats. An appraisal is an estimate, not a price anyone paid. And market value is what's left for shareholders after debt. American, for example, had about thirty point seven billion dollars of net debt at the end of twenty twenty-five. And as a Bank of America analyst told CNN, the programs and the airlines "can't exist without each other."
+¶25 Two caveats. An appraisal is an estimate, not a price anyone paid. And market value is what's left for shareholders after debt. American, for example, had about thirty point seven billion dollars of net debt at the end of twenty twenty-five. And as a Bank of America analyst told CNN, the programs and the airlines "can't exist without each other."
 
-¶27 For a real price tag, go to Canada. This time our Price Board is just the US and Canada, because that's where the comparable data is. In August twenty twenty-six, according to Skift and the Canadian Press, Air Canada sold a quarter of Aeroplan for two and a half billion Canadian dollars. That implies about ten billion for the whole program, more than Air Canada's own market value, which Skift puts at five and a half to seven and a half billion this year.
+¶26 For a real price tag, go to Canada. Our Price Board this time is US and Canada only, because that's where the comparable data is. In August twenty twenty-six, according to Skift and the Canadian Press, Air Canada sold a quarter of Aeroplan for two and a half billion Canadian dollars. That implies about ten billion for the whole program, more than Air Canada's own market value, which Skift puts at five and a half to seven and a half billion this year.
 
-¶28 The strange part: in twenty nineteen, Air Canada had bought Aeroplan back for roughly four hundred fifty million Canadian dollars in cash, plus the points it owed members. Seven years later, a quarter of it sold at an implied ten billion. Skift's own caveat: that comparison "flatters Aeroplan." Same reason as before: debt.
+¶27 The strange part: in twenty nineteen, Air Canada had bought Aeroplan back for roughly four hundred fifty million Canadian dollars in cash, plus the points it owed members. Seven years later, a quarter of it sold at an implied ten billion. Skift's own caveat: that comparison "flatters Aeroplan." Same reason as before: debt.
 
-**[LAST STOP — Who pays, and the verdict]**
+**[THE VERDICT — Who pays, and what's inside]**
 
-¶29 Last stop: back at the coffee shop. Who pays for all those miles? [pause] According to Reuters, the National Retail Federation argues that premium cards carry the highest swipe fees, so shoppers without them help subsidize those who have them. Airlines push back on the idea that cards are replacing flying, and Alaska Airlines' loyalty chief says members without cards "continue to earn meaningful value through flying."
+¶28 Back at the coffee shop: who pays for all those miles? [pause] According to Reuters, the National Retail Federation argues that premium cards carry the highest swipe fees, so shoppers without them help subsidize those who have them. Airlines push back on the idea that cards are replacing flying, and Alaska Airlines' loyalty chief says members without cards "continue to earn meaningful value through flying."
 
-¶30 Washington is watching too. In September twenty twenty-four, the Department of Transportation demanded rewards-program records from American, Delta, Southwest and United, including on devaluation and hidden pricing. According to Reuters, the replies are still under review, with no findings published.
+¶29 Washington is watching too. In September twenty twenty-four, the Department of Transportation demanded rewards-program records from American, Delta, Southwest and United, including on devaluation and hidden pricing. According to Reuters, the replies are still under review, with no findings published.
 
-¶31 And in January twenty twenty-six, the Credit Card Competition Act was reintroduced. It aims to push swipe fees down. Its co-author, Senator Dick Durbin, in twenty twenty-four: "Modern day airlines have become credit card companies that also happen to own airplanes." Airlines warned, in a letter reported by Reuters, that it "could force them to stop offering rewards credit cards." As of November twenty twenty-six, no Senate vote.
+¶30 And in January twenty twenty-six, the Credit Card Competition Act was reintroduced. It aims to push swipe fees down. Its co-author, Senator Dick Durbin, in twenty twenty-four: "Modern day airlines have become credit card companies that also happen to own airplanes." Airlines warned, in a letter reported by Reuters, that it "could force them to stop offering rewards credit cards." As of November twenty twenty-six, no Senate vote.
 
-¶32 So, where did your dollar go? [pause] Here's the full receipt. The store paid a swipe fee to the bank. The bank bought miles, perks and a brand from the airline. The airline counted part of it right away and parked the rest until you fly. And a year of those swipes added up to a check bigger than Delta's entire pre-tax profit.
+¶31 So, what's inside an airline card? [pause] Here's the full receipt. A swipe fee for the bank. Miles, perks and a brand, sold to the airline. Part of it counted right away, the rest parked until you fly. And a year of it added up to a check bigger than Delta's entire pre-tax profit.
 
-¶33 In the air, or in your wallet? Both. The Amex cash equalled about fourteen percent of Delta's adjusted revenue in twenty twenty-five, so most of the money still comes from elsewhere. But flying runs on thin margins, about two cents on the dollar this year, by IATA's forecast. The bank's check is the cushion under them, and it keeps growing. No wonder Delta's CEO is "really reticent to put a third party, a financial investor between us and our best customers."
+¶32 In the air, or in your wallet? Both. The Amex cash equalled about fourteen percent of Delta's adjusted revenue in twenty twenty-five, so most of the money still comes from elsewhere. But flying runs on thin margins, about two cents on the dollar this year, by IATA's forecast. The bank's check is the cushion under them, and it keeps growing. No wonder Delta's CEO is "really reticent to put a third party, a financial investor between us and our best customers."
 
-¶34 As information, not advice: by the time you earn a mile on one of these cards, the airline has already been paid for it. Whether any card makes sense for you depends on your own numbers. We don't recommend cards.
+¶33 As information, not advice: by the time you earn a mile on one of these cards, the airline has already been paid for it. Whether any card makes sense for you depends on your own numbers. We don't recommend cards.
 
-¶35 Airlines aren't the only business whose real product is a card in your wallet. Costco runs its own version of this trick, with a membership card and a hot dog whose price never moves. That one's next, right here.
+¶34 Airlines aren't the only business whose real product is a card in your wallet. Costco runs its own version of this trick, with a membership card and a hot dog whose price never moves. That one's next, right here.
 
 ---
 
+
 ## Scene list (what the editor puts on screen for each ¶)
 
-Files are in `content/002-how-airlines-make-money/visuals/out/`. Stock = search phrase for Pexels/Pixabay (licensed; no airline or bank logo as the main subject, no real card designs). The receipt (`route-stepNN.png`) is the running "follow the dollar" device: one line per stop.
+Files are in `content/002-how-airlines-make-money/visuals/out/`. Stock = search phrase for Pexels/Pixabay: licensed, with no airline or bank logo as the main subject and no real card designs. The receipt (`anatomy-stepNN.png`) is the running autopsy device, one line per part.
 
 | Scene | Time (approx.) | ¶ | On screen | Source line |
 |---|---|---|---|---|
-| 1 | 0:00–0:08 | ¶1 (first 2 sentences) | Card illustration (as in `thumb-A-receipt.png`), contactless "tap" animation; stock "contactless card tap coffee shop"; plane illustration slides in behind. "Ka-ching" SFX on the tap | — |
+| 1 | 0:00–0:08 | ¶1 (first 2 sentences) | Card illustration (as in `thumb-A-receipt.png`) with a contactless "tap" animation; stock "contactless card tap coffee shop"; plane illustration slides in behind. "Ka-ching" SFX on the tap | — |
 | 2 | 0:08–0:19 | ¶1 (rest) | `check-vs-profit.png` ($8.2B vs $5.0B) — confirms thumbnail C | Delta 10-K FY2025; Delta FY2025 earnings release |
 | 3 | 0:19–0:36 | ¶2 (to "net income") | `american-2025.png` (tower vs sliver) — confirms thumbnail D | American Airlines 10-K FY2025 |
-| 4 | 0:36–0:44 | ¶2 (rest) | Text "FOLLOW $1" over the card illustration; `route-step01.png` flashes as a teaser — confirms thumbnail A | — |
-| 5 | 0:44–1:05 | ¶3 | Stock "paying with card at cafe counter"; arrow animation: store → "swipe fee" → bank | American Express 2025 Annual Report |
-| 6 | 1:05–1:28 | ¶4 | "PAUSE & GUESS" card (3 s, music stops) → `amex-share.png` (≈13% / ≈21%) | American Express 2025 Annual Report |
-| 7 | 1:28–1:45 | ¶5 | Counter text "≈ $217,000,000,000 · charged on Delta cards, 2025 (our estimate)" → `route-step01.png` | Amex 2025 AR (13% × $1,669.8B billed business; our arithmetic) |
-| 8 | 1:45–1:50 | ¶6 | Card illustration; dashed coral "incision" line draws across it; "?" | — |
-| 9 | 1:50–2:14 | ¶7 | Quote card (mono): "We sell miles to American Express which are then provided to their customers…" ; stock "monthly invoice paperwork" | Delta 10-K FY2025, note on revenue recognition |
-| 10 | 2:14–2:36 | ¶8 | Bundle list animates in: award travel · waived bag fees · lounge access · priority boarding · "the use of our brand"; stock "airport lounge interior", "baggage carousel", "priority boarding lane" | Delta 10-K FY2025; United 10-K FY2025 |
-| 11 | 2:36–2:45 | ¶9 | `route-step02.png` | Delta 10-K FY2025 |
-| 12 | 2:45–3:01 | ¶10 | `loyalty-lines-step01.png` ($3.36B booked now) → `route-step03.png` | Delta FY2025 earnings release, revenue tables |
-| 13 | 3:01–3:18 | ¶11 | Motion graphic: miles dropping into a vault labelled "$9.3B · liability · Dec 31, 2025" → `route-step04.png` | Delta 10-K FY2025, critical accounting estimates |
-| 14 | 3:18–3:34 | ¶12 | `loyalty-lines.png` (+ $4.24B award travel); text "12% of passenger miles · ~35M award tickets · 2025"; stock "airplane cabin aisle passengers" | Delta FY2025 earnings release; Delta 10-K FY2025 |
-| 15 | 3:34–3:56 | ¶13 | `route-step05.png` ("Miles never used: not disclosed") → comment prompt card "Most miles you earned without flying?" (music dips) | Delta, United and American 10-Ks FY2025 |
-| 16 | 3:56–4:18 | ¶14 | `amex-history.png` → `route.png` (total line highlighted) | Delta JPMorgan Industrials deck, Mar 17 2026; Delta 10-Ks FY2024–25 |
-| 17 | 4:18–4:37 | ¶15 | `check-vs-profit.png` (profit bar draws under the total); music stops 2 s on the reveal | Delta FY2025 earnings release |
-| 18 | 4:37–4:59 | ¶16 | Text overlay: "GAAP pre-tax $6.2B = includes $1.2B investment gain" · "2024: Amex $7.4B vs adjusted pre-tax $5.2B" | Delta FY2025 release (income statement); Delta 10-K FY2024 |
-| 19 | 4:59–5:19 | ¶17 | Stock "fuel truck refueling airplane" → `gap-2026.png` | Delta Q3 2026 release & call, Oct 9 2026 (guidance) |
-| 20 | 5:19–5:48 | ¶18 | `iata-margins.png`; quote card (Willie Walsh, IATA, Jun 2026) | IATA, Jun 2 2025 & Jun 7 2026 |
-| 21 | 5:48–6:07 | ¶19 | `american-2025.png` (sliver bar pulses) | American Airlines 10-K FY2025 |
-| 22 | 6:07–6:33 | ¶20 | `route.png`, zoom on "AMEX PAID" → text "PAID ≠ EARNED"; stock lounge / bag carousel again | Delta 10-K FY2025 (revenue recognition) |
-| 23 | 6:33–6:59 | ¶21 | `extra-dollar.png` ($1.00 vs 34–38¢) | American 8-K, Dec 2024 (as quoted by View from the Wing); our arithmetic |
-| 24 | 6:59–7:26 | ¶22 | Text "Profit by source: not disclosed"; quote card Ed Bastian (Oct 2026) | Delta Q3 2026 call transcript |
-| 25 | 7:26–7:40 | ¶23 | Pricewhy end-card style: receipt icon + "New breakdown every Tue & Fri" | — |
-| 26 | 7:40–8:07 | ¶24 | `valuations-2020.png` (United pair highlighted) | United 8-K, Jun 15 2020; United release, Jul 2 2020; FT analysis via Simple Flying |
-| 27 | 8:07–8:19 | ¶25 | `valuations-2020.png` (American pair highlighted) | American 8-K, Jun 12 2020; Motley Fool, Jun 17 2020 |
-| 28 | 8:19–8:42 | ¶26 | Text: "Appraisal ≠ price" · "Market value = equity after debt" · "American net debt $30.7B (Dec 31, 2025)"; quote card (Bank of America analyst, CNN) | American FY2025 release; CNN, Sep 2024 |
-| 29 | 8:42–9:15 | ¶27 | Price Board header "PRICE BOARD · US + CANADA (no comparable UK/AU data)" → `aeroplan.png` | Skift, Aug 12 2026; Canadian Press/CTV |
-| 30 | 9:15–9:35 | ¶28 | `aeroplan.png` (2019 bar highlighted); Skift quote card "flatters Aeroplan" | Skift, Aug 12 2026 |
-| 31 | 9:35–10:02 | ¶29 | Stock "cashier card terminal"; two quote cards side by side (NRF view / Alaska view) | Reuters, Mar 13 2026 |
-| 32 | 10:02–10:17 | ¶30 | Stock "government building Washington DC"; text "DOT, Sep 2024 → under review · no findings published" | DOT/CBS News, Sep 2024; Reuters, Mar 13 2026 |
-| 33 | 10:17–10:44 | ¶31 | Stock "US Capitol dome"; text "S.3623 · reintroduced Jan 13, 2026 · no Senate vote (Nov 2026)"; quote cards Durbin (2024) and airlines' letter (2025) | Durbin press releases (May 9 2024; Jan 13 2026); Reuters via Devdiscourse, Jun 3 2025 |
-| 34 | 10:44–11:09 | ¶32 | `route.png` (full receipt) | Delta 10-K FY2025 |
-| 35 | 11:09–11:39 | ¶33 | Split screen: "≈14¢ of each $1 of revenue" text + `iata-margins.png` (2.0% bar) → `amex-history.png`; Bastian quote card | Reuters, Mar 13 2026; IATA, Jun 7 2026; Delta Q3 2026 call |
-| 36 | 11:39–11:55 | ¶34 | Text card: "Information, not advice. We don't recommend cards." | — |
-| 37 | 11:55–12:10 | ¶35 | End screen: 003 "The $1.50 Trick That Built Costco" + subscribe (see package.md: until 8 Dec use the playlist element) | — |
+| 4 | 0:36–0:44 | ¶2 (rest) | Card illustration; the dashed coral incision line starts to draw across it; text "WHAT'S INSIDE?" — confirms thumbnail A | — |
+| 5 | 0:44–1:00 | ¶3 | Incision completes; five labels pop out of the cut, one per beat: swipe fee · miles · brand · seat · unused miles. Empty receipt slides in on the right | Delta 10-K FY2025 (SkyMiles program; revenue recognition) |
+| 6 | 1:00–1:21 | ¶4 | Stock "paying with card at cafe counter"; arrow animation: store → "swipe fee" → bank | American Express 2025 Annual Report |
+| 7 | 1:21–1:44 | ¶5 | "PAUSE & GUESS" card (3 s, music stops) → `amex-share.png` (≈13% / ≈21%) | American Express 2025 Annual Report |
+| 8 | 1:44–1:58 | ¶6 | Counter text "≈ $217,000,000,000 · charged on Delta cards, 2025 (our estimate)" → `anatomy-step01.png` | Amex 2025 AR (13% × $1,669.8B billed business; our arithmetic) |
+| 9 | 1:58–2:28 | ¶7 | Quote card (mono): "We sell miles to American Express which are then provided to their customers…"; stock "monthly invoice paperwork" | Delta 10-K FY2025, note on revenue recognition |
+| 10 | 2:28–2:41 | ¶8 | Text "Price per mile: confidential" → `anatomy-step02.png` | Delta 10-K FY2025; United 10-K FY2025 |
+| 11 | 2:41–3:09 | ¶9 | Bundle list animates in: award travel · waived bag fees · lounge access · priority boarding · "the use of our brand"; stock "airport lounge interior", "baggage carousel", "priority boarding lane" → `loyalty-lines-step01.png` ($3.36B) → `anatomy-step03.png` | Delta 10-K FY2025; Delta FY2025 earnings release |
+| 12 | 3:09–3:28 | ¶10 | Motion graphic: miles dropping into a vault labelled "$9.3B · liability · Dec 31, 2025" → `anatomy-step04.png` | Delta 10-K FY2025, critical accounting estimates |
+| 13 | 3:28–3:44 | ¶11 | `loyalty-lines.png` (+ $4.24B award travel); text "12% of passenger miles · ~35M award tickets · 2025"; stock "airplane cabin aisle passengers" | Delta FY2025 earnings release; Delta 10-K FY2025 |
+| 14 | 3:44–4:07 | ¶12 | `anatomy-no-total.png` (part 5 = "?"; the total is still hidden) → comment prompt card "Most miles you earned without flying?" (music dips) | Delta, United and American 10-Ks FY2025 |
+| 15 | 4:07–4:28 | ¶13 | `amex-history.png` → `anatomy.png` (total line highlighted) | Delta JPMorgan Industrials deck, Mar 17 2026; Delta 10-Ks FY2024–25 |
+| 16 | 4:28–4:46 | ¶14 | `check-vs-profit.png` (profit bar draws in under the total); music stops 2 s on the reveal | Delta FY2025 earnings release |
+| 17 | 4:46–5:01 | ¶15 | Text overlay: "GAAP pre-tax $6.2B = includes $1.2B investment gain" | Delta FY2025 release (income statement) |
+| 18 | 5:01–5:21 | ¶16 | Stock "fuel truck refueling airplane" → `gap-2026.png` | Delta Q3 2026 release & call, Oct 9 2026 (guidance) |
+| 19 | 5:21–5:51 | ¶17 | `iata-margins.png`; quote card (Willie Walsh, IATA, Jun 2026) | IATA, Jun 2 2025 & Jun 7 2026 |
+| 20 | 5:51–6:04 | ¶18 | `american-2025.png` (sliver bar pulses) | American Airlines 10-K FY2025 |
+| 21 | 6:04–6:30 | ¶19 | `anatomy.png`, zoom on "AMEX PAID" → text "PAID ≠ EARNED"; stock lounge / bag carousel again | Delta 10-K FY2025 (revenue recognition) |
+| 22 | 6:30–6:55 | ¶20 | `extra-dollar.png` ($1.00 vs 34–38¢) | American 8-K, Dec 2024 (as quoted by View from the Wing); our arithmetic |
+| 23 | 6:55–7:23 | ¶21 | Text "Profit by source: not disclosed"; quote card Ed Bastian (Oct 2026) | Delta Q3 2026 call transcript |
+| 24 | 7:23–7:36 | ¶22 | Pricewhy end-card style: receipt icon + "New breakdown every Tue & Fri" | — |
+| 25 | 7:36–8:05 | ¶23 | `valuations-2020.png` (United pair highlighted) | United 8-K, Jun 15 2020; United release, Jul 2 2020; FT analysis via Simple Flying |
+| 26 | 8:05–8:17 | ¶24 | `valuations-2020.png` (American pair highlighted) | American 8-K, Jun 12 2020; Motley Fool, Jun 17 2020 |
+| 27 | 8:17–8:41 | ¶25 | Text: "Appraisal ≠ price" · "Market value = equity after debt" · "American net debt $30.7B (Dec 31, 2025)"; quote card (Bank of America analyst, CNN) | American FY2025 release; CNN, Sep 2024 |
+| 28 | 8:41–9:13 | ¶26 | Price Board header "PRICE BOARD · US + CANADA (no comparable UK/AU data)" → `aeroplan.png` | Skift, Aug 12 2026; Canadian Press/CTV |
+| 29 | 9:13–9:33 | ¶27 | `aeroplan.png` (2019 bar highlighted); Skift quote card "flatters Aeroplan" | Skift, Aug 12 2026 |
+| 30 | 9:33–9:59 | ¶28 | Stock "cashier card terminal"; two quote cards side by side (NRF view / Alaska view) | Reuters, Mar 13 2026 |
+| 31 | 9:59–10:14 | ¶29 | Stock "government building Washington DC"; text "DOT, Sep 2024 → under review · no findings published" | DOT/CBS News, Sep 2024; Reuters, Mar 13 2026 |
+| 32 | 10:14–10:41 | ¶30 | Stock "US Capitol dome"; text "S.3623 · reintroduced Jan 13, 2026 · no Senate vote (Nov 2026)"; quote cards Durbin (2024) and airlines' letter (2025) | Durbin press releases (May 9 2024; Jan 13 2026); Reuters via Devdiscourse, Jun 3 2025 |
+| 33 | 10:41–11:02 | ¶31 | `anatomy.png` (full receipt, each part lights up as it is named) | Delta 10-K FY2025 |
+| 34 | 11:02–11:34 | ¶32 | Split screen: "≈14¢ of each $1 of revenue" text + `iata-margins.png` (2.0% bar) → `amex-history.png`; Bastian quote card | Reuters, Mar 13 2026; IATA, Jun 7 2026; Delta Q3 2026 call |
+| 35 | 11:34–11:49 | ¶33 | Text card: "Information, not advice. We don't recommend cards." | — |
+| 36 | 11:49–12:04 | ¶34 | End screen: 003 "The $1.50 Trick That Built Costco" + subscribe (see package.md: until 8 Dec use the playlist element) | — |
 
-Music: one calm track for ¶1–¶19, a different track from ¶20 (the twist). Stop music for 2–3 s at the "pause and guess" (¶4) and the profit reveal (¶15).
+Music: one calm track for ¶1–¶18, a different track from ¶19 (the twist). Stop music for 2–3 s at the "pause and guess" (¶5) and the profit reveal (¶14).
 
 ---
 
@@ -151,23 +149,22 @@ Music: one calm track for ¶1–¶19, a different track from ¶20 (the twist). S
 | Delta adjusted pre-tax "about five billion" / $4.98B, FY2025 | Key numbers → "Delta pre-tax income" adjusted $4,981M (proven) |
 | American: $6.2B from card and other partners, FY2025 | Key numbers → American: "Cash from co-brand card and other partners" (proven) |
 | American net income $111M; revenue $54.6B; ≈ 20 cents per $100, FY2025 | "American FY2025 income statement" ($54,633M; $111M); Thin margins → "about 20 cents of profit per $100 of revenue" (calc) |
+| Five parts (swipe fee, miles, brand, seat, unused miles) | Our framing of Loyalty mechanics §1–4 (not a number) |
 | Swipe fee to Amex + annual fees and interest | Loyalty mechanics §1 (Amex 2025 AR: "fee revenue and interest income … discount revenue") (proven) |
 | ≈ 13% of Amex worldwide billed business; ≈ 21% of card loans (2025); "one dollar in every eight" | "Delta's weight inside Amex" (proven); Surprising facts #4 ("1/8 of Amex") |
 | ≈ $217B charged on Delta cards, 2025 ("roughly") | "Implied spend on Delta Amex cards" (calc, probable) |
 | "More than three times Delta's own revenue" | Mechanics §8: ~3.7× adjusted revenue $58.3B (calc, probable); also 3.4× GAAP $63.4B ("Delta revenue" row) |
 | "We sell miles to American Express which are then provided to their customers"; paid monthly by volume | Mechanics §1 (Delta FY2025 10-K quote) (proven) |
-| Price per mile is confidential | Do NOT claim → "Banks pay 2 cents per mile" ("real contract prices are confidential") |
+| Price per mile is confidential; United sells miles to Chase and doesn't publish the price either | Do NOT claim → "Banks pay 2 cents per mile" ("real contract prices are confidential") and "United's dollar amount from Chase"; Mechanics §1 (United FY2025 10-K) |
 | Bundle: award travel, bag-fee waivers, lounge, priority boarding, "the use of our brand" | Mechanics §2 (Delta 10-K) (proven) |
-| United sells MileagePlus miles to Chase | Mechanics §1 (United FY2025 10-K) (proven) |
-| $3.36B brand/marketing revenue booked right away, FY2025 | "How 2025 loyalty revenue shows up" — "Loyalty program" $3,362M; Mechanics §3 (proven) |
+| $3.36B brand/marketing revenue booked right away, FY2025 | "How 2025 loyalty revenue shows up": "Loyalty program" $3,362M; Mechanics §3 (proven) |
 | $9.3B liability at end of 2025 | "SkyMiles deferred revenue" $9.3B at Dec 31, 2025 (proven) |
-| $4.24B award-travel revenue, FY2025 | "How 2025 loyalty revenue shows up" — "Loyalty travel awards" $4,237M (proven) |
+| $4.24B award-travel revenue, FY2025 | "How 2025 loyalty revenue shows up": "Loyalty travel awards" $4,237M (proven) |
 | ≈ 12% of passenger miles were award travel; ≈ 35M award tickets, 2025 | "Award travel share" (proven) |
 | Breakage: no airline publishes a number | Mechanics §4 ("No current breakage percentage is disclosed"); Do NOT claim → breakage % |
 | ≈ $2B (2014), $7.4B (2024), $8.2B (2025) | "Amex remuneration history" (JPM deck); FY2024 row (proven) |
 | $10B "over the next few years" | "Stated long-term target" (Delta 10-K 2025 quote) (proven) |
 | GAAP pre-tax $6.2B incl. $1.2B investment gain, FY2025 | "Delta pre-tax income" GAAP $6,185M; "Why GAAP pre-tax 2025 > adjusted" $1,212M gain (proven) |
-| 2024: $7.4B from Amex vs $5.2B adjusted pre-tax | "Delta pre-tax income" adjusted $5,201M (2024); Chart A (proven) |
 | 2026: fuel bill +60% ≈ $6B; ≈ $4.5B pre-tax; "more than nine billion" from Amex | "Delta 2026 pre-tax expectation"; "2026 expectation" (proven, guidance — said as "expects") |
 | "About two dollars from the bank for every dollar of profit" (2026) | Breakdown Chart A: 2026E > $2.00 (calc) |
 | IATA net margin 3.4% (2024), 4.2% (2025), 2.0% forecast (2026); $4.50 per passenger (2026F) | Industry margins (IATA) rows (proven) |
@@ -200,6 +197,17 @@ Music: one calm track for ¶1–¶19, a different track from ¶20 (the twist). S
 | ≈ 14% of Delta's adjusted revenue, 2025 | "Amex cash as share of revenue" (Reuters); Chart B (14.1 cents, calc) |
 | "About two cents on the dollar" (industry, 2026 forecast) | IATA 2026 forecast 2.0% (proven) |
 | Bastian: "really reticent to put a third party, a financial investor between us and our best customers" | Valuations → SkyMiles (proven quote, Oct 9 2026) |
-| Costco hand-off (no numbers) | Points to `content/003-costco-hot-dog` — not a 002 claim |
+| Costco hand-off (no numbers) | Points to `content/003-costco-hot-dog`; not a 002 claim |
 
-Do NOT claim list re-checked: no "X% of profit from Amex", no "airlines lose money flying", no SkyMiles $26B / $75B, no 2-cent mile price, no breakage %, no 10%-of-Amex or 10%-of-revenue figure, no 57%/63% card-miles claim, no DOT findings, no CCCA vote, 2026 Amex figure always "expected".
+Do NOT claim list re-checked. None of these appear in the script:
+- "X% of profit from Amex"
+- "airlines lose money flying"
+- SkyMiles $26B / $75B
+- a 2-cent mile price
+- a breakage %
+- a 10%-of-Amex or 10%-of-revenue figure
+- the 57%/63% card-miles claims
+- DOT findings
+- a CCCA vote
+
+The 2026 Amex figure is always "expected".

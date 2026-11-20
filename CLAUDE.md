@@ -82,6 +82,6 @@ Aceeași regulă pentru pragurile din `tools/analytics/review.py` și pentru doc
 
 ## Starea la 20.11.2026
 
-- Gata: planul complet (docs 01–11), 5 skill-uri testate, șabloane, unelte, logo, banner, video-urile 001–003 (cercetare + scenariu + ambalaj + Shorts + grafice).
+- Gata: planul complet (docs 01–12), 5 skill-uri testate pe cazuri reale, șabloane, unelte, logo, banner, video-urile 001–003 complete (cercetare + scenariu + ambalaj + Shorts + grafice) și trimise utilizatorului ca ZIP. Canalul @PricewhyTV e creat.
 - Utilizatorul trebuie să facă: lista din docs/10 §2 (canal, handle, ElevenLabs, CapCut) înainte de 1 decembrie.
 - Următorul pas Claude: pachetele 004–008 din `tracking/content-calendar.csv`, câte două pe săptămână, cu o săptămână înainte de publicare.

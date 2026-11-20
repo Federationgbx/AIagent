@@ -7,7 +7,7 @@
 // A spec file holds {"items": [ ...specs ]}. Every spec has "type" and "out"
 // (PNG path relative to the spec file). Types:
 //   thumbnail  template A | B | C | D   (see docs/05 section 4)
-//   receipt    the channel's signature "receipt" breakdown, plus one PNG per
+//   receipt    the channel's signature "receipt" breakdown ("show_total": false hides the total), plus one PNG per
 //              revealed line (…-step01.png) so the editor can build the reveal
 //   stacked    one horizontal "where your $X goes" bar, plus reveal steps
 //   compare    2–5 vertical bars comparing amounts
@@ -140,7 +140,8 @@ function receiptPage(s, upto) {
         <span>${esc(l.label)}${l.note ? `<span style="display:block;font-size:24px;color:#6B6F76;font-weight:500">${esc(l.note)}</span>` : ""}</span><span>${esc(l.amount)}</span></div>`
     )
     .join("");
-  const done = upto >= items.length;
+  // "show_total": false keeps the total hidden (e.g. when the reveal comes later in the video).
+  const done = upto >= items.length && s.show_total !== false;
   const total = done && s.total
     ? `<div style="border-top:4px dashed ${BRAND.ink};margin-top:18px;padding-top:18px;display:flex;justify-content:space-between;font-weight:900;font-size:52px"><span>${esc(s.total.label || "TOTAL")}</span><span>${esc(s.total.amount)}</span></div>`
     : "";
@@ -191,7 +192,7 @@ function comparePage(s) {
       (b) => `<div style="display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:16px;width:260px">
         <div style="font:900 64px ${BRAND.head};color:${toneColor(b.tone)}">${esc(b.display ?? b.value)}</div>
         <div style="width:220px;height:${Math.max(6, (b.value / max) * maxBar)}px;background:${toneColor(b.tone)};border-radius:16px 16px 0 0"></div>
-        <div style="font:700 32px ${BRAND.head};color:${BRAND.gray};text-align:center;min-height:84px">${esc(b.label)}</div></div>`
+        <div style="font:700 32px/1.3 ${BRAND.head};color:${BRAND.gray};text-align:center;height:84px;overflow:hidden">${esc(b.label)}</div></div>`
     )
     .join("");
   return page(1920, 1080, `

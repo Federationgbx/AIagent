@@ -53,6 +53,14 @@ Fiecare are un `CHANGELOG.md`. Când corectezi ceva, Claude propune modificarea 
 - `node tools/render/render.mjs <specs.json>` — miniaturi (1280×720), grafice (1920×1080), logo, banner, în stilul canalului.
 - `python3 tools/analytics/review.py "<Table data.csv>"` — clasează video-urile A/B/C și spune ce să schimbi. Teste: `python3 tools/analytics/test_review.py`.
 
+## Următoarele 3 skill-uri de construit
+
+1. **rough-cut** — montaj automat (prima variantă) din voce + scene + imagini → ~2–3 h/săpt. economisite
+2. **subtitles-and-chapters** — subtitrări și capitole din fișierul de voce, grafice 9:16 → ~1 h/săpt.
+3. **newsletter-community** — newsletter, postări Community, răspunsuri la comentarii → ~45 min/săpt.
+
+Detalii: [docs/12](docs/12-skills-test-report.md).
+
 ## Ritmul săptămânal (pe scurt)
 
 Luni: exporți datele (5 min) și scrii „start week N” → Claude pregătește 2 video-uri complete. Miercuri–joi: vocea + montajul (~3–4 h). Sâmbătă: încarci și programezi (~45 min). Total: ~5–6 ore/săptămână la început. Detalii: [docs/10 §4](docs/10-roadmap-weekly-plan.md).
