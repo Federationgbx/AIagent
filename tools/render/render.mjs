@@ -14,6 +14,7 @@
 // Colors and fonts live in BRAND below and mirror docs/02-channel-identity.md.
 
 import { readFile, mkdir } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
 import path from "node:path";
 import { illustration } from "./illustrations.mjs";
@@ -35,6 +36,10 @@ export const BRAND = {
   mono: "'JetBrains Mono', monospace",
 };
 
+// Local images are inlined as data URIs: pages are loaded with setContent (about:blank),
+// where Chromium refuses file:// URLs.
+const dataUri = (p) => `data:image/${p.toLowerCase().endsWith(".jpg") ? "jpeg" : "png"};base64,${readFileSync(p).toString("base64")}`;
+
 const esc = (s = "") =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
@@ -54,7 +59,7 @@ ${extraCss}</style></head><body><div class="vignette"></div>${body}</body></html
 
 function heroBlock(spec, css) {
   const inner = spec.image
-    ? `<img src="file://${path.resolve(spec._dir, spec.image)}" style="width:100%;height:100%;object-fit:contain">`
+    ? `<img src="${dataUri(path.resolve(spec._dir, spec.image))}" style="width:100%;height:100%;object-fit:contain">`
     : illustration(spec.object || "coin");
   return `<div class="hero" style="position:absolute;${css}">${inner}</div>`;
 }
@@ -257,6 +262,22 @@ function cardPage(s) {
   `);
 }
 
+// ---------- vertical Shorts frame (1080x1920), used by tools/video/shorts.py ----------
+// hook (top, fixed for the whole Short) + 16:9 visual (middle) + caption (bottom, one sentence).
+
+function verticalPage(s) {
+  const visual = s.img
+    ? `<img src="${dataUri(path.resolve(s._dir, s.img))}" style="width:1080px;height:608px;object-fit:cover;display:block">`
+    : `<div class="hero" style="width:1080px;height:608px;display:flex;align-items:center;justify-content:center"><div style="width:520px;height:520px">${illustration(s.object || "coin")}</div></div>`;
+  return page(1080, 1920, `
+    <div style="position:absolute;left:60px;right:60px;top:150px;height:400px;display:flex;align-items:center;justify-content:center;text-align:center;font:900 ${s.hook_size || 92}px/1.05 ${BRAND.head};color:${BRAND.yellow};text-shadow:0 8px 0 #000">${esc(s.hook || "")}</div>
+    <div style="position:absolute;left:0;top:600px;width:1080px;height:608px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.6)">${visual}</div>
+    <div style="position:absolute;left:70px;right:70px;top:1290px;height:420px;display:flex;align-items:flex-start;justify-content:center;text-align:center;font:800 ${s.caption_size || 66}px/1.18 ${BRAND.head};color:${BRAND.paper}">
+      <span style="background:rgba(14,15,18,.85);padding:10px 22px;border-radius:18px;-webkit-box-decoration-break:clone;box-decoration-break:clone">${esc(s.caption || "")}</span></div>
+    <div style="position:absolute;left:0;right:0;bottom:120px;text-align:center;font:800 34px ${BRAND.head};letter-spacing:6px;color:${BRAND.gray}">PRICE<span style="color:${BRAND.coral}">WHY</span></div>
+  `);
+}
+
 // ---------- brand assets ----------
 
 const receiptEdge =
@@ -312,6 +333,8 @@ function jobsFor(spec) {
       return [{ w: 1920, h: 1080, html: comparePage(spec), out: spec.out }];
     case "card":
       return [{ w: 1920, h: 1080, html: cardPage(spec), out: spec.out }];
+    case "vertical":
+      return [{ w: 1080, h: 1920, html: verticalPage(spec), out: spec.out }];
     case "logo":
       return [{ w: 800, h: 800, html: logoPage(spec), out: spec.out }];
     case "banner":

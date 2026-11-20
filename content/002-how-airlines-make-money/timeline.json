@@ -1,0 +1,177 @@
+{
+  "music": [
+    { "file": "bed-g-major.wav", "from_p": 1 },
+    { "file": "bed-c-dorian.wav", "from_p": 19 }
+  ],
+  "segments": [
+    { "p": [1], "chapter": "One card, one airline", "shots": [
+      { "card": { "style": "text", "text": "Every tap, an airline gets paid.", "object": "card" } },
+      { "card": { "style": "stat", "value": "$8.2B", "label": "What American Express paid Delta in 2025", "sub": "cash, not profit", "object": "plane", "source": "Delta 10-K FY2025" } },
+      { "img": "check-vs-profit.png" }
+    ]},
+    { "p": [2], "shots": [
+      { "img": "american-2025.png" },
+      { "card": { "style": "stat", "value": "$111M", "tone": "profit", "label": "American Airlines' net income, 2025", "sub": "in a year its card and other partners paid it $6.2B", "source": "American Airlines 10-K FY2025" } },
+      { "card": { "style": "text", "text": "In the air, or in your wallet?", "object": "plane" } },
+      { "card": { "style": "text", "text": "Let's cut one open.", "tone": "highlight", "object": "card", "size": 130 } }
+    ]},
+    { "p": [3], "chapter": "The incision: the swipe fee and the miles", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 1", "title": "The incision: the swipe fee and the miles" } },
+      { "card": { "style": "list", "title": "Inside one airline card: 5 parts", "left_w": 80, "rows": [ { "left": "1", "right": "A swipe fee" }, { "left": "2", "right": "A sale of miles" }, { "left": "3", "right": "A brand deal" }, { "left": "4", "right": "A seat the airline now owes you" }, { "left": "5", "right": "Miles that may never come back" } ], "source": "Delta 10-K FY2025 (SkyMiles program; revenue recognition)" } }
+    ]},
+    { "p": [4], "shots": [
+      { "card": { "style": "text", "text": "Part 1: the swipe fee", "sub": "Who gets paid first? Not Delta.", "object": "card" } },
+      { "card": { "style": "list", "title": "The bank's side of the deal", "left_w": 330, "rows": [ { "left": "Swipe fee", "right": "paid by the store, goes to Amex" }, { "left": "Annual fee", "right": "paid by the cardholder" }, { "left": "Interest", "right": "paid by the cardholder" } ], "source": "American Express 2025 Annual Report" } }
+    ]},
+    { "p": [5], "shots": [
+      { "card": { "style": "text", "text": "Pause and guess.", "tone": "loss", "size": 140, "sub": "What share of all Amex card spending goes on Delta cards?" } },
+      { "card": { "style": "stat", "value": "≈ 13%", "label": "of everything charged on Amex cards worldwide is on Delta cards", "sub": "roughly one dollar in every eight · 2025", "source": "American Express 2025 Annual Report" } },
+      { "img": "amex-share.png" }
+    ]},
+    { "p": [6], "shots": [
+      { "card": { "style": "stat", "value": "≈ $217B", "label": "charged on Delta cards in 2025 (our estimate)", "sub": "more than 3× Delta's own revenue", "object": "card", "source": "Amex 2025 Annual Report: ≈13% × $1,669.8B billed business; Delta FY2025 release" } },
+      { "img": "anatomy-step01.png", "focus": [0.7, 0.25] }
+    ]},
+    { "p": [7], "shots": [
+      { "card": { "style": "text", "text": "Part 2: the miles", "sub": "Why would a bank send money to an airline?", "object": "plane" } },
+      { "w": 1.3, "card": { "style": "quote", "quote": "We sell miles to American Express which are then provided to their customers…", "who": "Delta Air Lines, annual report (10-K), fiscal 2025", "source": "Delta 10-K FY2025, note on revenue recognition" } },
+      { "card": { "style": "text", "size": 92, "text": "Amex pays, typically monthly, based on miles bought.", "source": "Delta 10-K FY2025" } },
+      { "card": { "style": "text", "size": 92, "text": "Your coffee just became a sale for an airline.", "tone": "highlight", "object": "card" } }
+    ]},
+    { "p": [8], "shots": [
+      { "card": { "style": "text", "text": "Price per mile: confidential.", "sub": "United sells its miles to Chase the same way.", "source": "Delta 10-K FY2025 · United 10-K FY2025" } },
+      { "img": "anatomy-step02.png", "focus": [0.7, 0.3] }
+    ]},
+    { "p": [9], "chapter": "Inside the airline: the brand, the seat, the unused miles", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 2", "title": "Inside the airline: the brand, the seat, the unused miles" } },
+      { "w": 1.3, "card": { "style": "list", "title": "What the bank's payment buys", "left_w": 80, "rows": [ { "left": "·", "right": "Award travel" }, { "left": "·", "right": "Waived bag fees" }, { "left": "·", "right": "Lounge access" }, { "left": "·", "right": "Priority boarding" }, { "left": "·", "right": "“the use of our brand”", "tone": "highlight" } ], "source": "Delta 10-K FY2025 (revenue recognition)" } },
+      { "img": "loyalty-lines-step01.png" },
+      { "img": "anatomy-step03.png", "focus": [0.7, 0.4] }
+    ]},
+    { "p": [10], "shots": [
+      { "card": { "style": "text", "text": "Part 4: the seat", "sub": "It can't count as revenue until you fly.", "object": "plane" } },
+      { "card": { "style": "stat", "value": "$9.3B", "label": "of trips Delta still owed, end of 2025", "sub": "parked on the books as a liability", "source": "Delta 10-K FY2025 (SkyMiles deferred revenue)" } },
+      { "img": "anatomy-step04.png", "focus": [0.7, 0.5] }
+    ]},
+    { "p": [11], "shots": [
+      { "img": "loyalty-lines.png" },
+      { "card": { "style": "stat", "value": "12%", "label": "of the passenger miles Delta flew in 2025 were award travel", "sub": "≈ 35 million award tickets", "object": "plane", "source": "Delta 10-K FY2025" } }
+    ]},
+    { "p": [12], "shots": [
+      { "card": { "style": "text", "text": "Part 5: the miles nobody uses", "sub": "Delta doesn't publish a number. Neither do United or American." } },
+      { "img": "anatomy-no-total.png", "focus": [0.7, 0.6] },
+      { "card": { "style": "text", "size": 88, "text": "Most miles you've ever earned without flying?", "sub": "Tell us in the comments. We read them.", "object": "card" } }
+    ]},
+    { "p": [13], "shots": [
+      { "w": 1.5, "img": "amex-history.png", "focus": [0.75, 0.5] },
+      { "img": "anatomy.png", "focus": [0.7, 0.75] }
+    ]},
+    { "p": [14], "chapter": "Weighing it: the check vs the profit", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 3", "title": "Weighing it: the check vs the profit" } },
+      { "img": "check-vs-profit.png" },
+      { "card": { "style": "text", "size": 96, "text": "One bank's check: bigger than the whole airline's profit.", "tone": "highlight", "source": "Delta 10-K FY2025 · Delta FY2025 earnings release" } }
+    ]},
+    { "p": [15], "shots": [
+      { "w": 1.3, "card": { "style": "list", "title": "Delta, 2025", "left_w": 660, "rows": [ { "left": "Pre-tax (adjusted)", "right": "$4.98B", "tone": "profit" }, { "left": "Pre-tax (GAAP)", "right": "$6.2B" }, { "left": "…incl. investment gain", "right": "$1.2B" }, { "left": "Cash from Amex", "right": "$8.2B", "tone": "highlight" } ], "source": "Delta FY2025 earnings release (income statement)" } },
+      { "card": { "style": "text", "text": "Either way, the Amex cash is bigger." } }
+    ]},
+    { "p": [16], "shots": [
+      { "card": { "style": "stat", "value": "+60%", "tone": "loss", "label": "Delta's expected fuel bill increase, 2026", "sub": "about $6B more", "object": "plane", "source": "Delta Q3 2026 release & call, Oct 9 2026 (guidance)" } },
+      { "img": "gap-2026.png" },
+      { "card": { "style": "math", "expr": ">$9B : ~$4.5B", "sub": "About $2 from the bank for every $1 of pre-tax profit (2026 guidance).", "source": "Delta Q3 2026 earnings call, Oct 9 2026" } }
+    ]},
+    { "p": [17], "shots": [
+      { "card": { "style": "text", "text": "Why so little profit?", "sub": "Flying is a thin-margin business." } },
+      { "w": 1.4, "img": "iata-margins.png", "focus": [0.7, 0.6] },
+      { "card": { "style": "stat", "value": "$4.50", "tone": "loss", "label": "airline profit per passenger, 2026 forecast", "sub": "global average", "object": "plane", "source": "IATA, Jun 7 2026" } },
+      { "card": { "style": "quote", "size": 72, "quote": "It won't even buy you a hot dog at most of the FIFA World Cup venues.", "who": "Willie Walsh, IATA Director General, June 2026", "source": "IATA, Jun 7 2026" } }
+    ]},
+    { "p": [18], "shots": [
+      { "img": "american-2025.png", "focus": [0.6, 0.8] },
+      { "card": { "style": "stat", "value": "20¢", "tone": "profit", "label": "American's profit per $100 of revenue, 2025", "sub": "$111M net income on $54.6B", "source": "American Airlines 10-K FY2025" } }
+    ]},
+    { "p": [19], "chapter": "The twist: cash isn't profit", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 4", "title": "The twist: cash isn't profit" } },
+      { "card": { "style": "text", "text": "Banks with wings?", "sub": "Not so fast.", "object": "plane" } },
+      { "img": "anatomy.png", "focus": [0.7, 0.75] },
+      { "card": { "style": "text", "text": "Paid ≠ earned.", "tone": "loss", "size": 150, "sub": "Cash is not profit." } },
+      { "card": { "style": "list", "title": "Part of the cash is spent later on", "left_w": 80, "rows": [ { "left": "·", "right": "Award seats" }, { "left": "·", "right": "Lounges" }, { "left": "·", "right": "Waived bag fees" } ], "source": "Delta 10-K FY2025 (revenue recognition)" } }
+    ]},
+    { "p": [20], "shots": [
+      { "card": { "style": "text", "text": "American put a number on it.", "sub": "≈ $1.5B more pre-tax as card cash nears $10B a year (vs 2024)", "source": "American Airlines 8-K, Dec 2024, as quoted by View from the Wing" } },
+      { "w": 1.4, "img": "extra-dollar.png" },
+      { "card": { "style": "stat", "value": "≈ 1/3", "tone": "profit", "label": "of each extra card dollar becomes pre-tax profit", "sub": "34–38¢ per $1 · our math on American's projection", "source": "American Airlines 8-K, Dec 2024 (via View from the Wing); Pricewhy arithmetic" } }
+    ]},
+    { "p": [21], "shots": [
+      { "card": { "style": "text", "text": "This doesn't prove airlines lose money flying.", "size": 100 } },
+      { "card": { "style": "text", "text": "Profit by source: not disclosed.", "sub": "Nobody can honestly say what share comes from Amex." } },
+      { "card": { "style": "quote", "quote": "One of the most important drivers of our structural durability.", "who": "Ed Bastian, Delta CEO, on its loyalty ecosystem, Oct 2026", "source": "Delta Q3 2026 earnings call" } },
+      { "card": { "style": "stat", "value": ">$9B", "label": "expected from Amex in 2026, up from $8.2B", "sub": "fuel jumped; the bank's payments kept growing", "object": "card", "source": "Delta Q3 2026 earnings call (guidance) · Delta 10-K FY2025" } }
+    ]},
+    { "p": [22], "shots": [
+      { "card": { "style": "text", "size": 90, "text": "Every week, we take one price apart, line by line.", "sub": "New breakdown every Tuesday & Friday", "object": "coin" } }
+    ]},
+    { "p": [23], "chapter": "The cause: worth more than the airline?", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "The cause: worth more than the airline?" } },
+      { "card": { "style": "stat", "value": "$21.9B", "label": "MileagePlus, United's own estimate, 2020", "sub": "United raised $6.8B against it", "object": "plane", "source": "United 8-K, Jun 15 2020 · United release, Jul 2 2020" } },
+      { "img": "valuations-2020.png", "focus": [0.3, 0.5] },
+      { "card": { "style": "stat", "value": "≈ $10B", "label": "all of United, stock market value, 2020 (approx.)", "sub": "planes included", "source": "Financial Times analysis, via Simple Flying, Oct 6 2020" } }
+    ]},
+    { "p": [24], "shots": [
+      { "card": { "style": "stat", "value": "$19.5–31.5B", "size": 150, "label": "AAdvantage, third-party appraisal, 2020", "sub": "American's market value: reportedly under $10B", "source": "American Airlines 8-K, Jun 12 2020 · Motley Fool, Jun 17 2020" } },
+      { "img": "valuations-2020.png", "focus": [0.75, 0.5] }
+    ]},
+    { "p": [25], "shots": [
+      { "card": { "style": "list", "title": "Two caveats", "left_w": 80, "rows": [ { "left": "1", "right": "An appraisal is an estimate, not a price anyone paid" }, { "left": "2", "right": "Market value is what's left after debt" } ] } },
+      { "card": { "style": "stat", "value": "$30.7B", "tone": "loss", "label": "American's net debt, end of 2025", "source": "American Airlines FY2025 results" } },
+      { "card": { "style": "quote", "quote": "They can't exist without each other.", "who": "Andrew Didora, Bank of America analyst, to CNN, 2024", "source": "CNN, Sep 2024" } }
+    ]},
+    { "p": [26], "shots": [
+      { "card": { "style": "text", "text": "Price Board: US + Canada", "sub": "No comparable UK or Australia data this time." } },
+      { "card": { "style": "stat", "value": "C$2.5B", "label": "for 25% of Aeroplan, August 2026", "sub": "implies ≈ C$10B for the whole program", "source": "Skift, Aug 12 2026 · Canadian Press/CTV" } },
+      { "w": 1.4, "img": "aeroplan.png", "focus": [0.7, 0.5] },
+      { "card": { "style": "stat", "value": "C$5.5–7.5B", "size": 160, "label": "Air Canada's own market value, 2026", "source": "Skift, Aug 12 2026" } }
+    ]},
+    { "p": [27], "shots": [
+      { "card": { "style": "list", "title": "Aeroplan", "left_w": 160, "rows": [ { "left": "2019", "right": "bought back for ≈ C$450M cash + points owed" }, { "left": "2026", "right": "25% sold at an implied ≈ C$10B", "tone": "highlight" } ], "source": "Skift, Aug 12 2026" } },
+      { "img": "aeroplan.png", "focus": [0.35, 0.8] },
+      { "card": { "style": "text", "size": 96, "text": "Skift: the comparison “flatters Aeroplan.”", "sub": "Same reason as before: debt.", "source": "Skift, Aug 12 2026" } }
+    ]},
+    { "p": [28], "chapter": "The verdict: who pays, and what's inside", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 6", "title": "The verdict: who pays, and what's inside" } },
+      { "card": { "style": "text", "text": "Who pays for all those miles?", "object": "card" } },
+      { "card": { "style": "list", "title": "Two views, as reported by Reuters", "left_w": 300, "rows": [ { "left": "Retailers", "right": "Premium cards carry the highest swipe fees; non-users subsidize users" }, { "left": "Airlines", "right": "Cards aren't replacing flying" } ], "source": "Reuters, Mar 13 2026 (NRF view; airline view)" } },
+      { "card": { "style": "quote", "quote": "…continue to earn meaningful value through flying.", "who": "Alaska Airlines' loyalty chief, on members without cards", "source": "Reuters, Mar 13 2026" } }
+    ]},
+    { "p": [29], "shots": [
+      { "w": 1.4, "card": { "style": "list", "title": "US DOT rewards inquiry, Sep 2024", "left_w": 300, "rows": [ { "left": "Airlines", "right": "American, Delta, Southwest, United" }, { "left": "Topics", "right": "devaluation, hidden pricing, fees, competition" }, { "left": "Status", "right": "replies under review, no findings published", "tone": "highlight" } ], "source": "US DOT / CBS News, Sep 2024 · Reuters, Mar 13 2026" } },
+      { "card": { "style": "text", "text": "No findings published.", "sub": "Still under review, according to Reuters." } }
+    ]},
+    { "p": [30], "shots": [
+      { "card": { "style": "stat", "value": "S.3623", "label": "Credit Card Competition Act, reintroduced Jan 13, 2026", "sub": "aims to push swipe fees down", "source": "Sen. Durbin press release, Jan 13 2026" } },
+      { "card": { "style": "quote", "quote": "Modern day airlines have become credit card companies that also happen to own airplanes.", "who": "Sen. Dick Durbin, Senate floor, May 9 2024", "source": "Sen. Durbin press release, May 9 2024" } },
+      { "card": { "style": "quote", "quote": "…could force them to stop offering rewards credit cards…", "who": "Airlines' letter on the bill, as reported by Reuters, June 2025", "source": "Reuters via Devdiscourse, Jun 3 2025" } },
+      { "card": { "style": "text", "text": "No Senate vote.", "sub": "As of November 2026." } }
+    ]},
+    { "p": [31], "shots": [
+      { "w": 2, "img": "anatomy.png", "focus": [0.7, 0.5] },
+      { "card": { "style": "text", "size": 96, "text": "A year of swipes: bigger than Delta's whole pre-tax profit.", "tone": "highlight", "source": "Delta 10-K FY2025 · Delta FY2025 earnings release" } }
+    ]},
+    { "p": [32], "shots": [
+      { "card": { "style": "text", "text": "In the air, or in your wallet?", "sub": "Both.", "object": "plane" } },
+      { "card": { "style": "stat", "value": "≈ 14%", "label": "Amex cash vs Delta's adjusted revenue, 2025", "sub": "most of the money still comes from elsewhere", "source": "Reuters, Mar 13 2026 · Delta FY2025 earnings release" } },
+      { "img": "iata-margins.png", "focus": [0.7, 0.7] },
+      { "img": "amex-history.png", "focus": [0.8, 0.5] },
+      { "w": 1.2, "card": { "style": "quote", "quote": "I'm really reticent to put a third party, a financial investor between us and our best customers.", "who": "Ed Bastian, Delta CEO, Oct 9 2026", "source": "Delta Q3 2026 earnings call" } }
+    ]},
+    { "p": [33], "shots": [
+      { "card": { "style": "text", "text": "Information, not advice.", "sub": "When you earn a mile, the airline has already been paid for it." } },
+      { "card": { "style": "text", "text": "We don't recommend cards.", "sub": "Whether any card makes sense depends on your own numbers." } }
+    ]},
+    { "p": [34], "shots": [
+      { "card": { "style": "text", "text": "Costco runs its own version of this trick.", "object": "hotdog", "size": 96 } },
+      { "card": { "style": "text", "text": "A membership card, and a hot dog whose price never moves.", "object": "card", "size": 84 } }
+    ]}
+  ],
+  "end_card": { "seconds": 12, "card": { "style": "text", "text": "Next: The $1.50 Trick That Built Costco", "sub": "A new price breakdown every Tuesday & Friday", "object": "hotdog", "size": 96 } }
+}

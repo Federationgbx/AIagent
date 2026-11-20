@@ -1,0 +1,171 @@
+{
+  "music": [
+    { "file": "bed-f-major.wav", "from_p": 1 },
+    { "file": "bed-e-minor.wav", "from_p": 19 }
+  ],
+  "segments": [
+    { "p": [1], "chapter": "The $8.30 snack bar", "shots": [
+      { "img": "thumb-C-two-prices.png", "focus": [0.5, 0.5] },
+      { "card": { "style": "stat", "value": "$8.30", "label": "average snack-bar spend per U.S. visitor", "sub": "Cinemark, 2025", "object": "popcorn", "source": "Cinemark Q4/FY2025 release (U.S. segment)" } },
+      { "img": "snack-cost.png" }
+    ]},
+    { "p": [2], "shots": [
+      { "card": { "style": "text", "text": "Ripping you off at the counter?", "sub": "That's the story everyone tells.", "object": "popcorn" } },
+      { "card": { "style": "text", "text": "Wrong place to look.", "tone": "loss", "size": 150 } },
+      { "img": "receipt-step01.png", "focus": [0.7, 0.3] },
+      { "img": "receipt-step02.png", "focus": [0.7, 0.35] }
+    ]},
+    { "p": [3], "shots": [
+      { "w": 1.4, "card": { "style": "list", "title": "Following the money", "left_w": 80, "rows": [ { "left": "1", "right": "Who takes what" }, { "left": "2", "right": "Why the popcorn costs what it costs" }, { "left": "3", "right": "What the theater actually keeps", "tone": "profit" } ] } },
+      { "card": { "style": "text", "text": "It's less than you think.", "tone": "highlight", "sub": "Let's follow the money.", "object": "coin" } }
+    ]},
+    { "p": [4], "chapter": "First stop: the studio", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 1", "title": "First stop: the studio" } },
+      { "card": { "style": "text", "text": "“Studios take 90%”?", "tone": "loss", "sub": "The annual reports say otherwise.", "source": "AMC & Cinemark 10-K FY2025 (U.S.: 51.2% and 58.0%)" } }
+    ]},
+    { "p": [5], "shots": [
+      { "card": { "style": "stat", "value": "51.2%", "label": "AMC U.S. film costs, share of ticket sales", "sub": "fiscal 2025 · includes some advertising", "source": "AMC 10-K FY2025 (MD&A)" } },
+      { "w": 1.5, "img": "ticket-dollar.png" },
+      { "card": { "style": "stat", "value": "58%", "label": "Cinemark U.S.: film rentals + advertising", "sub": "fiscal 2025 · advertising not broken out", "source": "Cinemark 10-K FY2025 (MD&A)" } },
+      { "card": { "style": "text", "text": "Roughly half. Not ninety.", "tone": "highlight", "size": 140 } }
+    ]},
+    { "p": [6], "shots": [
+      { "img": "receipt-step02.png", "focus": [0.7, 0.35] },
+      { "card": { "style": "stat", "value": "$4.42", "tone": "profit", "label": "of the $10.52 ticket stays with the theater", "sub": "Cinemark, per U.S. visitor, 2025 · $6.10 to film rent & ads", "source": "Cinemark FY2025 release & 10-K (532.2M ÷ 120.3M)" } }
+    ]},
+    { "p": [7], "shots": [
+      { "card": { "style": "text", "text": "The split moves.", "sub": "Both chains say blockbusters cost them a bigger share.", "source": "AMC & Cinemark 10-K FY2025" } },
+      { "card": { "style": "stat", "value": "52.9%", "label": "AMC U.S. film costs in the hit-heavy Q3 2026", "sub": "vs 51.2% for all of 2025", "source": "AMC 10-Q Q3 2026 · AMC 10-K FY2025" } },
+      { "w": 1.2, "card": { "style": "list", "title": "How film rent is set", "left_w": 420, "rows": [ { "left": "Most Cinemark deals", "right": "a sliding scale tied to how the film performs" }, { "left": "Many contracts", "right": "studio share starts higher, falls the longer a film plays" } ], "source": "Cinemark 10-K FY2025 · Gil & Lafontaine, J. Industrial Economics 2012" } },
+      { "w": 2, "img": "studio-share.png" },
+      { "card": { "style": "stat", "value": "~65%", "tone": "loss", "label": "Disney's reported terms for The Last Jedi", "sub": "The Wall Street Journal, 2017", "source": "WSJ via Dow Jones (Fox Business reprint), Nov 2017" } }
+    ]},
+    { "p": [8], "shots": [
+      { "card": { "style": "stat", "value": "≈ 83%", "label": "of AMC's U.S. ticket revenue: films from its 7 biggest distributors", "sub": "2025", "source": "AMC 10-K FY2025" } },
+      { "card": { "style": "text", "size": 90, "text": "That's a lot of bargaining power on one side of the table." } }
+    ]},
+    { "p": [9], "shots": [
+      { "card": { "style": "text", "text": "The part almost nobody reads.", "tone": "highlight", "sub": "AMC's annual report" } },
+      { "w": 1.3, "card": { "style": "quote", "quote": "…ordinarily paid to distributors from 20 to 45 days following receipt.", "who": "AMC 10-K, fiscal 2025, on film rentals", "source": "AMC 10-K FY2025" } },
+      { "card": { "style": "stat", "value": "20–45 days", "size": 170, "label": "the theater holds the studio's share", "sub": "AMC calls it a “float”", "source": "AMC 10-K FY2025" } }
+    ]},
+    { "p": [10], "shots": [
+      { "card": { "style": "text", "text": "Quick question.", "sub": "Before the next stop.", "size": 130 } },
+      { "w": 2, "card": { "style": "text", "size": 88, "text": "What's the most you've ever spent at a movie theater snack bar?", "sub": "Tell us in the comments — we read them." } }
+    ]},
+    { "p": [11], "chapter": "Second stop: the snack bar", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 2", "title": "Second stop: the snack bar" } },
+      { "card": { "style": "text", "text": "Nobody publishes the cost of one tub.", "sub": "Not AMC. Not Cinemark.", "object": "popcorn" } },
+      { "card": { "style": "text", "size": 90, "text": "Both annual reports publish the cost of everything at the counter.", "sub": "All snack-bar items, combined.", "source": "AMC & Cinemark 10-K FY2025" } }
+    ]},
+    { "p": [12], "shots": [
+      { "card": { "style": "stat", "value": "18¢", "label": "AMC's product cost per $1 of U.S. food & drink", "sub": "fiscal 2025 · Cinemark U.S.: 19¢", "source": "AMC & Cinemark 10-K FY2025 (18.1% · 18.9%)" } },
+      { "w": 1.5, "img": "snack-dollar.png" },
+      { "card": { "style": "text", "text": "Before paying anyone to work the counter.", "sub": "Wages are a separate line.", "source": "AMC & Cinemark 10-K FY2025 (cost lines)" } }
+    ]},
+    { "p": [13], "shots": [
+      { "img": "receipt-step03.png", "focus": [0.7, 0.45] },
+      { "img": "receipt-step04.png", "focus": [0.7, 0.5] }
+    ]},
+    { "p": [14], "shots": [
+      { "card": { "style": "quote", "size": 96, "quote": "Lower margin items", "who": "Cinemark 10-K, fiscal 2025, on merchandise and enhanced food options", "source": "Cinemark 10-K FY2025" } },
+      { "card": { "style": "stat", "value": "$80", "label": "one Fantastic Four collectible bucket", "sub": "2025 · reported price", "object": "popcorn", "source": "NPR via WUNC, Jul 13 2025" } },
+      { "card": { "style": "text", "size": 90, "text": "More dollars per sale. A smaller share of each dollar is margin.", "source": "Cinemark 10-K FY2025" } },
+      { "card": { "style": "text", "size": 84, "text": "Plain popcorn very likely costs even less per dollar than the average.", "sub": "No chain says how much less.", "object": "popcorn" } }
+    ]},
+    { "p": [15], "chapter": "Why the popcorn, not the ticket", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 3", "title": "Why the popcorn, not the ticket" } },
+      { "card": { "style": "text", "text": "Why not just charge more for the ticket?", "tone": "highlight" } },
+      { "card": { "style": "math", "size": 100, "expr": "+$1 ticket → keep 42–49¢", "sub": "The studio takes its percentage of that dollar too. AMC keeps ≈ 49¢, Cinemark ≈ 42¢ (U.S., 2025).", "source": "AMC & Cinemark 10-K FY2025 (51.2% · 58.0%)" } },
+      { "card": { "style": "math", "size": 100, "tone": "profit", "expr": "+$1 popcorn → keep ≈ $1", "sub": "The corn doesn't cost a cent more. The theater keeps nearly the whole dollar.", "source": "AMC & Cinemark 10-K FY2025 (cost structure)" } },
+      { "w": 1.5, "img": "per-dollar.png" }
+    ]},
+    { "p": [16], "shots": [
+      { "card": { "style": "text", "text": "Economists have measured it.", "sub": "Ricard Gil & Wesley Hartmann · Marketing Science, 2009", "source": "Gil & Hartmann, Marketing Science 28(6), 2009" } },
+      { "card": { "style": "text", "size": 90, "text": "People who value moviegoing more also spend more at the snack bar.", "source": "Gil & Hartmann (2009), via Stanford GSB" } },
+      { "card": { "style": "list", "title": "Two prices, two jobs", "left_w": 240, "rows": [ { "left": "Ticket", "right": "kept lower: brings in the price-sensitive crowd" }, { "left": "Snacks", "right": "priced higher: collects a bit more from the fans", "tone": "profit" } ], "source": "Gil & Hartmann (2009), via Stanford GSB" } },
+      { "w": 1.2, "card": { "style": "quote", "quote": "If you want to bring more consumers into the market, you need to keep ticket prices lower.", "who": "Wesley Hartmann, co-author", "source": "Stanford GSB, summary of Gil & Hartmann (2009)" } }
+    ]},
+    { "p": [17], "shots": [
+      { "card": { "style": "text", "text": "Theaters learned this long ago.", "object": "popcorn" } },
+      { "card": { "style": "stat", "value": "80", "label": "Dallas theaters given popcorn machines, 1930s", "sub": "the chain kept them out of its 5 best theaters", "source": "Smithsonian, Oct 3 2013" } },
+      { "card": { "style": "text", "text": "Within two years, the popcorn theaters' profits soared.", "sub": "The other five went into the red.", "source": "Smithsonian, Oct 3 2013" } },
+      { "card": { "style": "stat", "value": "Over half", "size": 170, "label": "of the popcorn eaten in America was eaten at the movies", "sub": "1945", "source": "Smithsonian, Oct 3 2013" } }
+    ]},
+    { "p": [18], "shots": [
+      { "w": 2, "card": { "style": "quote", "size": 72, "quote": "Many theaters consider themselves in the concession business, not the movie business.", "who": "Richard McKenzie, UC Irvine economist, 2008", "source": "ABC News, Jul 2008" } },
+      { "card": { "style": "text", "text": "The concession business.", "tone": "highlight", "object": "popcorn" } }
+    ]},
+    { "p": [19], "chapter": "The twist: what's actually left", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 4", "title": "The twist: what's actually left" } },
+      { "card": { "style": "text", "text": "So the theater is getting rich. Right?", "object": "popcorn" } },
+      { "img": "receipt-step05.png", "focus": [0.7, 0.55] },
+      { "w": 1.5, "img": "kept-split.png" }
+    ]},
+    { "p": [20], "shots": [
+      { "card": { "style": "text", "size": 90, "text": "Third income stream: screen ads, online ticket fees and the like.", "source": "AMC & Cinemark 10-K FY2025" } },
+      { "w": 2, "img": "snack-share.png" },
+      { "card": { "style": "text", "size": 96, "tone": "highlight", "text": "The snack bar earns the theater as much as the ticket — or more.", "source": "AMC & Cinemark FY2025 filings" } }
+    ]},
+    { "p": [21], "shots": [
+      { "card": { "style": "text", "size": 90, "text": "Every week, we take one price apart — line by line." } },
+      { "card": { "style": "text", "size": 90, "text": "Next up: How Airlines Really Make Money", "sub": "Subscribe for the next one.", "object": "plane" } }
+    ]},
+    { "p": [22], "shots": [
+      { "card": { "style": "text", "text": "That $11.16 isn't profit.", "tone": "loss", "size": 130 } },
+      { "card": { "style": "text", "text": "The building. The people. The power." } },
+      { "card": { "style": "list", "title": "Cinemark's rent", "left_w": 360, "rows": [ { "left": "10–25 years", "right": "typical base lease terms" }, { "left": "Rent", "right": "“primarily a fixed cost”", "tone": "loss" } ], "source": "Cinemark 10-K FY2025" } },
+      { "card": { "style": "text", "size": 96, "text": "Rent is due whether the movie is a hit or a flop." } }
+    ]},
+    { "p": [23], "shots": [
+      { "w": 1.6, "img": "bills-step02.png", "focus": [0.7, 0.3] },
+      { "w": 1.4, "img": "bills-step04.png", "focus": [0.7, 0.4] },
+      { "w": 1.8, "img": "bills-step06.png", "focus": [0.7, 0.5] },
+      { "w": 2.6, "img": "bills.png", "focus": [0.7, 0.7] }
+    ]},
+    { "p": [24], "shots": [
+      { "w": 1.3, "card": { "style": "text", "text": "Pause the video and guess.", "tone": "loss", "size": 130 } },
+      { "w": 1.8, "card": { "style": "text", "size": 96, "text": "Studio. Product. Staff. Rent. Interest. Taxes.", "sub": "What did Cinemark keep per visitor in 2025?" } },
+      { "card": { "style": "stat", "value": "≈ 73¢", "tone": "profit", "label": "kept per visitor, after everything", "sub": "company-wide · $141.5M net income ÷ 193.0M visitors", "source": "Cinemark Q4/FY2025 release" } },
+      { "img": "bottom-line.png" },
+      { "w": 0.8, "card": { "style": "stat", "value": "4.5%", "label": "Cinemark's net profit margin, 2025", "source": "Cinemark Q4/FY2025 release (141.5 ÷ 3,115.0)" } }
+    ]},
+    { "p": [25], "chapter": "Last stop: AMC's debt", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "Last stop: AMC's debt" } },
+      { "card": { "style": "stat", "value": "-$632.4M", "size": 180, "tone": "loss", "label": "AMC's net loss, 2025", "sub": "So was it the popcorn?", "source": "AMC Q4/FY2025 release" } }
+    ]},
+    { "p": [26], "shots": [
+      { "card": { "style": "stat", "value": "+34¢", "tone": "profit", "label": "AMC's U.S. operating profit per visitor", "sub": "fiscal 2025 · after studio, snacks, staff, rent, wear and tear", "source": "AMC 10-K FY2025, U.S. segment (52.4M ÷ 155.81M)" } },
+      { "w": 1.5, "img": "amc-debt.png" },
+      { "w": 1.3, "card": { "style": "list", "title": "Then came the debt (per U.S. visitor)", "left_w": 240, "rows": [ { "left": "-$2.97", "right": "interest", "tone": "loss" }, { "left": "-$0.99", "right": "refinancing losses & other", "tone": "loss" }, { "left": "-$3.44", "right": "net result, after a few smaller items", "tone": "loss" } ], "source": "AMC 10-K FY2025, U.S. segment ÷ 155.81M visitors" } }
+    ]},
+    { "p": [27], "shots": [
+      { "w": 1.5, "img": "amc-loss.png" },
+      { "card": { "style": "stat", "value": "≈ $4.0B", "label": "AMC's corporate borrowings, Dec 31 2025", "source": "AMC 10-K FY2025 ($4,038.5M)" } },
+      { "card": { "style": "text", "text": "The popcorn isn't the problem. The debt is.", "tone": "highlight", "object": "popcorn" } }
+    ]},
+    { "p": [28], "shots": [
+      { "card": { "style": "text", "text": "To be fair to AMC: one good season changes a lot." } },
+      { "w": 1.5, "img": "amc-q3.png" },
+      { "card": { "style": "text", "size": 96, "text": "When most of your costs are fixed, every extra visitor matters." } }
+    ]},
+    { "p": [29], "chapter": "The verdict", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 6", "title": "The verdict" } },
+      { "card": { "style": "text", "text": "Is the theater ripping you off?", "sub": "Not where you think.", "object": "popcorn" } },
+      { "img": "receipt.png", "focus": [0.7, 0.4] },
+      { "card": { "style": "stat", "value": "≈ 81¢", "tone": "profit", "label": "kept from every snack-bar dollar, before staff", "sub": "Cinemark U.S., 2025", "source": "Cinemark 10-K FY2025 (100 − 18.9)" } },
+      { "img": "bills.png", "focus": [0.7, 0.7] },
+      { "card": { "style": "list", "title": "After everything, 2025", "left_w": 300, "rows": [ { "left": "Cinemark", "right": "kept ≈ 73¢ per visitor", "tone": "profit" }, { "left": "AMC", "right": "lost money: mostly debt, not popcorn", "tone": "loss" } ], "source": "Cinemark & AMC Q4/FY2025 releases" } }
+    ]},
+    { "p": [30], "shots": [
+      { "w": 0.8, "card": { "style": "text", "text": "One thing worth knowing.", "sub": "Information, not advice." } },
+      { "w": 1.5, "card": { "style": "list", "title": "Where your money goes", "left_w": 340, "rows": [ { "left": "Ticket $", "right": "roughly half to whoever made the film" }, { "left": "Snack-bar $", "right": "mostly stays with the theater down the street", "tone": "profit" } ], "source": "AMC & Cinemark 10-K FY2025" } },
+      { "card": { "style": "text", "text": "Skip the popcorn: the studio doesn't notice. The theater does.", "tone": "highlight", "size": 96, "object": "popcorn" } }
+    ]},
+    { "p": [31], "shots": [
+      { "card": { "style": "text", "size": 96, "text": "The money isn't made on the thing you came for." } },
+      { "card": { "style": "text", "size": 96, "text": "Airlines have an even stranger business model.", "sub": "That one's right here.", "object": "plane" } }
+    ]}
+  ],
+  "end_card": { "seconds": 12, "card": { "style": "text", "text": "Next: How Airlines Really Make Money", "sub": "A new price breakdown every Tuesday & Friday", "object": "plane", "size": 96 } }
+}

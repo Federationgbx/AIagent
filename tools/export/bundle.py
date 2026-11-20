@@ -76,6 +76,9 @@ def upload_kit(folder: Path, out: Path) -> list[Path]:
     pkg = (folder / "package.md").read_text(encoding="utf-8")
     with zipfile.ZipFile(kit, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("upload.txt", upload_text(pkg))
+        guide = ROOT / "docs" / "13-cum-publici.md"
+        if guide.exists():
+            z.write(guide, "CUM-PUBLICI.txt")
         desc = build / "description-final.txt"
         z.writestr("description.txt", desc.read_text(encoding="utf-8") if desc.exists() else description(pkg))
         if (build / "subtitles.srt").exists():
