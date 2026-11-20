@@ -23,7 +23,7 @@ Pragul poate fi atins mai repede dacă un video „explodează” — sau mai t�
 ## 2. Faza 0 — Lista de pregătire (săptămâna 23–30 noiembrie)
 
 **Tu (≈ 3 ore în total):**
-- [ ] Creezi canalul YouTube pe contul tău Google și rezervi handle-ul **@Pricewhy** (rezervă: @TilltaleTV) — 02 §1
+- [ ] Creezi un **canal nou** (nu folosești canalul „Christina” DE→RO): pe același cont Google, din browser → youtube.com/channel_switcher → „Create a channel” → nume **Pricewhy**; apoi rezervi handle-ul **@Pricewhy** (rezervă: @TilltaleTV) — 02 §1
 - [ ] Activezi verificarea în doi pași pe contul Google
 - [ ] Verifici canalul cu numărul de telefon (YouTube Studio → Settings → Channel → Feature eligibility) — deblochează miniaturi personalizate și video-uri > 15 min
 - [ ] Încarci logo-ul și bannerul (Claude le livrează în `brand/`), scrii descrierea „About” din 02 §5.4
