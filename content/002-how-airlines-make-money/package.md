@@ -1,6 +1,6 @@
 # Package: 002 — How Airlines Really Make Money (It's Your Credit Card)
 
-Publish: **Friday 4 December 2026, 15:00 America/New_York** · Playlist: *How They Make Money* · End screen → 003 *The $1.50 Trick That Built Costco*
+Publish: **Friday 27 November 2026 (Black Friday), 15:00 America/New_York (21:00 Germany)** · Playlist: *How They Make Money* · End screen → 003 *The $1.50 Trick That Built Costco*
 
 ## Titles (10)
 
@@ -106,12 +106,9 @@ how airlines make money, airline credit card, airline miles, frequent flyer mile
 - Category: **Education** · Language: **English** · Made for kids: **No**
 - AI use (Details → Attributes): **Yes**. Reason: synthetic narration (our rule, docs/11 §3). No realistic AI imagery, no real people's faces, no logos.
 - Paid promotion: **No** (no sponsor, no affiliate links)
-- Schedule: **Friday 4 December 2026, 15:00 America/New_York**
+- Schedule: **Friday 27 November 2026, 21:00 Germany (15:00 New York)**
 - Playlist: **How They Make Money**
-- End screen (last ~15 s, from 11:49): **003 "The $1.50 Trick That Built Costco"** + subscribe element.
-  - Timing catch: 003 is scheduled for **Tue 8 Dec 2026**, four days after this video.
-  - If Studio won't let you pick a video that isn't public yet, use the playlist element *How They Make Money* for now.
-  - On 8 Dec, after 003 is live, swap it for the 003 video element.
-- Cards: ~11:49 → 003, same 8 Dec swap. Optional ~7:36 → playlist *How They Make Money*.
+- End screen (last 12 s, from the end card): **003 "The $1.50 Trick That Built Costco"** (already public since 20 Nov) + subscribe element — optional, computer only.
+- Cards: → 003 near the end. Optional → playlist *How They Make Money*.
 - Subtitles: upload `subtitles.srt` from the UPLOAD-KIT (Studio → Subtitles → Upload file → With timing)
 - Chapters: `description.txt` in the UPLOAD-KIT already has the real timestamps of the rendered video — paste it as is

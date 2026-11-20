@@ -2,7 +2,7 @@
 
 All clips are 9:16 with captions burned in. The first frame is the object or the number. Export from CapCut, not re-downloaded from TikTok, so there's no watermark. Related video (YouTube): **How Airlines Really Make Money (It's Your Credit Card)**.
 
-Schedule: the strongest clip goes out with the long video (Fri 4 Dec). The rest avoid the days 003 uses: its long video is Tue 8 Dec, its Shorts run 8/10/12/14/16 Dec, and 004 publishes Fri 11 Dec. `tools/render` only outputs 16:9 charts, so the 9:16 visuals are the long-video PNGs re-framed in CapCut, chart area only and enlarged.
+Schedule (updated 20 Nov 2026 for the earlier launch): the strongest clip goes out with the long video (Fri 27 Nov); the rest on 29 Nov, 1, 3 and 5 Dec, avoiding the days used by 003's and 001's Shorts.
 
 Strongest single facts in the long video, ranked:
 1. Amex paid $8.2B vs ~$5.0B profit
@@ -17,7 +17,7 @@ Strongest single facts in the long video, ranked:
 The 5 picked below each come from a different chapter.
 
 ## Short 1 — The bank paid more than the airline made
-- **Publish:** same day as the long video (Fri 4 Dec)
+- **Publish:** Fri 27 Nov (same day as the long video)
 - **Chapter:** Weighing it — the check vs the profit (¶14–16)
 - **Hook text (frame 1):** The bank paid more than Delta made
 - **Narration (≈ 95 words):** In twenty twenty-five, American Express paid Delta Air Lines eight point two billion dollars, for miles, lounge access, waived bag fees and the use of Delta's name. Delta's adjusted pre-tax profit that year? About five billion. The check from one bank was bigger than the profit of the entire airline. This year, Delta expects more than nine billion from Amex, and roughly four and a half billion of pre-tax profit. But here's the catch: cash isn't profit. Part of that money pays for the seats and perks the bank bought. Full breakdown on Pricewhy.
@@ -27,7 +27,7 @@ The 5 picked below each come from a different chapter.
 - **Related video:** How Airlines Really Make Money (It's Your Credit Card)
 
 ## Short 2 — Pause and guess: one card inside Amex
-- **Publish:** Sun 6 Dec
+- **Publish:** Sun 29 Nov
 - **Chapter:** The incision — part 1, the swipe fee (¶5–6)
 - **Hook text:** Guess how much of Amex is Delta
 - **Narration (≈ 90 words):** What share of everything charged on American Express cards worldwide goes on Delta cards? Pause and guess. [pause] About thirteen percent. Roughly one dollar in every eight. And about twenty-one percent of all the money Amex has lent to cardholders. Those are Amex's own figures, from its twenty twenty-five annual report. That works out to roughly two hundred seventeen billion dollars charged on Delta cards in one year, more than three times Delta's own revenue. One airline card, an eighth of a card giant. Full breakdown on Pricewhy.
@@ -37,7 +37,7 @@ The 5 picked below each come from a different chapter.
 - **Related video:** How Airlines Really Make Money (It's Your Credit Card)
 
 ## Short 3 — $6.2 billion in, $111 million kept
-- **Publish:** Mon 7 Dec
+- **Publish:** Tue 1 Dec
 - **Chapter:** hook / 0:00 segment (¶2), plus ¶18
 - **Hook text:** $6.2 billion in. $111 million kept.
 - **Narration (≈ 90 words):** In twenty twenty-five, American Airlines took in six point two billion dollars from its credit card and other partners. Its revenue for the year: fifty-four point six billion. Its net income: one hundred eleven million. That's about twenty cents of profit for every hundred dollars it took in. So is American just a bank with wings? Not quite. According to its own projection, only about a third of each extra dollar from its card partners turns into pre-tax profit. Margins are just that thin. Full breakdown on Pricewhy.
@@ -47,7 +47,7 @@ The 5 picked below each come from a different chapter.
 - **Related video:** How Airlines Really Make Money (It's Your Credit Card)
 
 ## Short 4 — Bought back for C$450M, valued at C$10B
-- **Publish:** Wed 9 Dec
+- **Publish:** Thu 3 Dec
 - **Chapter:** The cause — Price Board (¶26–27)
 - **Hook text:** Bought for C$450M. Valued at C$10B.
 - **Narration (≈ 105 words):** In twenty nineteen, Air Canada bought its own loyalty program, Aeroplan, back for roughly four hundred fifty million Canadian dollars in cash, plus the points it owed members. In August twenty twenty-six, according to Skift and the Canadian Press, it sold a quarter of Aeroplan for two and a half billion Canadian dollars. That implies about ten billion for the whole program, more than Air Canada's own market value, which Skift puts at five and a half to seven and a half billion this year. One caveat: market value is what's left after debt, so Skift says the comparison flatters Aeroplan. Full breakdown on Pricewhy.
@@ -57,7 +57,7 @@ The 5 picked below each come from a different chapter.
 - **Related video:** How Airlines Really Make Money (It's Your Credit Card)
 
 ## Short 5 — "Credit card companies that also happen to own airplanes"
-- **Publish:** Sun 13 Dec
+- **Publish:** Sat 5 Dec
 - **Chapter:** The verdict — who pays (¶30)
 - **Hook text:** A senator says airlines are card companies
 - **Narration (≈ 100 words):** Senator Dick Durbin, in twenty twenty-four: "Modern day airlines have become credit card companies that also happen to own airplanes." He co-wrote a bill to push card swipe fees down, the Credit Card Competition Act, reintroduced in January twenty twenty-six. The airlines' answer, in a letter reported by Reuters: the bill "could force them to stop offering rewards credit cards." So who's right? Delta's check from Amex is huge, but in twenty twenty-five it equalled about fourteen percent of Delta's adjusted revenue. As of November twenty twenty-six, the bill hasn't had a Senate vote. Full breakdown on Pricewhy.

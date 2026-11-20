@@ -13,7 +13,7 @@ One job: produce `content/<NNN>/build/final.mp4` plus its upload kit, so the use
 2. **Voice:** `~/.cache/pricewhy/venv/bin/python tools/video/tts.py content/<NNN>` → `build/narration.wav` + `build/timings.json`. Channel voice: **af_heart, speed 1.0** (docs/02 §4). Never change voice between videos.
 3. **Write `content/<NNN>/timeline.json`** (format below): every ¶ covered exactly once, in order; **one shot per 4–8 seconds** of narration (look at `timings.json` durations); each chapter heading in the script starts a segment with `"chapter"` and a `chapter` card.
 4. **Assemble:** `python3 tools/video/assemble.py content/<NNN>` → `final.mp4`, `chapters.txt`, `description-final.txt`, `subtitles.srt`.
-5. **Check:** extract 6 frames (`ffmpeg -ss <t> -i final.mp4 -frames:v 1 f.jpg`) across the video and **look at them**; loudness must be ≈ −14 LUFS (`ffmpeg -i final.mp4 -af ebur128 -f null -`). Fix the timeline/cards, re-run step 4.
+5. **Check:** extract at least 10 frames — include every auto close-up of a chart — (`ffmpeg -ss <t> -i final.mp4 -frames:v 1 f.jpg`) across the video and **look at them**; loudness must be ≈ −14 LUFS (`ffmpeg -i final.mp4 -af ebur128 -f null -`). Fix the timeline/cards, re-run step 4.
 6. **Deliver:** `python3 tools/export/bundle.py <scratchpad>/final --final` → send `Pricewhy-<NNN>.mp4` + `...-UPLOAD-KIT.zip` to the user in chat (SendUserFile).
 
 ## timeline.json format
@@ -30,7 +30,7 @@ One job: produce `content/<NNN>/build/final.mp4` plus its upload kit, so the use
   "end_card": { "seconds": 12, "card": {"style": "text", "text": "Next: ...", "object": "plane"} }
 }
 ```
-- `img`: a PNG from `visuals/out/`. Shots > 9 s are split automatically into wide + close-up (close-up centres on `focus`, x/y 0–1).
+- `img`: a PNG from `visuals/out/`. Shots > 9 s are split automatically into wide + close-up (close-up centres on `focus`, x/y 0–1). The close-up zooms ~1.35×: point `focus` at the numbers, or add `"nosplit": true` (or a second shot) when a chart's title/labels would be cropped.
 - `card` styles: `chapter` (kicker, title) · `stat` (value, label, sub, tone, size) · `quote` (quote, who, size) · `text` (text, sub, tone, size) · `list` (title, rows[{left,right,tone}], left_w) · `math` (expr, sub). Optional `object` (illustration), `source` (always for numbers and quotes).
 - `w`: relative duration weight inside the segment (default 1).
 - `music`: change bed at the twist; never use the same pair of beds as the previous video (docs/11 rule 3).

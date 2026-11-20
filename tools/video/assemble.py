@@ -144,22 +144,38 @@ def build_audio(timeline, timings, narration, total, build):
     return out, True
 
 
+def caption_chunks(text, limit=84, min_len=24):
+    """Sentence-aware captions: long sentences split into balanced parts,
+    tiny fragments (e.g. "paid.") merged into a neighbour so nothing flashes."""
+    pieces = [p.strip() for p in re.split(r"(?<=[.?!])\s+|\[pause\]", text) if p.strip()]
+    chunks = []
+    for p in pieces:
+        words = p.split()
+        n = max(1, math.ceil(len(p) / limit))
+        target = len(p) / n
+        cur = ""
+        for w in words:
+            if cur and len(cur) + len(w) + 1 > target and len(chunks) < 10_000 and n > 1 and len(cur) >= target * 0.8:
+                chunks.append(cur)
+                cur = w
+            else:
+                cur = f"{cur} {w}".strip()
+        if cur:
+            chunks.append(cur)
+    merged = []
+    for c in chunks:
+        if merged and (len(c) < min_len or len(merged[-1]) < min_len) and len(merged[-1]) + len(c) + 1 <= limit + 30:
+            merged[-1] = f"{merged[-1]} {c}"
+        else:
+            merged.append(c)
+    return merged
+
+
 def write_srt(timings, path):
     lines, n = [], 1
     for t in timings:
         text = re.sub(r"\s+", " ", t["text"].replace("**", "")).strip()
-        pieces = [p.strip() for p in re.split(r"(?<=[.?!])\s+|\[pause\]", text) if p.strip()]
-        chunks = []
-        for p in pieces:                       # max ~84 characters per caption
-            words, cur = p.split(), ""
-            for w in words:
-                if len(cur) + len(w) + 1 > 84 and cur:
-                    chunks.append(cur)
-                    cur = w
-                else:
-                    cur = f"{cur} {w}".strip()
-            if cur:
-                chunks.append(cur)
+        chunks = caption_chunks(text)
         total_chars = sum(len(c) for c in chunks) or 1
         cur_t = t["start"]
         for c in chunks:
@@ -183,6 +199,10 @@ def final_description(video_dir, chapters):
 def main():
     video_dir = Path(sys.argv[1]).resolve()
     build = video_dir / "build"
+    if "--srt-only" in sys.argv:  # captions only, no re-render
+        write_srt(json.loads((build / "timings.json").read_text(encoding="utf-8")), build / "subtitles.srt")
+        print("subtitles.srt rewritten")
+        return
     timeline = json.loads((video_dir / "timeline.json").read_text(encoding="utf-8"))
     timings = json.loads((build / "timings.json").read_text(encoding="utf-8"))
     narration = build / "narration.wav"
