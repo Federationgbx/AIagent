@@ -96,7 +96,7 @@ def render_shot(shot, idx, out):
     frames = max(2, round(shot["dur"] * FPS))
     fx, fy = shot.get("focus", [0.5, 0.5])
     if shot["close"]:
-        z0, z1 = 1.30, 1.38
+        z0, z1 = 1.10, 1.16   # gentle: keeps chart titles and labels on screen
     elif "card" in shot:
         z0, z1 = (1.0, 1.035) if idx % 2 == 0 else (1.035, 1.0)
     else:

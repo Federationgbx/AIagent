@@ -1,6 +1,6 @@
 # Package: 001 — Why Movie Theater Popcorn Costs So Much
 
-Publish: **Tuesday 1 December 2026, 15:00 America/New_York** · Playlist: *Cost Autopsy* · End screen → 002 *How Airlines Really Make Money* (matches the spoken hand-off)
+Publish: **Tuesday 24 November 2026, 15:00 America/New_York (21:00 Germany)** · Playlist: *Cost Autopsy* · End screen → 002 *How Airlines Really Make Money* (matches the spoken hand-off)
 
 ## Titles (10)
 
@@ -74,8 +74,8 @@ movie theater popcorn, why is movie popcorn so expensive, how movie theaters mak
 - AI use (Details → Attributes): **Yes**, for the synthetic narration (our rule, docs/11 §3). No realistic AI imagery is used.
 - Paid promotion: **No**
 - Playlist: **Cost Autopsy**
-- End screen: **002 How Airlines Really Make Money** + subscribe element. 002 goes public on Fri 4 Dec, so add the video element then (end screens can be edited after publishing). After 8 Dec, add 003 Costco as a second video element.
-- Cards: **002 How Airlines Really Make Money** at ~6:50 (¶21, "Next up: how airlines…") and at ~10:24 (¶31 hand-off). Add them once 002 is public on Fri 4 Dec.
-- Schedule: **Tue 1 Dec 2026, 15:00 America/New_York**
+- End screen (optional, computer only): **002 How Airlines Really Make Money** once it is public (Fri 27 Nov) + **003 Costco** (public since 20 Nov) + subscribe element.
+- Cards (optional): **002 How Airlines Really Make Money** at the "Next up: airlines" line and at the final hand-off — add them after 27 Nov.
+- Schedule: **Tue 24 Nov 2026, 21:00 Germany (15:00 New York)**
 - Subtitles: upload `subtitles.srt` from the UPLOAD-KIT (Studio → Subtitles → Upload file → With timing)
 - Chapters: `description.txt` in the UPLOAD-KIT already has the real timestamps of the rendered video — paste it as is
