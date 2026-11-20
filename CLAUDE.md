@@ -4,7 +4,7 @@
 
 ## Ce este proiectul
 
-- Un canal YouTube **nou, în limba engleză**, construit de la zero până la monetizare. Nume: **Pricewhy** (@Pricewhy). Rezervă: Tilltale (@TilltaleTV).
+- Un canal YouTube **nou, în limba engleză**, construit de la zero până la monetizare. Nume: **Pricewhy**. Handle-ul @Pricewhy s-a dovedit indisponibil la creare (20.11.2026) → se încearcă @PricewhyTV / @PricewhyHQ (vezi docs/02 §1; actualizează aici handle-ul final când utilizatorul îl confirmă). Nume de rezervă: Tilltale (@TilltaleTV).
 - **Proiect separat.** Nu are legătură cu „millionaireagent” sau cu alte proiecte ale utilizatorului. Nu amesteca contexte.
 - Briefingul original, cuvânt cu cuvânt: `docs/00-brief-original.md`.
 - **Utilizatorul mai are un canal, separat:** „Christina” — @deutschfuerrumaenen (germană pentru români, DE→RO; 7 abonați, 8 Shorts la 20.11.2026). **Nu** îl folosim pentru Pricewhy și nu amestecăm conținutul. Recomandarea dată (20.11.2026): Pricewhy = **canal nou** (canal de marcă pe același cont Google; același cont AdSense poate primi ambele canale).

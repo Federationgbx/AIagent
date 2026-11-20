@@ -7,7 +7,7 @@
 | | |
 |---|---|
 | **Nume recomandat** | **Pricewhy** |
-| **Handle** | **@Pricewhy** — liber la 20.11.2026 (pagina dădea 404), fără canale cu același nume, fără conflict de marcă găsit |
+| **Handle** | ~~@Pricewhy~~ — **indisponibil** la crearea canalului (20.11.2026), deși pagina dădea 404 (YouTube rezervă și handle-uri fără canal public). Ordinea de încercare: **@PricewhyTV** → @PricewhyHQ → @GetPricewhy → @PricewhyExplained. Nu folosim sugestia automată cu sufix aleatoriu (ex. „-o9f”) |
 | **Rezervă** | **Tilltale** — handle-ul @Tilltale e luat (gol), **@TilltaleTV** e liber |
 | **De ce nu un nume descriptiv** | „Price Autopsy”, „Behind The Price”, „Itemized”, „Subtotal”, „Sticker Shock”, „Line Item” sunt toate deja folosite de canale-clonă cu voce AI și ~0 vizualizări (01 §4.2). Un nume inventat ne separă de ele |
 
