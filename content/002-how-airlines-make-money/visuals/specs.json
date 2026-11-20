@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "type": "thumbnail", "template": "C", "object": "plane", "out": "out/thumb-C-two-prices.png",
+      "left": { "label": "PROFIT", "value": "$5.0B", "tone": "profit" },
+      "right": { "label": "AMEX PAID", "value": "$8.2B", "tone": "highlight" }
+    },
+    {
+      "type": "thumbnail", "template": "D", "object": "card", "out": "out/thumb-D-tower-sliver.png",
+      "bars": [
+        { "label": "CARD CASH", "value": 6200, "display": "$6.2B", "tone": "highlight", "big": true },
+        { "label": "PROFIT", "value": 111, "display": "$111M", "tone": "profit" }
+      ]
+    },
+    {
+      "type": "thumbnail", "template": "A", "object": "card", "out": "out/thumb-A-receipt.png",
+      "headline": "FOLLOW $1", "receipt_title": "ONE SWIPE",
+      "receipt_lines": [
+        { "label": "Fee", "amount": "→ bank" },
+        { "label": "Miles", "amount": "→ airline", "circle": true },
+        { "label": "Seat", "amount": "→ you" }
+      ]
+    },
+    {
+      "type": "receipt", "object": "card", "out": "out/route.png",
+      "title": "Follow one card swipe",
+      "receipt_title": "ONE SWIPE · DELTA CARD",
+      "lines": [
+        { "label": "Swipe fee", "amount": "→ bank", "note": "paid by the store" },
+        { "label": "Miles bought", "amount": "→ Delta", "note": "the bank pays, typically monthly" },
+        { "label": "Brand & marketing", "amount": "now", "note": "counted as revenue right away", "tone": "profit" },
+        { "label": "Your future seat", "amount": "later", "note": "a liability until you fly" },
+        { "label": "Miles never used", "amount": "?", "note": "not disclosed" }
+      ],
+      "total": { "label": "AMEX PAID, 2025", "amount": "$8.2B" },
+      "source": "Delta 10-K FY2025 (SkyMiles program; revenue recognition)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/amex-share.png",
+      "title": "Delta cards inside American Express",
+      "subtitle": "Shares at the end of 2025",
+      "bars": [
+        { "label": "Share of all Amex card spending", "value": 13, "display": "≈13%", "tone": "highlight" },
+        { "label": "Share of all Amex card loans", "value": 21, "display": "≈21%", "tone": "blue" }
+      ],
+      "source": "American Express 2025 Annual Report (Delta cobrand: billed business, Card Member loans)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked", "out": "out/loyalty-lines.png",
+      "title": "Delta's loyalty revenue lines, 2025",
+      "subtitle": "Plus $9.3B still waiting as a liability (Dec 31, 2025)",
+      "segments": [
+        { "label": "Brand & marketing — booked right away", "value": 3362, "display": "$3.36B", "tone": "profit" },
+        { "label": "Award travel — booked when you fly", "value": 4237, "display": "$4.24B", "tone": "blue" }
+      ],
+      "source": "Delta FY2025 earnings release (revenue tables); Delta 10-K FY2025", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/amex-history.png",
+      "title": "What American Express paid Delta",
+      "subtitle": "Delta's target: $10B a year",
+      "bars": [
+        { "label": "2014", "value": 2, "display": "$2B", "tone": "neutral" },
+        { "label": "2023", "value": 6.8, "display": "$6.8B", "tone": "neutral" },
+        { "label": "2024", "value": 7.4, "display": "$7.4B", "tone": "neutral" },
+        { "label": "2025", "value": 8.2, "display": "$8.2B", "tone": "highlight" },
+        { "label": "2026 (expected)", "value": 9, "display": ">$9B", "tone": "blue" }
+      ],
+      "source": "Delta JPMorgan deck (Mar 2026); Delta 10-Ks FY2024-25; Q3 2026 call (guidance)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/check-vs-profit.png",
+      "title": "Delta, 2025: the bank's check vs the profit",
+      "subtitle": "GAAP pre-tax was $6.2B, incl. a $1.2B investment gain",
+      "bars": [
+        { "label": "Cash from American Express", "value": 8.2, "display": "$8.2B", "tone": "highlight" },
+        { "label": "Pre-tax profit (adjusted)", "value": 4.981, "display": "$5.0B", "tone": "profit" }
+      ],
+      "source": "Delta 10-K FY2025; Delta FY2025 earnings release (adjusted pre-tax $4,981M)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/gap-2026.png",
+      "title": "Delta, 2026: about 2 to 1",
+      "subtitle": "Guidance, Oct 9, 2026 · fuel bill expected +60% (about $6B)",
+      "bars": [
+        { "label": "Expected from American Express", "value": 9, "display": ">$9B", "tone": "highlight" },
+        { "label": "Expected pre-tax profit", "value": 4.5, "display": "~$4.5B", "tone": "profit" }
+      ],
+      "source": "Delta Q3 2026 release and earnings call, Oct 9 2026 (guidance, not final)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/iata-margins.png",
+      "title": "Global airline net profit margin",
+      "subtitle": "2026 forecast: $4.50 of profit per passenger",
+      "bars": [
+        { "label": "2024", "value": 3.4, "display": "3.4%", "tone": "neutral" },
+        { "label": "2025", "value": 4.2, "display": "4.2%", "tone": "neutral" },
+        { "label": "2026 (forecast)", "value": 2.0, "display": "2.0%", "tone": "loss" }
+      ],
+      "source": "IATA, Jun 2 2025 and Jun 7 2026", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/american-2025.png",
+      "title": "American Airlines, 2025",
+      "subtitle": "On $54.6B of revenue: about 20 cents of profit per $100",
+      "bars": [
+        { "label": "Cash from card & other partners", "value": 6200, "display": "$6.2B", "tone": "highlight" },
+        { "label": "Net income", "value": 111, "display": "$111M", "tone": "profit" }
+      ],
+      "source": "American Airlines 10-K FY2025 (Item 1; statement of operations)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/extra-dollar.png",
+      "title": "Cash isn't profit",
+      "subtitle": "American's own projection, Dec 2024: ~$1.5B more pre-tax as card cash nears $10B",
+      "bars": [
+        { "label": "Each extra $1 of card cash", "value": 1, "display": "$1.00", "tone": "highlight" },
+        { "label": "Extra pre-tax profit (our math)", "value": 0.36, "display": "34–38¢", "tone": "profit" }
+      ],
+      "source": "American Airlines 8-K, Dec 2024, as quoted by View from the Wing; Pricewhy arithmetic", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/valuations-2020.png",
+      "title": "2020: the program vs the whole airline",
+      "subtitle": "Estimates vs stock market value (equity after debt) — not like-for-like",
+      "bars": [
+        { "label": "MileagePlus (United's own estimate)", "value": 21.9, "display": "$21.9B", "tone": "highlight" },
+        { "label": "All of United (market value, approx.)", "value": 10, "display": "~$10B", "tone": "neutral" },
+        { "label": "AAdvantage (appraisal range)", "value": 19.5, "display": "$19.5–31.5B", "tone": "highlight" },
+        { "label": "All of American (market value)", "value": 10, "display": "<$10B", "tone": "neutral" }
+      ],
+      "source": "United 8-K Jun 15 2020; American 8-K Jun 12 2020; FT via Simple Flying; Motley Fool Jun 17 2020", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/aeroplan.png",
+      "title": "Price Board · Canada: Aeroplan",
+      "subtitle": "Canadian dollars · US + Canada only this time (no comparable UK/AU data)",
+      "bars": [
+        { "label": "Bought back by Air Canada, 2019", "value": 0.45, "display": "C$0.45B", "tone": "neutral" },
+        { "label": "Air Canada market value, 2026", "value": 7.5, "display": "C$5.5–7.5B", "tone": "neutral" },
+        { "label": "Aeroplan, implied by Aug 2026 sale", "value": 10, "display": "C$10B", "tone": "highlight" }
+      ],
+      "source": "Skift, Aug 12 2026; Canadian Press/CTV (25% sold for C$2.5B; ≈ US$7.2B implied)", "brand": "PRICEWHY"
+    }
+  ]
+}
