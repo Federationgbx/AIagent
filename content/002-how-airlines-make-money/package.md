@@ -113,5 +113,5 @@ how airlines make money, airline credit card, airline miles, frequent flyer mile
   - If Studio won't let you pick a video that isn't public yet, use the playlist element *How They Make Money* for now.
   - On 8 Dec, after 003 is live, swap it for the 003 video element.
 - Cards: ~11:49 → 003, same 8 Dec swap. Optional ~7:36 → playlist *How They Make Money*.
-- Subtitles: upload the `.srt` exported from CapCut, after checking it against the VOICE-READY text in `script.md`.
-- Chapters: the timestamps above are estimates from the word count (155 wpm). **Update them from the final edit before publishing.** All 7 are ≥ 10 s, and the first is 0:00.
+- Subtitles: upload `subtitles.srt` from the UPLOAD-KIT (Studio → Subtitles → Upload file → With timing)
+- Chapters: `description.txt` in the UPLOAD-KIT already has the real timestamps of the rendered video — paste it as is

@@ -77,5 +77,5 @@ movie theater popcorn, why is movie popcorn so expensive, how movie theaters mak
 - End screen: **002 How Airlines Really Make Money** + subscribe element. 002 goes public on Fri 4 Dec, so add the video element then (end screens can be edited after publishing). After 8 Dec, add 003 Costco as a second video element.
 - Cards: **002 How Airlines Really Make Money** at ~6:50 (¶21, "Next up: how airlines…") and at ~10:24 (¶31 hand-off). Add them once 002 is public on Fri 4 Dec.
 - Schedule: **Tue 1 Dec 2026, 15:00 America/New_York**
-- Subtitles: upload the `.srt` exported from CapCut after checking it against the VOICE-READY text
-- Chapters: the timestamps above are estimates at 155 wpm. **Update them from the final edit before publishing.**
+- Subtitles: upload `subtitles.srt` from the UPLOAD-KIT (Studio → Subtitles → Upload file → With timing)
+- Chapters: `description.txt` in the UPLOAD-KIT already has the real timestamps of the rendered video — paste it as is

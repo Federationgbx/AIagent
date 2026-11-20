@@ -78,5 +78,5 @@ costco, how costco makes money, costco hot dog, costco 1.50 hot dog, costco memb
 - AI use (Details → Attributes): **Yes** — synthetic narration (our rule, docs/11 §3). No realistic AI imagery used.
 - Paid promotion: **No**
 - Playlist: **How They Make Money** · End screen: **002 How Airlines Really Make Money** + subscribe · Card at ~8:15 → 002
-- Subtitles: upload `.srt` exported from CapCut after checking it against the VOICE-READY text
-- Chapters: timestamps above are estimates — **update them from the final edit before publishing**
+- Subtitles: upload `subtitles.srt` from the UPLOAD-KIT (Studio → Subtitles → Upload file → With timing)
+- Chapters: `description.txt` in the UPLOAD-KIT already has the real timestamps of the rendered video — paste it as is

@@ -69,13 +69,13 @@ Lucrăm **cu o săptămână în avans**: în săptămâna N se produc video-uri
 |---|---|---|---|
 | **Luni** | Revizuirea săptămânală (09 §4); alege cele 2 subiecte pentru săptămâna viitoare; pornește cercetarea | Exporți CSV-ul din Studio în `tracking/exports/` și scrii: „start week N” | 10 min |
 | **Marți** | Scenariile + ambalajul (titluri, miniaturi, descrieri) + graficele + Shorts pentru video-ul A | Video-ul de marți se publică singur (programat sâmbăta trecută) | 0 |
-| **Miercuri** | Același lucru pentru video-ul B; newsletterul săptămânii | Citești scenariul A (10 min), generezi vocea, asamblezi video-ul A | ~1,5–2 h |
-| **Joi** | Corecturi dacă ai observat ceva | Citești scenariul B, generezi vocea, asamblezi video-ul B | ~1,5–2 h |
+| **Miercuri** | Același lucru pentru video-ul B; **vocea + montajul final (MP4)** pentru A și B; newsletterul săptămânii | — | 0 |
+| **Joi** | Îți trimite în chat cele 2 MP4-uri finite + kiturile de încărcare + Shorts-urile randate | (Opțional) te uiți la video-uri | ~20 min |
 | **Vineri** | — | Video-ul de vineri se publică singur | 0 |
-| **Sâmbătă** | — | Încarci și **programezi** cele 2 video-uri lungi + Shorts-urile săptămânii viitoare (YouTube, TikTok, Reels); trimiți newsletterul | ~45 min |
+| **Sâmbătă** | — | Încarci și **programezi** cele 2 video-uri lungi + Shorts-urile (YouTube, TikTok, Reels), copiind din kit | ~45 min |
 | **Zilnic (opțional)** | Pregătește răspunsuri la comentarii | Postezi 3–5 răspunsuri + inimioare | ~10 min |
 
-**Total pentru tine: ~5–6 ore pe săptămână** la început; ~3–4 ore după ce montajul devine rutină (sau mai puțin dacă automatizăm asamblarea — README „NEXT”).
+**Total pentru tine: ~1–1,5 ore pe săptămână** (din 20.11.2026 Claude face și vocea, și montajul — skill-ul `video-render`).
 
 ---
 

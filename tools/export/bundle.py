@@ -10,9 +10,14 @@ For every content/<NNN>-<slug>/ that has a script.md it writes
   images/          every rendered PNG from visuals/out/
 It also writes Pricewhy-brand.zip (logo + banner) and Pricewhy-plan.zip (docs).
 
-Usage: python3 tools/export/bundle.py <output-dir>
+With --final it also copies every rendered build/final.mp4 as Pricewhy-<video>.mp4
+plus Pricewhy-<video>-UPLOAD-KIT.zip (upload.txt, description.txt with real
+chapters, subtitles.srt, thumbnails) and any rendered Shorts.
+
+Usage: python3 tools/export/bundle.py <output-dir> [--final]
 """
 import re
+import shutil
 import sys
 import zipfile
 from pathlib import Path
@@ -41,6 +46,54 @@ def description(package: str) -> str:
     return m.group(1) if m else ""
 
 
+def upload_text(package: str) -> str:
+    """Title, tags and settings — everything to type into YouTube Studio."""
+    title = ""
+    for line in package.splitlines():
+        if "**MAIN**" in line:
+            title = [c.strip() for c in line.strip("|").split("|")][2]
+            break
+    tags = re.search(r"## Tags\n(.*?)\n", package)
+    settings = re.search(r"## Upload settings\n(.*?)(?=\n## |\Z)", package, re.S)
+    return (f"TITLE\n{title}\n\nTAGS\n{tags.group(1).strip() if tags else ''}\n\n"
+            f"SETTINGS\n{settings.group(1).strip() if settings else ''}\n\n"
+            "Description: description.txt (chapters already timed to this video)\n"
+            "Subtitles: subtitles.srt (Studio → Subtitles → Upload file → With timing)\n"
+            "Thumbnails: the 3 thumb-*.png → Test & Compare\n")
+
+
+def upload_kit(folder: Path, out: Path) -> list[Path]:
+    """Finished video + everything needed to upload it, if the video was rendered."""
+    build = folder / "build"
+    final = build / "final.mp4"
+    if not final.exists():
+        return []
+    made = []
+    mp4 = out / f"Pricewhy-{folder.name}.mp4"
+    shutil.copyfile(final, mp4)
+    made.append(mp4)
+    kit = out / f"Pricewhy-{folder.name}-UPLOAD-KIT.zip"
+    pkg = (folder / "package.md").read_text(encoding="utf-8")
+    with zipfile.ZipFile(kit, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr("upload.txt", upload_text(pkg))
+        desc = build / "description-final.txt"
+        z.writestr("description.txt", desc.read_text(encoding="utf-8") if desc.exists() else description(pkg))
+        if (build / "subtitles.srt").exists():
+            z.write(build / "subtitles.srt", "subtitles.srt")
+        for png in sorted((folder / "visuals" / "out").glob("thumb-*.png")):
+            z.write(png, png.name)
+        if (folder / "shorts").exists():
+            for f in sorted((folder / "shorts").glob("*.txt")):
+                z.write(f, f"shorts/{f.name}")
+    made.append(kit)
+    shorts_dir = build / "shorts"
+    for f in sorted(shorts_dir.glob("short-*.mp4")) if shorts_dir.exists() else []:
+        dst = out / f"Pricewhy-{folder.name}-{f.name}"
+        shutil.copyfile(f, dst)
+        made.append(dst)
+    return made
+
+
 def bundle_video(folder: Path, out: Path) -> Path | None:
     script = folder / "script.md"
     if not script.exists():
@@ -61,10 +114,11 @@ def bundle_video(folder: Path, out: Path) -> Path | None:
 
 
 def main() -> int:
-    if len(sys.argv) != 2:
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    if len(args) != 1:
         print(__doc__)
         return 1
-    out = Path(sys.argv[1])
+    out = Path(args[0])
     out.mkdir(parents=True, exist_ok=True)
     made = []
     for folder in sorted((ROOT / "content").iterdir()):
@@ -72,6 +126,8 @@ def main() -> int:
             z = bundle_video(folder, out)
             if z:
                 made.append(z)
+            if "--final" in sys.argv:
+                made += upload_kit(folder, out)
     brand = out / "Pricewhy-brand.zip"
     with zipfile.ZipFile(brand, "w", zipfile.ZIP_DEFLATED) as z:
         for png in sorted((ROOT / "brand" / "out").glob("*.png")):

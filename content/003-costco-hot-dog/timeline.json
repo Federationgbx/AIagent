@@ -1,0 +1,105 @@
+{
+  "music": [
+    { "file": "bed-a-minor.wav", "from_p": 1 },
+    { "file": "bed-d-dorian.wav", "from_p": 16 }
+  ],
+  "segments": [
+    { "p": [1], "chapter": "The $1.50 hot dog", "shots": [
+      { "card": { "style": "stat", "value": "$1.50", "label": "Costco's hot dog + soda, since 1985", "sub": "Costco marked the combo's 40th anniversary in 2025", "object": "hotdog", "source": "CFO Dive, Sep 26 2025" } },
+      { "img": "cpi-hotdog.png" },
+      { "card": { "style": "stat", "value": "245,100,000", "size": 170, "label": "combos sold in fiscal 2025", "sub": "≈ 671,000 a day", "source": "Costco Annual Shareholders Meeting deck, Jan 2026" } }
+    ]},
+    { "p": [2], "shots": [
+      { "card": { "style": "text", "text": "Most people assume it loses money.", "object": "hotdog" } },
+      { "card": { "style": "text", "text": "It doesn't.", "tone": "loss", "size": 160 } },
+      { "card": { "style": "stat", "value": "≈ 3¢", "label": "of every dollar you spend — what Costco keeps", "sub": "net profit per $1 of sales, fiscal 2025", "source": "Costco 10-K FY2025" } }
+    ]},
+    { "p": [3], "chapter": "A store that tries not to make money", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 1", "title": "A store that tries not to make money" } },
+      { "w": 2, "card": { "style": "quote", "size": 56, "quote": "Everything that we do at Costco is not to figure out how much we can make; it's (about) how little we can make and still pay our bills.", "who": "Craig Jelinek, then-CEO of Costco, 2018", "source": "425 Business, Apr 18 2018" } },
+      { "card": { "style": "text", "text": "Sounds like a slogan.", "sub": "The annual report says it isn't." } }
+    ]},
+    { "p": [4], "shots": [ { "img": "receipt-step01.png", "focus": [0.7, 0.3] } ] },
+    { "p": [5], "shots": [
+      { "card": { "style": "stat", "value": "14% · 15%", "size": 170, "label": "Reported markup caps: name brands · Kirkland Signature", "sub": "The New York Times, 2005", "source": "NYT, Jul 17 2005" } },
+      { "w": 2, "img": "markups.png", "focus": [0.6, 0.6] },
+      { "card": { "style": "stat", "value": "12.5%", "tone": "profit", "label": "Costco's actual average markup over cost", "sub": "fiscal 2025 · 30,026 ÷ 239,886", "source": "Costco 10-K FY2025" } }
+    ]},
+    { "p": [6], "shots": [ { "card": { "style": "text", "size": 84, "text": "So how do you sell a hot dog and a soda for $1.50 — for forty years?", "object": "hotdog" } } ] },
+    { "p": [7], "chapter": "Clue one: the hot dog", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 2", "title": "Clue one: the hot dog" } },
+      { "card": { "style": "quote", "quote": "Jim, we can't sell this hot dog for a buck fifty. We are losing our rear ends.", "who": "Craig Jelinek, recalling what he told Jim Sinegal", "source": "425 Business, Apr 18 2018" } },
+      { "card": { "style": "quote", "size": 72, "quote": "If you raise the effing hot dog, I will kill you. Figure it out.", "who": "Jim Sinegal, as recalled by Craig Jelinek", "source": "425 Business, Apr 18 2018" } }
+    ]},
+    { "p": [8], "shots": [
+      { "card": { "style": "list", "title": "Costco started making its own hot dogs", "rows": [ { "left": "Plant 1", "right": "Los Angeles" }, { "left": "Plant 2", "right": "Chicago" } ], "source": "425 Business, Apr 18 2018" } },
+      { "card": { "style": "quote", "quote": "We keep it at $1.50 and make enough money to get a fair return.", "who": "Craig Jelinek, 2018", "source": "425 Business, Apr 18 2018" } }
+    ]},
+    { "p": [9], "shots": [ { "card": { "style": "text", "text": "Not charity. Engineering.", "tone": "highlight", "object": "hotdog" } } ] },
+    { "p": [10], "shots": [
+      { "w": 3, "card": { "style": "list", "title": "What changed — and what didn't", "rows": [ { "left": "2013", "right": "Fountain drinks: Coca-Cola → Pepsi" }, { "left": "2022", "right": "Chicken bake $2.99 → $3.99" }, { "left": "2022", "right": "Soda on its own $0.59 → $0.69" }, { "left": "2025", "right": "Switch back to Coca-Cola announced" } ], "source": "Fortune, Jan 27 2025 · NBC Bay Area, Jul 8 2022" } },
+      { "card": { "style": "stat", "value": "$1.50", "label": "The combo didn't move.", "object": "hotdog" } }
+    ]},
+    { "p": [11], "shots": [ { "card": { "style": "text", "size": 88, "text": "What's the one thing you buy at Costco every single time?", "sub": "Tell us in the comments — we read them." } } ] },
+    { "p": [12], "chapter": "Clue two: the rotisserie chicken", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 3", "title": "Clue two: the rotisserie chicken" } },
+      { "card": { "style": "stat", "value": "$4.99", "label": "Costco's rotisserie chicken", "sub": "a price it has reportedly held since 2009", "source": "CNN via CBS Baltimore, Oct 2019" } },
+      { "card": { "style": "text", "text": "Pause and guess.", "tone": "loss", "sub": "How many did Costco sell in fiscal 2025?" } },
+      { "card": { "style": "stat", "value": "157,400,000", "size": 170, "label": "rotisserie chickens, fiscal 2025", "sub": "≈ 431,000 a day", "source": "Costco Annual Shareholders Meeting deck, Jan 2026" } }
+    ]},
+    { "p": [13], "shots": [
+      { "img": "cpi-chicken.png" },
+      { "w": 2, "card": { "style": "quote", "size": 56, "quote": "When others were raising their chicken prices from $4.99 to $5.99, we were willing to eat, if you will, $30 to $40 million a year in gross margin by keeping it at $4.99.", "who": "Richard Galanti, then-CFO of Costco, 2015", "source": "Fortune, May 29 2015" } }
+    ]},
+    { "p": [14], "shots": [
+      { "card": { "style": "text", "size": 90, "text": "That's margin Costco chose not to collect.", "sub": "Not proof that each chicken is sold below cost." } },
+      { "card": { "style": "list", "title": "Fremont, Nebraska", "left_w": 260, "rows": [ { "left": "$450M+", "right": "invested by 2019: feed mill, hatchery, plant" }, { "left": "~40%", "right": "of Costco's chickens (reported)" } ], "source": "Supermarket News, Oct 23 2019 · NPR, Oct 22 2018" } },
+      { "card": { "style": "text", "size": 76, "text": "You don't build a supply chain like that for a product you plan to lose money on forever." } }
+    ]},
+    { "p": [15], "shots": [ { "card": { "style": "text", "text": "So where does the profit actually come from?", "tone": "highlight", "object": "card" } } ] },
+    { "p": [16], "chapter": "The twist: the card in your wallet", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 4", "title": "The twist: the card in your wallet" } },
+      { "img": "receipt-step02.png", "focus": [0.7, 0.35] },
+      { "img": "receipt-step03.png", "focus": [0.7, 0.4] }
+    ]},
+    { "p": [17], "shots": [
+      { "img": "receipt-step04.png", "focus": [0.7, 0.45] },
+      { "card": { "style": "stat", "value": "$5.3B", "tone": "profit", "label": "membership fees, fiscal 2025", "sub": "less than 2% of Costco's revenue", "object": "card", "source": "Costco 10-K FY2025" } },
+      { "w": 2, "img": "share.png" }
+    ]},
+    { "p": [18], "shots": [
+      { "card": { "style": "text", "text": "About half. Not “almost all.”", "sub": "The 65–70% claims divide before-tax fees by after-tax profit." } },
+      { "w": 2, "img": "split.png" }
+    ]},
+    { "p": [19], "shots": [
+      { "card": { "style": "stat", "value": "84.1M", "label": "paid members, end of fiscal 2026", "sub": "92.3% renew in the US & Canada", "source": "Costco 10-K FY2026" } },
+      { "w": 2, "card": { "style": "list", "title": "The September 2024 fee increase", "left_w": 300, "rows": [ { "left": "Gold Star", "right": "$60 → $65" }, { "left": "Executive", "right": "$120 → $130" }, { "left": "Effect", "right": "≈ 40% of fiscal 2025 fee growth", "tone": "profit" } ], "source": "Costco release, Jul 10 2024 · Costco 10-K FY2026" } },
+      { "card": { "style": "text", "size": 84, "text": "Weeks before: card scanners at the door.", "source": "Fortune, Aug 7 2024" } }
+    ]},
+    { "p": [20], "shots": [ { "img": "executive.png" } ] },
+    { "p": [21], "shots": [ { "card": { "style": "text", "size": 84, "text": "Every week, we take one price apart — line by line.", "sub": "Next up: the real cost of Christmas", "object": "coin" } } ] },
+    { "p": [22], "chapter": "Why the loop works", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "Why the loop works" } },
+      { "card": { "style": "list", "title": "The Costco loop", "left_w": 80, "rows": [ { "left": "1", "right": "The fee lets prices stay thin" }, { "left": "2", "right": "Thin prices make the card worth it" }, { "left": "3", "right": "Members renew" }, { "left": "4", "right": "The fee comes back", "tone": "profit" } ] } },
+      { "card": { "style": "quote", "size": 58, "quote": "That's your biggest fear — you start losing memberships, you start losing traffic, and nothing good can happen.", "who": "Craig Jelinek, then-CEO of Costco, 2018", "source": "425 Business, Apr 18 2018" } }
+    ]},
+    { "p": [23], "shots": [
+      { "card": { "style": "text", "text": "The hot dog is the advertisement for the loop.", "object": "hotdog", "size": 90 } },
+      { "card": { "style": "quote", "quote": "The $1.50 hot dog price is safe.", "who": "Gary Millerchip, Costco CFO, 2024", "source": "OPB/NPR, Jun 4 2024" } },
+      { "card": { "style": "quote", "quote": "The hot dog price will not change as long as I'm around.", "who": "Ron Vachris, Costco CEO, 2026", "source": "Fortune, Mar 21 2026" } }
+    ]},
+    { "p": [24], "shots": [
+      { "w": 2, "img": "without-fees.png" },
+      { "card": { "style": "text", "size": 84, "text": "“Change nothing else” is impossible.", "sub": "No card: no loyalty loop, no renewals, no reason to drive past three other stores." } }
+    ]},
+    { "p": [25], "shots": [ { "img": "warehouses.png" } ] },
+    { "p": [26], "chapter": "The verdict", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 6", "title": "The verdict" } },
+      { "img": "receipt.png", "focus": [0.7, 0.7] },
+      { "card": { "style": "text", "text": "Not a loss leader. A contract.", "tone": "highlight", "object": "hotdog" } }
+    ]},
+    { "p": [27], "shots": [ { "card": { "style": "math", "expr": "$65 ÷ 2% = $3,250", "sub": "Executive vs Gold Star: below $3,250 of qualifying spending a year, the 2% reward doesn't cover the upgrade. Information, not advice.", "source": "Costco 10-K FY2025 (fees, 2% reward)" } } ] },
+    { "p": [28], "shots": [ { "card": { "style": "text", "text": "Airlines run their own version of this trick.", "sub": "With credit cards.", "object": "plane", "size": 96 } } ] }
+  ],
+  "end_card": { "seconds": 12, "card": { "style": "text", "text": "Next: How Airlines Really Make Money", "sub": "A new price breakdown every Tuesday & Friday", "object": "plane", "size": 96 } }
+}

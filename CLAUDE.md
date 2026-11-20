@@ -11,8 +11,8 @@
 
 ## Cine face ce (decis de utilizator, 20.11.2026)
 
-- **Claude creează tot conținutul**: cercetare, scenarii, titluri, miniaturi, grafice, descrieri, Shorts, analize.
-- **Utilizatorul publică**: generează vocea, asamblează în CapCut, încarcă și programează, exportă datele din Studio.
+- **Claude creează tot conținutul, inclusiv video-ul FINIT** (decizia utilizatorului, 20.11.2026: „conținutul complet, fără să fac eu nimic, doar să public”): cercetare, scenariu, vocea (Kokoro TTS, vocea `af_heart`), montajul MP4, muzica (generată original), miniaturi, descriere cu capitole reale, subtitrări, Shorts.
+- **Utilizatorul doar publică**: încarcă MP4-ul + kitul (titlu, descriere, subtitrări, miniaturi), programează, și lunea exportă datele din Studio.
 - Utilizatorul scrie în **română**. Documentele pentru el: în română, limbaj simplu, fără jargon (termenii YouTube se explică pe scurt). Conținutul canalului: în **engleză**.
 
 ## Deciziile luate (nu le relua fără motiv nou)
@@ -34,7 +34,8 @@
 - `.claude/skills/` — cele 5 skill-uri (mai jos), fiecare cu `CHANGELOG.md`.
 - `templates/` — șabloanele pe care le folosesc skill-urile.
 - `tracking/` — `video-log.csv`, `content-calendar.csv`, `exports/` (CSV-uri din Studio), `reviews/`.
-- `tools/render/` — miniaturi, grafice, logo, banner (Node + Playwright). `tools/analytics/` — revizuirea A/B/C (Python, fără dependențe).
+- `tools/render/` — miniaturi, grafice, plăcuțe, logo, banner (Node + Playwright). `tools/analytics/` — revizuirea A/B/C (Python, fără dependențe).
+- `tools/video/` — `setup.sh` (Kokoro TTS + model în `~/.cache/pricewhy`, nu în repo), `tts.py` (voce), `music.py` (muzică originală), `assemble.py` (montaj final), `shorts.py` (Shorts 9:16). Fișierele mari (`content/*/build/`) nu intră în git.
 - `brand/` — logo și banner.
 
 ## Fluxul pentru fiecare video (ordinea skill-urilor)
@@ -43,16 +44,17 @@
 2. `script-writer` → `script.md` (narațiune VOICE-READY pe ¶ + listă de scene + verificarea cifrelor)
 3. `packaging` → `package.md` + `visuals/` randate și **verificate vizual**
 4. `shorts-repurpose` → `shorts.md`
+5. `video-render` → `build/final.mp4` + kit de încărcare (voce, montaj, muzică, capitole, subtitrări)
 Săptămânal/lunar: `analytics-review` (după ce utilizatorul pune exportul în `tracking/exports/`).
 
 **Comanda săptămânală — „start week N” / „next videos”** (ca utilizatorul să nu explice de fiecare dată):
 1. Dacă există un export nou în `tracking/exports/` → rulează întâi `analytics-review`.
 2. Ia din `tracking/content-calendar.csv` următoarele 2 rânduri cu status `planned`.
-3. Pentru fiecare: `research-brief` → `script-writer` → `packaging` → `shorts-repurpose` (în ordine; se pot rula în paralel cele două video-uri).
+3. Pentru fiecare: `research-brief` → `script-writer` → `packaging` → `shorts-repurpose` → `video-render` (în ordine; se pot rula în paralel cele două video-uri).
 4. Actualizează statusul în calendar (`ready`) și rândul din `tracking/video-log.csv` (structură, hook, formulă de titlu, șablon de miniatură).
 5. Raportează utilizatorului, în română, în maximum 10 rânduri: ce e gata, ce trebuie să facă el, orice cifră incertă.
 
-**Livrarea către utilizator (preferința lui, 20.11.2026):** nu vrea să ia fișiere din GitHub. După ce un video e gata, rulează `python3 tools/export/bundle.py <scratchpad>/send` și trimite-i direct în chat (SendUserFile) ZIP-ul video-ului (voice.txt, description.txt, scenariu, titluri, Shorts, images/) — iar logo-ul/miniaturile ca imagini când le cere.
+**Livrarea către utilizator (preferința lui, 20.11.2026):** nu vrea să ia fișiere din GitHub și nu vrea să lucreze la video. După ce un video e randat, rulează `python3 tools/export/bundle.py <scratchpad>/final --final` și trimite-i direct în chat (SendUserFile) **MP4-ul final + UPLOAD-KIT.zip** (upload.txt, description.txt cu capitole reale, subtitles.srt, miniaturi) + Shorts-urile randate.
 
 Comenzi:
 - `node tools/render/render.mjs content/<NNN>/visuals/specs.json`

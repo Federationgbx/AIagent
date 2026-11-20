@@ -204,6 +204,59 @@ function comparePage(s) {
   `);
 }
 
+// ---------- narration cards (1920x1080), used by tools/video/assemble.py ----------
+// style: chapter | stat | quote | text | list | math. Optional "object" (illustration) on the right.
+
+function cardPage(s) {
+  const tone = toneColor(s.tone || "highlight");
+  const hasObj = Boolean(s.object);
+  const textW = hasObj ? 1080 : 1680;
+  let body = "";
+  switch (s.style) {
+    case "chapter":
+      body = `<div style="font:800 40px ${BRAND.mono};color:${BRAND.coral};letter-spacing:6px">${esc(s.kicker || "")}</div>
+        <div style="font:900 120px/1.02 ${BRAND.head};margin-top:24px">${esc(s.title || "")}</div>
+        <div class="incision" style="position:relative;margin-top:44px;width:420px"></div>`;
+      break;
+    case "stat":
+      body = `<div style="font:900 ${s.size || 200}px/1 ${BRAND.head};color:${tone};text-shadow:0 10px 0 #000">${esc(s.value || "")}</div>
+        <div style="font:800 60px/1.15 ${BRAND.head};margin-top:30px">${esc(s.label || "")}</div>
+        ${s.sub ? `<div style="font:600 38px ${BRAND.head};color:${BRAND.gray};margin-top:18px">${esc(s.sub)}</div>` : ""}`;
+      break;
+    case "quote":
+      body = `<div style="font:900 180px/0.6 ${BRAND.head};color:${BRAND.coral}">“</div>
+        <div style="font:700 ${s.size || 64}px/1.25 ${BRAND.head};margin-top:10px">${esc(s.quote || "")}</div>
+        <div style="font:700 38px ${BRAND.head};color:${BRAND.yellow};margin-top:40px">— ${esc(s.who || "")}</div>`;
+      break;
+    case "text":
+      body = `<div style="font:900 ${s.size || 110}px/1.08 ${BRAND.head};color:${s.tone ? tone : BRAND.paper}">${esc(s.text || "")}</div>
+        ${s.sub ? `<div style="font:600 44px/1.3 ${BRAND.head};color:${BRAND.gray};margin-top:34px">${esc(s.sub)}</div>` : ""}`;
+      break;
+    case "list":
+      body = `${s.title ? `<div style="font:900 72px/1.1 ${BRAND.head};margin-bottom:40px">${esc(s.title)}</div>` : ""}
+        ${(s.rows || [])
+          .map(
+            (r) => `<div style="display:flex;gap:40px;align-items:baseline;padding:16px 0;border-bottom:2px solid #2A2D36">
+              <div style="font:800 44px ${BRAND.mono};color:${BRAND.yellow};min-width:${s.left_w || 220}px">${esc(r.left || "")}</div>
+              <div style="font:700 48px/1.2 ${BRAND.head};color:${r.tone ? toneColor(r.tone) : BRAND.paper}">${esc(r.right || "")}</div></div>`
+          )
+          .join("")}`;
+      break;
+    case "math":
+      body = `<div style="font:800 ${s.size || 130}px/1.1 ${BRAND.mono};color:${tone}">${esc(s.expr || "")}</div>
+        ${s.sub ? `<div style="font:700 48px/1.3 ${BRAND.head};color:${BRAND.gray};margin-top:40px">${esc(s.sub)}</div>` : ""}`;
+      break;
+    default:
+      throw new Error(`card style must be chapter|stat|quote|text|list|math (got ${s.style})`);
+  }
+  return page(1920, 1080, `
+    <div style="position:absolute;left:120px;top:0;bottom:0;width:${textW}px;display:flex;flex-direction:column;justify-content:center">${body}</div>
+    ${hasObj ? heroBlock(s, "right:110px;top:240px;width:600px;height:600px") : ""}
+    ${s.source ? `<div class="source">Source: ${esc(s.source)}</div>` : ""}
+    <div class="brandtag">PRICEWHY</div>
+  `);
+}
+
 // ---------- brand assets ----------
 
 const receiptEdge =
@@ -257,6 +310,8 @@ function jobsFor(spec) {
     }
     case "compare":
       return [{ w: 1920, h: 1080, html: comparePage(spec), out: spec.out }];
+    case "card":
+      return [{ w: 1920, h: 1080, html: cardPage(spec), out: spec.out }];
     case "logo":
       return [{ w: 800, h: 800, html: logoPage(spec), out: spec.out }];
     case "banner":
