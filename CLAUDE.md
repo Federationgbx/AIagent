@@ -44,6 +44,13 @@
 4. `shorts-repurpose` → `shorts.md`
 Săptămânal/lunar: `analytics-review` (după ce utilizatorul pune exportul în `tracking/exports/`).
 
+**Comanda săptămânală — „start week N” / „next videos”** (ca utilizatorul să nu explice de fiecare dată):
+1. Dacă există un export nou în `tracking/exports/` → rulează întâi `analytics-review`.
+2. Ia din `tracking/content-calendar.csv` următoarele 2 rânduri cu status `planned`.
+3. Pentru fiecare: `research-brief` → `script-writer` → `packaging` → `shorts-repurpose` (în ordine; se pot rula în paralel cele două video-uri).
+4. Actualizează statusul în calendar (`ready`) și rândul din `tracking/video-log.csv` (structură, hook, formulă de titlu, șablon de miniatură).
+5. Raportează utilizatorului, în română, în maximum 10 rânduri: ce e gata, ce trebuie să facă el, orice cifră incertă.
+
 Comenzi:
 - `node tools/render/render.mjs content/<NNN>/visuals/specs.json`
 - `python3 tools/analytics/review.py "tracking/exports/<data>/Table data.csv" [--log tracking/video-log.csv]`

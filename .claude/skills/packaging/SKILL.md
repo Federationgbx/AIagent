@@ -24,6 +24,7 @@ One job: produce `content/<NNN>/package.md` and `content/<NNN>/visuals/` (specs 
 - Never promise in the title/thumbnail what the first 30 seconds don't show.
 - No ALL-CAPS titles; max one emphasised word.
 - Chapters only if ≥ 3 and each ≥ 10 s (YouTube requirement).
+- YouTube limits: title ≤ 100 characters (we aim ≤ 55), description ≤ 5,000 characters, tags ≤ 500 characters in total — count them and print the counts.
 - Nothing is uploaded or published by Claude — the user does it.
 
 ## Good example 1 — title set excerpt

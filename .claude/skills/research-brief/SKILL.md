@@ -1,6 +1,6 @@
 ---
 name: research-brief
-description: Use when starting a new Pricewhy video (or when the user says "research #N" / "start video N") to produce content/<NNN>-<slug>/research.md — the sourced fact sheet every later step relies on. Not for writing the script (use script-writer) or for titles/thumbnails (use packaging).
+description: Use for the first step of every new Pricewhy video — when the user says "research #N" / "research <topic>", or as step 1 of the weekly "start week N" command in CLAUDE.md — to produce content/<NNN>-<slug>/research.md, the sourced fact sheet every later step relies on. Not for writing the script (use script-writer) or for titles/thumbnails (use packaging).
 ---
 
 # research-brief — the sourced fact sheet
