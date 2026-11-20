@@ -43,6 +43,8 @@ Pragul poate fi atins mai repede dacă un video „explodează” — sau mai t�
 
 ## 3. Calendarul primelor 12 săptămâni
 
+> **Actualizare 20.11.2026: lansare devansată.** Canalul a fost gata mai devreme, așa că primul video (003 Costco) se publică **vineri 20 noiembrie**, apoi 001 marți 24 noiembrie și 002 vineri 27 noiembrie (Black Friday). Calendarul valabil e `tracking/content-calendar.csv`; tabelul de mai jos e planul inițial.
+
 Numerele `#` sunt din `docs/04-video-ideas-100.md`. Publicare: **marți și vineri, 15:00 ora New York (22:00 România / 21:00 Germania)**.
 
 | Săpt. | Marți | Vineri | Notă |

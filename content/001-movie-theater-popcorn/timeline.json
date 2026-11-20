@@ -37,7 +37,7 @@
       { "card": { "style": "text", "text": "The split moves.", "sub": "Both chains say blockbusters cost them a bigger share.", "source": "AMC & Cinemark 10-K FY2025" } },
       { "card": { "style": "stat", "value": "52.9%", "label": "AMC U.S. film costs in the hit-heavy Q3 2026", "sub": "vs 51.2% for all of 2025", "source": "AMC 10-Q Q3 2026 · AMC 10-K FY2025" } },
       { "w": 1.2, "card": { "style": "list", "title": "How film rent is set", "left_w": 420, "rows": [ { "left": "Most Cinemark deals", "right": "a sliding scale tied to how the film performs" }, { "left": "Many contracts", "right": "studio share starts higher, falls the longer a film plays" } ], "source": "Cinemark 10-K FY2025 · Gil & Lafontaine, J. Industrial Economics 2012" } },
-      { "w": 2, "img": "studio-share.png" },
+      { "w": 2, "img": "studio-share.png", "focus": [0.9, 0.8] },
       { "card": { "style": "stat", "value": "~65%", "tone": "loss", "label": "Disney's reported terms for The Last Jedi", "sub": "The Wall Street Journal, 2017", "source": "WSJ via Dow Jones (Fox Business reprint), Nov 2017" } }
     ]},
     { "p": [8], "shots": [
@@ -60,7 +60,7 @@
     ]},
     { "p": [12], "shots": [
       { "card": { "style": "stat", "value": "18¢", "label": "AMC's product cost per $1 of U.S. food & drink", "sub": "fiscal 2025 · Cinemark U.S.: 19¢", "source": "AMC & Cinemark 10-K FY2025 (18.1% · 18.9%)" } },
-      { "w": 1.5, "img": "snack-dollar.png" },
+      { "w": 1.5, "img": "snack-dollar.png", "focus": [0.0, 0.85] },
       { "card": { "style": "text", "text": "Before paying anyone to work the counter.", "sub": "Wages are a separate line.", "source": "AMC & Cinemark 10-K FY2025 (cost lines)" } }
     ]},
     { "p": [13], "shots": [
@@ -104,7 +104,7 @@
     ]},
     { "p": [20], "shots": [
       { "card": { "style": "text", "size": 90, "text": "Third income stream: screen ads, online ticket fees and the like.", "source": "AMC & Cinemark 10-K FY2025" } },
-      { "w": 2, "img": "snack-share.png" },
+      { "w": 2, "img": "snack-share.png", "focus": [0.5, 0.8] },
       { "card": { "style": "text", "size": 96, "tone": "highlight", "text": "The snack bar earns the theater as much as the ticket — or more.", "source": "AMC & Cinemark FY2025 filings" } }
     ]},
     { "p": [21], "shots": [
@@ -124,10 +124,10 @@
       { "w": 2.6, "img": "bills.png", "focus": [0.7, 0.7] }
     ]},
     { "p": [24], "shots": [
-      { "w": 5.3, "card": { "style": "text", "text": "Pause the video and guess.", "tone": "loss", "size": 130 } },
-      { "w": 7.3, "card": { "style": "text", "size": 96, "text": "Studio. Product. Staff. Rent. Interest. Taxes.", "sub": "What did Cinemark keep per visitor in 2025?" } },
-      { "w": 5.0, "card": { "style": "stat", "value": "≈ 73¢", "tone": "profit", "label": "kept per visitor, after everything", "sub": "company-wide · $141.5M net income ÷ 193.0M visitors", "source": "Cinemark Q4/FY2025 release" } },
-      { "w": 6.3, "img": "bottom-line.png" }
+      { "w": 4.8, "card": { "style": "text", "text": "Pause the video and guess.", "tone": "loss", "size": 130 } },
+      { "w": 6.45, "card": { "style": "text", "size": 96, "text": "Studio. Product. Staff. Rent. Interest. Taxes.", "sub": "What did Cinemark keep per visitor in 2025?" } },
+      { "w": 5.6, "card": { "style": "stat", "value": "≈ 73¢", "tone": "profit", "label": "kept per visitor, after everything", "sub": "company-wide · $141.5M net income ÷ 193.0M visitors", "source": "Cinemark Q4/FY2025 release" } },
+      { "w": 7.09, "img": "bottom-line.png" }
     ]},
     { "p": [25], "chapter": "Last stop: AMC's debt", "shots": [
       { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "Last stop: AMC's debt" } },
@@ -135,17 +135,17 @@
     ]},
     { "p": [26], "shots": [
       { "card": { "style": "stat", "value": "+34¢", "tone": "profit", "label": "AMC's U.S. operating profit per visitor", "sub": "fiscal 2025 · after studio, snacks, staff, rent, wear and tear", "source": "AMC 10-K FY2025, U.S. segment (52.4M ÷ 155.81M)" } },
-      { "w": 1.5, "img": "amc-debt.png" },
+      { "w": 1.5, "img": "amc-debt.png", "focus": [0.5, 0.8] },
       { "w": 1.3, "card": { "style": "list", "title": "Then came the debt (per U.S. visitor)", "left_w": 240, "rows": [ { "left": "-$2.97", "right": "interest", "tone": "loss" }, { "left": "-$0.99", "right": "refinancing losses & other", "tone": "loss" }, { "left": "-$3.44", "right": "net result, after a few smaller items", "tone": "loss" } ], "source": "AMC 10-K FY2025, U.S. segment ÷ 155.81M visitors" } }
     ]},
     { "p": [27], "shots": [
-      { "w": 1.5, "img": "amc-loss.png" },
+      { "w": 1.5, "img": "amc-loss.png", "focus": [0.5, 0.8] },
       { "card": { "style": "stat", "value": "≈ $4.0B", "label": "AMC's corporate borrowings, Dec 31 2025", "source": "AMC 10-K FY2025 ($4,038.5M)" } },
       { "card": { "style": "text", "text": "The popcorn isn't the problem. The debt is.", "tone": "highlight", "object": "popcorn" } }
     ]},
     { "p": [28], "shots": [
       { "card": { "style": "text", "text": "To be fair to AMC: one good season changes a lot." } },
-      { "w": 1.5, "img": "amc-q3.png" },
+      { "w": 1.5, "img": "amc-q3.png", "focus": [0.5, 0.8] },
       { "card": { "style": "text", "size": 96, "text": "When most of your costs are fixed, every extra visitor matters." } }
     ]},
     { "p": [29], "chapter": "The verdict", "shots": [

@@ -158,7 +158,8 @@
       { "card": { "style": "text", "text": "No Senate vote.", "sub": "As of November 2026." } }
     ]},
     { "p": [31], "shots": [
-      { "w": 2, "img": "anatomy.png", "focus": [0.7, 0.5] },
+      { "img": "anatomy.png" },
+      { "card": { "style": "list", "title": "What's inside an airline card", "left_w": 220, "rows": [ { "left": "Bank", "right": "keeps the swipe fee" }, { "left": "Airline", "right": "sells miles, perks and its brand" }, { "left": "Now", "right": "the brand piece counts as revenue" }, { "left": "Later", "right": "the seat, when you fly" } ], "source": "Delta 10-K FY2025 · American Express 2025 Annual Report" } },
       { "card": { "style": "text", "size": 96, "text": "A year of swipes: bigger than Delta's whole pre-tax profit.", "tone": "highlight", "source": "Delta 10-K FY2025 · Delta FY2025 earnings release" } }
     ]},
     { "p": [32], "shots": [

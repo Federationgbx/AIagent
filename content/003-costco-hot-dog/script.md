@@ -58,7 +58,7 @@ Price Board: no fair hot-dog price comparison in research → replaced by the wa
 
 ¶20 One more number. Executive members — the ones paying one hundred thirty dollars — were about half of all paid members in fiscal twenty twenty-six. But they accounted for roughly seventy-five percent of Costco's sales.
 
-¶21 This is what Pricewhy does. Every week, we take one price apart, line by line, with the sources on screen. If you want the next one, subscribe. Next up: the real cost of Christmas.
+¶21 This is what Pricewhy does. Every week, we take one price apart, line by line, with the sources on screen. If you want the next one, subscribe. Next up: why movie theater popcorn costs so much.
 
 **[CHAPTER 5 — Why the loop works]**
 

@@ -25,7 +25,7 @@
 | Piață | Engleză; public 25–44 ani | docs/02 §3 |
 | Ritm | 2 video-uri lungi/săpt. (marți, vineri, 15:00 New York) + 5–7 Shorts | docs/06 §4, docs/10 |
 | Ținta | 1.000 abonați + **8.000 ore** în 365 zile (pragul YPP pentru aplicanți noi de la 1 feb 2027) | docs/08 §1 |
-| Lansare | Primul video marți 1 decembrie 2026 | docs/10 |
+| Lansare | **Devansată:** primul video (003 Costco) vineri 20 noiembrie 2026; 001 marți 24.11, 002 vineri 27.11; calendarul valabil: `tracking/content-calendar.csv` | docs/10 §3 |
 
 ## Harta fișierelor
 

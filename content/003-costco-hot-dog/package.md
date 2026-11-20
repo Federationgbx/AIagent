@@ -1,6 +1,6 @@
 # Package: 003 — The $1.50 Trick That Built Costco
 
-Publish: **Tuesday 8 December 2026, 15:00 America/New_York** · Playlist: *How They Make Money* · End screen → 002 *How Airlines Really Make Money*
+Publish: **Friday 20 November 2026, 15:00 America/New_York (21:00 Germany)** — launch video · Playlist: *How They Make Money* · End screen → 002 *How Airlines Really Make Money*
 
 ## Titles (10)
 
