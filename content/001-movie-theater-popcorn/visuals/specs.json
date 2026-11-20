@@ -1,0 +1,173 @@
+{
+  "items": [
+    {
+      "type": "thumbnail", "template": "C", "object": "popcorn", "out": "out/thumb-C-two-prices.png",
+      "hero_top": 105, "hero_h": 330,
+      "left": { "label": "COST", "value": "$1.57", "tone": "profit" },
+      "right": { "label": "SNACK BAR", "value": "$8.30", "tone": "loss" }
+    },
+    {
+      "type": "thumbnail", "template": "B", "object": "popcorn", "out": "out/thumb-B-sliced.png",
+      "slices": [
+        { "label": "TICKET", "value": "42¢", "tone": "neutral" },
+        { "label": "SNACKS", "value": "81¢", "tone": "profit", "big": true }
+      ]
+    },
+    {
+      "type": "thumbnail", "template": "A", "object": "popcorn", "out": "out/thumb-A-receipt.png",
+      "headline": "NOT THE POPCORN", "receipt_title": "MOVIE NIGHT",
+      "receipt_lines": [
+        { "label": "Ticket", "amount": "$10.52" },
+        { "label": "Snacks", "amount": "$8.30" },
+        { "label": "To studio", "amount": "-$6.10", "circle": true }
+      ]
+    },
+    {
+      "type": "compare", "out": "out/snack-cost.png",
+      "title": "The average snack-bar visit, 2025",
+      "subtitle": "Cinemark, per U.S. visitor",
+      "bars": [
+        { "label": "Spent at the snack bar", "value": 8.30, "display": "$8.30", "tone": "highlight" },
+        { "label": "Product cost to the theater", "value": 1.57, "display": "$1.57", "tone": "loss" }
+      ],
+      "source": "Cinemark FY2025 release & 10-K, U.S. segment (998.2M and 188.3M ÷ 120.3M visitors)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "receipt", "object": "popcorn", "out": "out/receipt.png",
+      "title": "Following your $18.82",
+      "receipt_title": "PER U.S. VISIT · 2025",
+      "lines": [
+        { "label": "Ticket", "amount": "$10.52" },
+        { "label": "Film rent & ads", "amount": "-$6.10", "tone": "loss", "note": "mostly the studio" },
+        { "label": "Snack bar", "amount": "$8.30" },
+        { "label": "Product cost", "amount": "-$1.57", "tone": "loss", "note": "popcorn, drinks, candy, merch" },
+        { "label": "Theater keeps", "amount": "$11.16", "tone": "profit" }
+      ],
+      "source": "Cinemark FY2025 release & 10-K, U.S. segment ÷ 120.3M visitors", "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked", "out": "out/ticket-dollar.png",
+      "title": "Your ticket dollar at AMC",
+      "subtitle": "U.S., fiscal 2025 — before rent, staff or anything else",
+      "segments": [
+        { "label": "Film costs (mostly the studio)", "value": 51.2, "display": "51¢", "tone": "loss" },
+        { "label": "AMC keeps", "value": 48.8, "display": "49¢", "tone": "profit" }
+      ],
+      "source": "AMC 10-K FY2025, MD&A (U.S. film exhibition costs = 51.2% of admissions, incl. some advertising)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/studio-share.png",
+      "title": "How much of the ticket goes to the film",
+      "subtitle": "Filed yearly averages (2025) vs reported deal terms (WSJ, 2017)",
+      "bars": [
+        { "label": "AMC U.S. 2025", "value": 51.2, "display": "51%", "tone": "blue" },
+        { "label": "Cinemark U.S. 2025 (incl. ads)", "value": 58.0, "display": "58%", "tone": "blue" },
+        { "label": "Typical release, 2017", "value": 55, "display": "~55%", "tone": "neutral" },
+        { "label": "Major hits, 2017", "value": 60, "display": "~60%", "tone": "neutral" },
+        { "label": "The Last Jedi, 2017", "value": 65, "display": "~65%", "tone": "loss" }
+      ],
+      "source": "AMC & Cinemark 10-K FY2025 · WSJ via Dow Jones (Fox Business reprint), Nov 2017", "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked", "out": "out/snack-dollar.png",
+      "title": "Your snack-bar dollar at AMC",
+      "subtitle": "U.S., fiscal 2025 — before wages",
+      "segments": [
+        { "label": "Product cost", "value": 18.1, "display": "18¢", "tone": "loss" },
+        { "label": "AMC keeps", "value": 81.9, "display": "82¢", "tone": "profit" }
+      ],
+      "source": "AMC 10-K FY2025, MD&A (U.S. food & beverage costs = 18.1% of F&B revenue)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/per-dollar.png",
+      "title": "What the theater keeps from each $1",
+      "subtitle": "U.S., fiscal 2025 — after the studio or the supplier, before staff and rent",
+      "bars": [
+        { "label": "AMC ticket", "value": 48.8, "display": "49¢", "tone": "blue" },
+        { "label": "Cinemark ticket*", "value": 42.0, "display": "42¢", "tone": "blue" },
+        { "label": "AMC snacks", "value": 81.9, "display": "82¢", "tone": "profit" },
+        { "label": "Cinemark snacks", "value": 81.1, "display": "81¢", "tone": "profit" }
+      ],
+      "source": "AMC & Cinemark 10-K FY2025 (51.2%, 58.0%, 18.1%, 18.9%) · *Cinemark's film cost includes advertising", "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked", "out": "out/kept-split.png",
+      "title": "Where the theater's $11.16 comes from",
+      "subtitle": "Cinemark, per U.S. visitor, 2025 — after paying the studio and the suppliers",
+      "segments": [
+        { "label": "From the $10.52 ticket", "value": 4.42, "display": "$4.42 · 40%", "tone": "blue" },
+        { "label": "From the $8.30 snack bar", "value": 6.73, "display": "$6.73 · 60%", "tone": "profit" }
+      ],
+      "source": "Cinemark FY2025 release & 10-K, U.S. segment (532.2M and 809.9M ÷ 120.3M visitors)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/snack-share.png",
+      "title": "Snack bar vs tickets: share of what's left",
+      "subtitle": "After paying studios & suppliers, 2025 (the rest is ads, fees & other)",
+      "bars": [
+        { "label": "Cinemark U.S. snack bar", "value": 51.3, "display": "51%", "tone": "profit" },
+        { "label": "Cinemark U.S. tickets", "value": 33.7, "display": "34%", "tone": "blue" },
+        { "label": "AMC worldwide snack bar", "value": 41.4, "display": "41%", "tone": "profit" },
+        { "label": "AMC worldwide tickets", "value": 42.4, "display": "42%", "tone": "blue" }
+      ],
+      "source": "Cinemark & AMC FY2025 filings, $M (809.9 & 532.2 of 1,580.1; 1,344.3 & 1,377.6 of 3,246.7)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "receipt", "object": "popcorn", "out": "out/bills.png",
+      "title": "Then the bills arrive",
+      "receipt_title": "PER U.S. VISIT · 2025",
+      "lines": [
+        { "label": "Ticket + snacks kept", "amount": "$11.16" },
+        { "label": "Ads, fees & other", "amount": "+$1.98", "tone": "profit" },
+        { "label": "Wages", "amount": "-$2.85", "tone": "loss" },
+        { "label": "Rent", "amount": "-$2.03", "tone": "loss" },
+        { "label": "Utilities & other", "amount": "-$3.14", "tone": "loss" },
+        { "label": "Head office (G&A)", "amount": "-$1.56", "tone": "loss" },
+        { "label": "Other items", "amount": "+$0.29" }
+      ],
+      "total": { "label": "LEFT OVER", "amount": "$3.84" },
+      "source": "Cinemark FY2025 release, U.S. segment ÷ 120.3M visitors · before depreciation, interest & taxes", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/bottom-line.png",
+      "title": "Cinemark, 2025: what's left per visitor",
+      "subtitle": "Before vs after depreciation, interest & taxes · net profit margin 4.5%",
+      "bars": [
+        { "label": "Before (U.S.)", "value": 3.84, "display": "$3.84", "tone": "neutral" },
+        { "label": "After everything (company-wide)", "value": 0.73, "display": "$0.73", "tone": "profit" }
+      ],
+      "source": "Cinemark FY2025 release (U.S. Adj. EBITDA 462.0M ÷ 120.3M; net income 141.5M ÷ 193.0M visitors)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/amc-debt.png",
+      "title": "AMC's problem isn't the popcorn",
+      "subtitle": "Per U.S. visitor, fiscal 2025 · net result: -$3.44",
+      "bars": [
+        { "label": "Operating profit", "value": 0.34, "display": "+$0.34", "tone": "profit" },
+        { "label": "Interest on debt", "value": 2.97, "display": "-$2.97", "tone": "loss" }
+      ],
+      "source": "AMC 10-K FY2025, U.S. segment ÷ 155.81M visitors (operating income 52.4M; interest 463.3M)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/amc-loss.png",
+      "title": "AMC's 2025 loss — and its debt costs",
+      "subtitle": "Corporate borrowings, Dec 31 2025: about $4.0 billion",
+      "bars": [
+        { "label": "Net loss", "value": 632.4, "display": "$632.4M", "tone": "loss" },
+        { "label": "Interest expense", "value": 530.2, "display": "$530.2M", "tone": "highlight" },
+        { "label": "Refinancing losses", "value": 196.0, "display": "$196.0M", "tone": "highlight" }
+      ],
+      "source": "AMC Q4/FY2025 release (Ex. 99.1) & 10-K FY2025", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/amc-q3.png",
+      "title": "One good season: AMC's third quarter",
+      "subtitle": "Net result · Q3 2026 had 28% more visitors than Q3 2025",
+      "bars": [
+        { "label": "Q3 2025", "value": 298.2, "display": "-$298.2M", "tone": "loss" },
+        { "label": "Q3 2026", "value": 109.3, "display": "+$109.3M", "tone": "profit" }
+      ],
+      "source": "AMC 10-Q Q3 2026 (filed Nov 4, 2026)", "brand": "PRICEWHY"
+    }
+  ]
+}
