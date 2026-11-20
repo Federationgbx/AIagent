@@ -52,8 +52,11 @@ Săptămânal/lunar: `analytics-review` (după ce utilizatorul pune exportul în
 4. Actualizează statusul în calendar (`ready`) și rândul din `tracking/video-log.csv` (structură, hook, formulă de titlu, șablon de miniatură).
 5. Raportează utilizatorului, în română, în maximum 10 rânduri: ce e gata, ce trebuie să facă el, orice cifră incertă.
 
+**Livrarea către utilizator (preferința lui, 20.11.2026):** nu vrea să ia fișiere din GitHub. După ce un video e gata, rulează `python3 tools/export/bundle.py <scratchpad>/send` și trimite-i direct în chat (SendUserFile) ZIP-ul video-ului (voice.txt, description.txt, scenariu, titluri, Shorts, images/) — iar logo-ul/miniaturile ca imagini când le cere.
+
 Comenzi:
 - `node tools/render/render.mjs content/<NNN>/visuals/specs.json`
+- `python3 tools/export/bundle.py <dosar-de-ieșire>` — ZIP-uri pentru telefon
 - `python3 tools/analytics/review.py "tracking/exports/<data>/Table data.csv" [--log tracking/video-log.csv]`
 - Teste: `python3 tools/analytics/test_review.py`
 
