@@ -15,7 +15,7 @@ All clips 9:16, captions burned in, first frame = object or number. Related vide
 - **Publish:** Thu 10 Dec
 - **Hook text:** "I will kill you." — Costco's founder
 - **Narration (≈ 100 words):** Costco's former CEO Craig Jelinek once told his boss, co-founder Jim Sinegal: we can't sell this hot dog for a buck fifty — we're losing our rear ends. Sinegal's answer, as Jelinek tells it: "If you raise the effing hot dog, I will kill you. Figure it out." So Costco figured it out. It started making its own hot dogs, in its own plants, in Los Angeles and Chicago. And Jelinek says that today, at a dollar fifty, they make enough money to get a fair return. Not a loss leader. A promise. Full story on Pricewhy.
-- **Visuals:** hot dog illustration, two quote cards (scene 8), map text LA → Chicago
+- **Visuals:** `thumb-C-two-prices.png` (the $1.50 that never moved), then `thumb-A-receipt.png`
 - **YouTube Shorts title:** Why Costco Will Never Raise the Hot Dog Price (45)
 - **TikTok / Reels caption:** The $1.50 Costco hot dog story, in the CEO's own words. #costco #hotdog #business #history
 - **Related video:** The $1.50 Trick That Built Costco
@@ -42,7 +42,7 @@ All clips 9:16, captions burned in, first frame = object or number. Related vide
 - **Publish:** Wed 16 Dec
 - **Hook text:** Executive membership: the $3,250 line
 - **Narration (≈ 70 words):** Costco Executive costs sixty-five dollars more than Gold Star, and pays a two percent reward on qualifying purchases. So here's the only number you need: sixty-five divided by two percent is three thousand two hundred fifty. If you spend less than that on qualifying purchases in a year, the reward doesn't cover the upgrade. That's math, not advice. Full Costco breakdown on Pricewhy.
-- **Visuals:** text math card "$65 ÷ 2% = $3,250" (scene 28), card illustration
+- **Visuals:** `thumb-B-card-sliced.png` (the card), then `receipt.png` (where $100 goes)
 - **YouTube Shorts title:** Is Costco Executive Worth It? The Math (38)
 - **TikTok / Reels caption:** One division decides it. Information, not financial advice. #costco #costcomembership #money #math
 - **Related video:** The $1.50 Trick That Built Costco

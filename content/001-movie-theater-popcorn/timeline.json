@@ -51,7 +51,7 @@
     ]},
     { "p": [10], "shots": [
       { "card": { "style": "text", "text": "Quick question.", "sub": "Before the next stop.", "size": 130 } },
-      { "w": 2, "card": { "style": "text", "size": 88, "text": "What's the most you've ever spent at a movie theater snack bar?", "sub": "Tell us in the comments — we read them." } }
+      { "w": 1.2, "card": { "style": "text", "size": 88, "text": "What's the most you've ever spent at a movie theater snack bar?", "sub": "Tell us in the comments — we read them." } }
     ]},
     { "p": [11], "chapter": "Second stop: the snack bar", "shots": [
       { "card": { "style": "chapter", "kicker": "CHAPTER 2", "title": "Second stop: the snack bar" } },
@@ -124,11 +124,10 @@
       { "w": 2.6, "img": "bills.png", "focus": [0.7, 0.7] }
     ]},
     { "p": [24], "shots": [
-      { "w": 1.3, "card": { "style": "text", "text": "Pause the video and guess.", "tone": "loss", "size": 130 } },
-      { "w": 1.8, "card": { "style": "text", "size": 96, "text": "Studio. Product. Staff. Rent. Interest. Taxes.", "sub": "What did Cinemark keep per visitor in 2025?" } },
-      { "card": { "style": "stat", "value": "≈ 73¢", "tone": "profit", "label": "kept per visitor, after everything", "sub": "company-wide · $141.5M net income ÷ 193.0M visitors", "source": "Cinemark Q4/FY2025 release" } },
-      { "img": "bottom-line.png" },
-      { "w": 0.8, "card": { "style": "stat", "value": "4.5%", "label": "Cinemark's net profit margin, 2025", "source": "Cinemark Q4/FY2025 release (141.5 ÷ 3,115.0)" } }
+      { "w": 5.3, "card": { "style": "text", "text": "Pause the video and guess.", "tone": "loss", "size": 130 } },
+      { "w": 7.3, "card": { "style": "text", "size": 96, "text": "Studio. Product. Staff. Rent. Interest. Taxes.", "sub": "What did Cinemark keep per visitor in 2025?" } },
+      { "w": 5.0, "card": { "style": "stat", "value": "≈ 73¢", "tone": "profit", "label": "kept per visitor, after everything", "sub": "company-wide · $141.5M net income ÷ 193.0M visitors", "source": "Cinemark Q4/FY2025 release" } },
+      { "w": 6.3, "img": "bottom-line.png" }
     ]},
     { "p": [25], "chapter": "Last stop: AMC's debt", "shots": [
       { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "Last stop: AMC's debt" } },
@@ -158,7 +157,7 @@
       { "card": { "style": "list", "title": "After everything, 2025", "left_w": 300, "rows": [ { "left": "Cinemark", "right": "kept ≈ 73¢ per visitor", "tone": "profit" }, { "left": "AMC", "right": "lost money: mostly debt, not popcorn", "tone": "loss" } ], "source": "Cinemark & AMC Q4/FY2025 releases" } }
     ]},
     { "p": [30], "shots": [
-      { "w": 0.8, "card": { "style": "text", "text": "One thing worth knowing.", "sub": "Information, not advice." } },
+      { "card": { "style": "text", "text": "One thing worth knowing.", "sub": "Information, not advice." } },
       { "w": 1.5, "card": { "style": "list", "title": "Where your money goes", "left_w": 340, "rows": [ { "left": "Ticket $", "right": "roughly half to whoever made the film" }, { "left": "Snack-bar $", "right": "mostly stays with the theater down the street", "tone": "profit" } ], "source": "AMC & Cinemark 10-K FY2025" } },
       { "card": { "style": "text", "text": "Skip the popcorn: the studio doesn't notice. The theater does.", "tone": "highlight", "size": 96, "object": "popcorn" } }
     ]},

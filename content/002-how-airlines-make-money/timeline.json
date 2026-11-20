@@ -20,7 +20,8 @@
       { "card": { "style": "list", "title": "Inside one airline card: 5 parts", "left_w": 80, "rows": [ { "left": "1", "right": "A swipe fee" }, { "left": "2", "right": "A sale of miles" }, { "left": "3", "right": "A brand deal" }, { "left": "4", "right": "A seat the airline now owes you" }, { "left": "5", "right": "Miles that may never come back" } ], "source": "Delta 10-K FY2025 (SkyMiles program; revenue recognition)" } }
     ]},
     { "p": [4], "shots": [
-      { "card": { "style": "text", "text": "Part 1: the swipe fee", "sub": "Who gets paid first? Not Delta.", "object": "card" } },
+      { "card": { "style": "text", "text": "Part 1: the swipe fee", "object": "card" } },
+      { "card": { "style": "text", "text": "Who gets paid first?", "sub": "Not Delta.", "size": 120 } },
       { "card": { "style": "list", "title": "The bank's side of the deal", "left_w": 330, "rows": [ { "left": "Swipe fee", "right": "paid by the store, goes to Amex" }, { "left": "Annual fee", "right": "paid by the cardholder" }, { "left": "Interest", "right": "paid by the cardholder" } ], "source": "American Express 2025 Annual Report" } }
     ]},
     { "p": [5], "shots": [
@@ -54,6 +55,7 @@
       { "img": "anatomy-step04.png", "focus": [0.7, 0.5] }
     ]},
     { "p": [11], "shots": [
+      { "card": { "style": "stat", "value": "$4.24B", "tone": "profit", "label": "award-travel revenue Delta booked in 2025", "sub": "counted only when members redeem", "source": "Delta FY2025 earnings release (Loyalty travel awards)" } },
       { "img": "loyalty-lines.png" },
       { "card": { "style": "stat", "value": "12%", "label": "of the passenger miles Delta flew in 2025 were award travel", "sub": "≈ 35 million award tickets", "object": "plane", "source": "Delta 10-K FY2025" } }
     ]},
@@ -109,7 +111,8 @@
       { "card": { "style": "stat", "value": ">$9B", "label": "expected from Amex in 2026, up from $8.2B", "sub": "fuel jumped; the bank's payments kept growing", "object": "card", "source": "Delta Q3 2026 earnings call (guidance) · Delta 10-K FY2025" } }
     ]},
     { "p": [22], "shots": [
-      { "card": { "style": "text", "size": 90, "text": "Every week, we take one price apart, line by line.", "sub": "New breakdown every Tuesday & Friday", "object": "coin" } }
+      { "card": { "style": "text", "size": 90, "text": "Every week, we take one price apart, line by line.", "object": "coin" } },
+      { "card": { "style": "text", "text": "Want the next one? Subscribe.", "sub": "New breakdown every Tuesday & Friday", "tone": "highlight" } }
     ]},
     { "p": [23], "chapter": "The cause: worth more than the airline?", "shots": [
       { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "The cause: worth more than the airline?" } },
@@ -144,7 +147,8 @@
       { "card": { "style": "quote", "quote": "…continue to earn meaningful value through flying.", "who": "Alaska Airlines' loyalty chief, on members without cards", "source": "Reuters, Mar 13 2026" } }
     ]},
     { "p": [29], "shots": [
-      { "w": 1.4, "card": { "style": "list", "title": "US DOT rewards inquiry, Sep 2024", "left_w": 300, "rows": [ { "left": "Airlines", "right": "American, Delta, Southwest, United" }, { "left": "Topics", "right": "devaluation, hidden pricing, fees, competition" }, { "left": "Status", "right": "replies under review, no findings published", "tone": "highlight" } ], "source": "US DOT / CBS News, Sep 2024 · Reuters, Mar 13 2026" } },
+      { "card": { "style": "text", "text": "Washington is watching too.", "object": "plane" } },
+      { "w": 1.2, "card": { "style": "list", "title": "US DOT rewards inquiry, Sep 2024", "left_w": 300, "rows": [ { "left": "Airlines", "right": "American, Delta, Southwest, United" }, { "left": "Topics", "right": "devaluation, hidden pricing, fees, competition" }, { "left": "Status", "right": "replies under review, no findings published", "tone": "highlight" } ], "source": "US DOT / CBS News, Sep 2024 · Reuters, Mar 13 2026" } },
       { "card": { "style": "text", "text": "No findings published.", "sub": "Still under review, according to Reuters." } }
     ]},
     { "p": [30], "shots": [

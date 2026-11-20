@@ -89,7 +89,8 @@ def render_short(video_dir, short, k, bed, out_dir):
     work = out_dir / f"s{short['num']}"
     work.mkdir(parents=True, exist_ok=True)
     visuals = video_dir / "visuals/out"
-    pngs = short["pngs"] or [p.name for p in sorted(visuals.glob("thumb-C*.png"))][:1]
+    # No PNG named in shorts.md -> rotate the video's thumbnails (C first) so the frame still changes.
+    pngs = short["pngs"] or sorted((p.name for p in visuals.glob("thumb-*.png")), key=lambda n: (not n.startswith("thumb-C"), n))
     audio, frames, t = [], [], 0.0
     sent = sentences(short["narration"])
     spoken = [s for s in sent if s]
