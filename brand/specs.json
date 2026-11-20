@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "type": "logo", "out": "out/logo-800.png" },
+    {
+      "type": "banner", "out": "out/banner-2560x1440.png",
+      "tagline": "Why things cost what they cost.",
+      "line": "New breakdown every Tue & Fri · US · UK · Canada · Australia"
+    }
+  ]
+}

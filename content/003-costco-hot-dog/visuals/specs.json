@@ -1,0 +1,122 @@
+{
+  "items": [
+    {
+      "type": "thumbnail", "template": "C", "object": "hotdog", "out": "out/thumb-C-two-prices.png",
+      "left": { "label": "1985", "value": "$1.50", "tone": "profit" },
+      "right": { "label": "2026", "value": "$1.50", "tone": "highlight" }
+    },
+    {
+      "type": "thumbnail", "template": "B", "object": "card", "out": "out/thumb-B-card-sliced.png",
+      "slices": [
+        { "label": "SALES", "value": "1.9%", "tone": "neutral" },
+        { "label": "PROFIT", "value": "51%", "tone": "profit", "big": true }
+      ]
+    },
+    {
+      "type": "thumbnail", "template": "A", "object": "hotdog", "out": "out/thumb-A-receipt.png",
+      "headline": "NOT THE FOOD", "receipt_title": "COSTCO",
+      "receipt_lines": [
+        { "label": "Hot dog", "amount": "$1.50" },
+        { "label": "Chicken", "amount": "$4.99" },
+        { "label": "The card", "amount": "$65", "circle": true }
+      ]
+    },
+    {
+      "type": "compare", "out": "out/cpi-hotdog.png",
+      "title": "The $1.50 hot dog, adjusted for inflation",
+      "bars": [
+        { "label": "Price since 1985", "value": 1.5, "display": "$1.50", "tone": "highlight" },
+        { "label": "1985 price in 2025 dollars", "value": 4.49, "display": "$4.49", "tone": "loss" }
+      ],
+      "source": "BLS CPI-U annual averages (1985 = 107.6, 2025 = 321.943)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/markups.png",
+      "title": "Markup over cost",
+      "subtitle": "Caps and comparisons as reported by The New York Times in 2005",
+      "bars": [
+        { "label": "Costco cap: name brands", "value": 14, "display": "14%", "tone": "neutral" },
+        { "label": "Costco cap: Kirkland", "value": 15, "display": "15%", "tone": "neutral" },
+        { "label": "Typical supermarket", "value": 25, "display": "~25%", "tone": "loss" },
+        { "label": "Department store", "value": 50, "display": "50%+", "tone": "loss" },
+        { "label": "Costco actual average, FY2025", "value": 12.5, "display": "12.5%", "tone": "profit" }
+      ],
+      "source": "NYT, Jul 17 2005 · Costco 10-K FY2025 (30,026 / 239,886)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "receipt", "object": "card", "out": "out/receipt.png",
+      "title": "Where $100 at a Costco register goes",
+      "receipt_title": "FISCAL 2025 · PER $100",
+      "lines": [
+        { "label": "The goods", "amount": "$88.88" },
+        { "label": "Running the business", "amount": "$9.25", "note": "wages, warehouses, trucks, power" },
+        { "label": "Left from selling things", "amount": "$1.87" },
+        { "label": "Membership fees", "amount": "+$1.97", "tone": "profit" },
+        { "label": "Interest & other", "amount": "+$0.16" },
+        { "label": "Taxes", "amount": "-$1.01", "tone": "loss" }
+      ],
+      "total": { "label": "COSTCO KEEPS", "amount": "$3.00" },
+      "source": "Costco 10-K FY2025 income statement (per $100 of net sales)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/cpi-chicken.png",
+      "title": "The $4.99 rotisserie chicken, adjusted for inflation",
+      "bars": [
+        { "label": "Price since 2009 (reported)", "value": 4.99, "display": "$4.99", "tone": "highlight" },
+        { "label": "2009 price in 2025 dollars", "value": 7.49, "display": "$7.49", "tone": "loss" }
+      ],
+      "source": "BLS CPI-U annual averages (2009 = 214.537, 2025 = 321.943)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/share.png",
+      "title": "Membership fees, fiscal 2025",
+      "subtitle": "$5.32 billion in fees",
+      "bars": [
+        { "label": "Share of total revenue", "value": 1.93, "display": "1.9%", "tone": "neutral" },
+        { "label": "Share of operating profit", "value": 51.3, "display": "51%", "tone": "profit" }
+      ],
+      "source": "Costco 10-K FY2025 (5,323 / 275,235 and 5,323 / 10,383)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked", "out": "out/split.png",
+      "title": "Costco's operating profit, fiscal 2025",
+      "subtitle": "$10.38 billion — split by where it came from",
+      "segments": [
+        { "label": "Membership fees", "value": 5323, "display": "$5.32B · 51%", "tone": "profit" },
+        { "label": "Selling merchandise", "value": 5060, "display": "$5.06B · 49%", "tone": "blue" }
+      ],
+      "source": "Costco 10-K FY2025 (operating income 10,383 − fees 5,323 = 5,060)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/executive.png",
+      "title": "Executive members, fiscal 2026",
+      "bars": [
+        { "label": "Share of paid members", "value": 50.3, "display": "≈50%", "tone": "neutral" },
+        { "label": "Share of Costco's sales", "value": 75.2, "display": "≈75%", "tone": "profit" }
+      ],
+      "source": "Costco 10-K FY2026 (42.3M of 84.1M paid members)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/without-fees.png",
+      "title": "A thought experiment: Costco without fees",
+      "subtitle": "Fiscal 2025, everything else unchanged (which is impossible)",
+      "bars": [
+        { "label": "Actual operating profit", "value": 10.383, "display": "$10.38B", "tone": "profit" },
+        { "label": "Minus membership fees", "value": 5.06, "display": "$5.06B", "tone": "loss" }
+      ],
+      "source": "Costco 10-K FY2025 (10,383 − 5,323)", "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare", "out": "out/warehouses.png",
+      "title": "Costco warehouses, end of fiscal 2026",
+      "subtitle": "939 worldwide — the four Pricewhy countries",
+      "bars": [
+        { "label": "US & Puerto Rico", "value": 647, "display": "647", "tone": "blue" },
+        { "label": "Canada", "value": 115, "display": "115", "tone": "blue" },
+        { "label": "UK", "value": 29, "display": "29", "tone": "blue" },
+        { "label": "Australia", "value": 15, "display": "15", "tone": "blue" }
+      ],
+      "source": "Costco Q4 FY2026 results release (Sep 24, 2026)", "brand": "PRICEWHY"
+    }
+  ]
+}

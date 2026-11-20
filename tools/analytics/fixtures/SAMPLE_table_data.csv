@@ -1,0 +1,7 @@
+Content,Video title,Video publish time,Duration,Views,Watch time (hours),Subscribers,Average view duration,Average percentage viewed (%),Impressions,Impressions click-through rate (%)
+Total,,,,13300,1076.1,108,,,206000,
+SAMPLE001,SAMPLE Strong video,"Dec 2, 2026",612,6000,560.0,60,0:05:36,54.9,60000,10.0
+SAMPLE002,SAMPLE Average video,"Dec 5, 2026",598,4000,300.0,30,0:04:30,45.2,70000,5.0
+SAMPLE003,SAMPLE Weak thumbnail,"Dec 9, 2026",640,1200,90.0,6,0:04:30,42.2,70000,1.7
+SAMPLE004,SAMPLE Weak hook,"Dec 12, 2026",605,2000,60.0,2,0:01:48,17.9,5500,5.0
+SAMPLE005,SAMPLE Too new,"Dec 14, 2026",590,100,6.1,0,0:03:40,37.3,400,5.0
