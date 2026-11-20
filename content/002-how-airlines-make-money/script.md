@@ -26,7 +26,7 @@ Price Board: TBD
 
 ¶7 Because you didn't just buy a coffee. You earned miles, and somebody has to pay for them. Delta's annual report says it plainly: "We sell miles to American Express which are then provided to their customers." Amex pays, typically monthly, based on how many miles it buys. [pause] Your coffee just became a sale for an airline you didn't even fly.
 
-¶8 How much per mile? That's confidential. But Delta's accounting shows what's in the box. Each payment is split across a bundle: award travel, waived bag fees, lounge access, priority boarding, and, quote, "the use of our brand." The name on the card is part of what's for sale. United sells its miles to Chase the same way. And these deals are long: Delta's agreement with American Express runs through the end of twenty twenty-nine.
+¶8 How much per mile? That's confidential. But Delta's accounting shows what's in the box. Each payment is split across a bundle: award travel, waived bag fees, lounge access, priority boarding, and, quote, "the use of our brand." The name on the card is part of what's for sale. United sells its miles to Chase the same way.
 
 ¶9 That's line two on our receipt: the bank buys miles, and the airline gets paid. Now let's follow that money inside the airline.
 
@@ -36,7 +36,7 @@ Price Board: TBD
 
 ¶11 The part that pays for your future seat can't count yet, because you haven't flown. It waits on the books as a liability: a trip Delta still owes. At the end of twenty twenty-five, Delta held nine point three billion dollars of those promises.
 
-¶12 When you finally redeem, that money becomes revenue: four point two four billion dollars in twenty twenty-five. About twelve percent of the passenger miles Delta flew that year were award travel, some thirty-five million award tickets.
+¶12 When you finally redeem, it becomes revenue. Delta's award-travel revenue line came to four point two four billion dollars in twenty twenty-five. About twelve percent of the passenger miles Delta flew that year were award travel, some thirty-five million award tickets.
 
 ¶13 And the miles that never get used? You'll see confident numbers for that online. Delta doesn't publish one. Neither do United or American. So we won't either. [pause] Quick question before we zoom out. What's the most miles you've ever earned without setting foot on a plane? Tell us in the comments. We read them.
 
@@ -52,7 +52,7 @@ Price Board: TBD
 
 ¶18 Why so little profit? Because flying is a thin-margin business. IATA, the global airline trade group, puts the industry's net margin at three point four percent in twenty twenty-four, and four point two in twenty twenty-five. For twenty twenty-six, with fuel soaring, it forecasts two percent: about four dollars and fifty cents of profit per passenger. Its director general said that "won't even buy you a hot dog at most of the FIFA World Cup venues."
 
-¶19 American shows what thin really looks like. Fifty-four point six billion dollars of revenue in twenty twenty-five, and one hundred eleven million of net income. About twenty cents of profit for every hundred dollars, in a year when its card partners paid it six point two billion.
+¶19 American shows what thin really looks like. Fifty-four point six billion dollars of revenue in twenty twenty-five, and one hundred eleven million of net income. About twenty cents of profit for every hundred dollars, in a year when its card and other partners paid it six point two billion.
 
 **[THE TWIST — Cash isn't profit]**
 
@@ -68,17 +68,17 @@ Price Board: TBD
 
 ¶24 So what is a program like that worth on its own? In twenty twenty, the airlines borrowed against them, and we got a rare look. [pause] United valued MileagePlus at about twenty-one point nine billion dollars, its own estimate, and raised six point eight billion against it. At the time, according to a Financial Times analysis, the stock market valued all of United, planes included, at roughly ten billion.
 
-¶25 An outside appraisal put American's program, AAdvantage, at nineteen and a half to thirty-one and a half billion dollars, while American's whole market value was reportedly under ten billion.
+¶25 An outside appraisal that year put American's program, AAdvantage, at nineteen and a half to thirty-one and a half billion dollars, while American's whole market value was reportedly under ten billion.
 
-¶26 Two caveats. An appraisal is an estimate, not a price anyone paid. And market value is what's left for shareholders after debt. American alone had about thirty point seven billion dollars of net debt at the end of twenty twenty-five. And as a Bank of America analyst told CNN, the programs and the airlines "can't exist without each other."
+¶26 Two caveats. An appraisal is an estimate, not a price anyone paid. And market value is what's left for shareholders after debt. American, for example, had about thirty point seven billion dollars of net debt at the end of twenty twenty-five. And as a Bank of America analyst told CNN, the programs and the airlines "can't exist without each other."
 
 ¶27 For a real price tag, go to Canada. This time our Price Board is just the US and Canada, because that's where the comparable data is. In August twenty twenty-six, according to Skift and the Canadian Press, Air Canada sold a quarter of Aeroplan for two and a half billion Canadian dollars. That implies about ten billion for the whole program, more than Air Canada's own market value, which Skift puts at five and a half to seven and a half billion this year.
 
-¶28 Here's the strange part. In twenty nineteen, Air Canada had bought Aeroplan back for roughly four hundred fifty million Canadian dollars in cash, plus the points it owed members. Seven years later, a quarter of it sold at an implied ten billion. Skift's own caveat: that comparison "flatters Aeroplan." Same reason as before: debt.
+¶28 The strange part: in twenty nineteen, Air Canada had bought Aeroplan back for roughly four hundred fifty million Canadian dollars in cash, plus the points it owed members. Seven years later, a quarter of it sold at an implied ten billion. Skift's own caveat: that comparison "flatters Aeroplan." Same reason as before: debt.
 
 **[LAST STOP — Who pays, and the verdict]**
 
-¶29 Last stop: back at the coffee shop. Who pays for all those miles? [pause] According to Reuters, the National Retail Federation argues that premium cards carry the highest swipe fees, so shoppers without them help subsidize those who have them. Airlines reject that, and Alaska Airlines' loyalty chief says members without cards "continue to earn meaningful value through flying."
+¶29 Last stop: back at the coffee shop. Who pays for all those miles? [pause] According to Reuters, the National Retail Federation argues that premium cards carry the highest swipe fees, so shoppers without them help subsidize those who have them. Airlines push back on the idea that cards are replacing flying, and Alaska Airlines' loyalty chief says members without cards "continue to earn meaningful value through flying."
 
 ¶30 Washington is watching too. In September twenty twenty-four, the Department of Transportation demanded rewards-program records from American, Delta, Southwest and United, including on devaluation and hidden pricing. According to Reuters, the replies are still under review, with no findings published.
 
