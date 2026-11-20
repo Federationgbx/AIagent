@@ -9,7 +9,7 @@ Canal în engleză, fără față, cu voce AI. **Claude creează tot conținutul
 
 ## Ce faci tu acum (înainte de 1 decembrie 2026)
 
-1. Creează canalul și rezervă handle-ul **@Pricewhy** cât mai repede (rezervă: @TilltaleTV).
+1. ✅ Canalul e creat: **Pricewhy — @PricewhyTV** (20.11.2026).
 2. Încarcă logo-ul și bannerul din [`brand/out/`](brand/out/) și textul „About” din [docs/02 §5.4](docs/02-channel-identity.md).
 3. Urmează lista completă din [docs/10 §2](docs/10-roadmap-weekly-plan.md) (ElevenLabs, CapCut, playlist-uri, setări de încărcare) — ~3 ore.
 4. Când ești gata, scrie-i lui Claude: **„start week 1”**.
