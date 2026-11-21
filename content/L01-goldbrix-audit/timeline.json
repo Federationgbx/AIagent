@@ -1,0 +1,130 @@
+{
+  "music": [
+    { "file": "bed-d-dorian.wav", "from_p": 1 },
+    { "file": "bed-g-major.wav", "from_p": 25 }
+  ],
+  "segments": [
+    { "p": [1], "chapter": "12 claims, checked", "shots": [
+      { "card": { "style": "stat", "value": "2,063,519", "size": 170, "label": "new crypto tokens launched in 2024", "source": "Chainalysis, 2025 Crypto Crime Report" } },
+      { "card": { "style": "stat", "value": "74,037", "tone": "loss", "label": "flagged for pump-and-dump patterns (3.59%)", "source": "Chainalysis, 2025 Crypto Crime Report" } },
+      { "card": { "style": "stat", "value": "≈ 94%", "tone": "loss", "label": "of those suspicious pools: emptied by their own creator", "source": "Chainalysis, 2025 Crypto Crime Report" } }
+    ]},
+    { "p": [2], "shots": [
+      { "card": { "style": "list", "title": "GoldBrix says:", "left_w": 80, "rows": [ { "left": "✗", "right": "No owner, no company" }, { "left": "✗", "right": "No admin key" }, { "left": "🔥", "right": "Every launchpad fee burned" } ], "object": "goldbar" } },
+      { "card": { "style": "text", "text": "So we didn't listen.", "sub": "We checked.", "tone": "highlight", "size": 130 } }
+    ]},
+    { "p": [3], "shots": [
+      { "img": "e-scoreboard.png", "w": 2, "nosplit": true },
+      { "card": { "style": "text", "text": "Code. Three other blockchains. Its own archives.", "size": 90 } }
+    ]},
+    { "p": [4], "chapter": "Why “trust us” isn't enough", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 1", "title": "Why “trust us” isn't enough" } },
+      { "card": { "style": "list", "title": "Pump.fun trade fee (Sep 2025)", "left_w": 230, "rows": [ { "left": "0.95%", "right": "to the platform" }, { "left": "0.30%", "right": "to the coin's creator" }, { "left": "1.25%", "right": "total per trade", "tone": "highlight" } ], "source": "Pump.fun help center, 26 Sep 2025 (fees can change)" } },
+      { "card": { "style": "stat", "value": "$1.41B", "label": "revenue, Pump (all products), Mar 2024 – Nov 2026", "sub": "Revenue, not profit — a business, not a crime", "source": "DefiLlama, data to 20 Nov 2026" } }
+    ]},
+    { "p": [5], "shots": [
+      { "card": { "style": "stat", "value": "12.3%", "label": "of a 2024 token's value circulating at launch, on average", "sub": "The rest: locked, often for teams and early investors", "source": "Binance Research, 2024" } }
+    ]},
+    { "p": [6], "shots": [
+      { "card": { "style": "quote", "quote": "Investors were told the liquidity was “locked”. Insiders retained access to the SafeMoon liquidity pools.", "who": "US Department of Justice (summary)", "size": 58, "source": "DOJ / IRS-CI releases, 2025–2026" } },
+      { "card": { "style": "list", "title": "SafeMoon, in court", "left_w": 260, "rows": [ { "left": "May 2025", "right": "CEO convicted by a jury" }, { "left": "Feb 2026", "right": "100 months in prison", "tone": "loss" } ], "source": "DOJ, E.D.N.Y.; IRS-CI" } }
+    ]},
+    { "p": [7], "shots": [
+      { "card": { "style": "text", "text": "“Locked”. “Burned”. “No owner”.", "sub": "Just words — until you check the code and the chain.", "size": 100 } }
+    ]},
+    { "p": [8], "chapter": "The supply", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 2", "title": "Claims 1–2: the supply" } },
+      { "img": "e-cap.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [9], "shots": [
+      { "img": "e-emission.png", "w": 2, "nosplit": true },
+      { "card": { "style": "math", "expr": "1M + 7M + 3.5M + … = 15M", "size": 110, "sub": "20,000 blocks × 50, then 0.25 per block, halving every 28M blocks (≈ 2.7 years)", "source": "GoldBrix source code; Pricewhy arithmetic" } },
+      { "card": { "style": "verdict", "rows": [ { "claim": "15,000,000 hard cap", "result": "proven" }, { "claim": "3-second blocks, halving every 28M blocks", "result": "proven" } ] } }
+    ]},
+    { "p": [10], "shots": [
+      { "card": { "style": "list", "title": "Same idea, different clock", "left_w": 300, "rows": [ { "left": "Bitcoin", "right": "21M cap · ~10-minute blocks" }, { "left": "GoldBrix", "right": "15M cap · 3-second blocks" } ], "source": "bitcoin.org; GoldBrix source code" } }
+    ]},
+    { "p": [11], "chapter": "The launchpad rules", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 3", "title": "Claims 3–6: the launchpad rules" } },
+      { "img": "c-fees.png", "nosplit": true }
+    ]},
+    { "p": [12], "shots": [
+      { "img": "e-fees.png", "w": 3, "nosplit": true },
+      { "card": { "style": "verdict", "rows": [ { "claim": "Every launchpad fee burned", "result": "proven" } ] } }
+    ]},
+    { "p": [13], "shots": [
+      { "img": "c-create.png", "nosplit": true },
+      { "img": "e-create.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [14], "shots": [
+      { "card": { "style": "math", "expr": "x · y = k", "size": 160, "sub": "Pool: 100 coins × 100 tokens" } },
+      { "img": "v-curve.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [15], "shots": [
+      { "img": "c-refund.png", "nosplit": true },
+      { "img": "e-refund.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [16], "shots": [
+      { "card": { "style": "text", "text": "What would you check first?", "sub": "Tell us in the comments — we read them.", "size": 110 } }
+    ]},
+    { "p": [17], "chapter": "Can anyone pull the money?", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 4", "title": "Claims 7–8: can anyone pull the money?" } },
+      { "img": "c-ops.png", "nosplit": true }
+    ]},
+    { "p": [18], "shots": [
+      { "img": "e-ops.png", "w": 3, "nosplit": true },
+      { "card": { "style": "verdict", "rows": [ { "claim": "No withdraw function for liquidity", "result": "proven" } ] } }
+    ]},
+    { "p": [19], "shots": [
+      { "img": "c-reorg.png", "nosplit": true },
+      { "img": "e-reorg.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [20], "shots": [
+      { "card": { "style": "text", "text": "Every week: one thing you pay for, line by line.", "sub": "Sources on screen. Subscribe if that's your kind of video.", "object": "coin", "size": 88 } }
+    ]},
+    { "p": [21], "chapter": "Outside the chain", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 5", "title": "Claims 9–11: outside the chain" } },
+      { "card": { "style": "list", "title": "Where a hidden key could hide", "left_w": 260, "rows": [ { "left": "Solana", "right": "swap program" }, { "left": "Base", "right": "swap contract" }, { "left": "Arbitrum", "right": "swap contract" } ] } }
+    ]},
+    { "p": [22], "shots": [
+      { "img": "c-solana.png", "nosplit": true },
+      { "img": "e-solana.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [23], "shots": [
+      { "img": "e-owner.png", "w": 2, "nosplit": true },
+      { "img": "e-identical.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [24], "shots": [
+      { "img": "c-archive.png", "nosplit": true },
+      { "img": "e-archive.png", "w": 2, "nosplit": true },
+      { "card": { "style": "verdict", "rows": [ { "claim": "Solana swap program can't be changed", "result": "proven" }, { "claim": "Base + Arbitrum contracts: no owner", "result": "proven" }, { "claim": "Archived source matches its hash", "result": "proven" } ] } }
+    ]},
+    { "p": [25], "chapter": "What we couldn't check — and the typo", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 6", "title": "What we couldn't check — and the typo" } },
+      { "img": "e-unchecked.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [26], "shots": [
+      { "img": "e-mismatch.png", "w": 2, "nosplit": true },
+      { "card": { "style": "text", "text": "Not a hidden key.", "sub": "But exactly the kind of detail you only catch by checking.", "size": 110 } }
+    ]},
+    { "p": [27], "shots": [
+      { "img": "e-size.png", "nosplit": true },
+      { "img": "e-risks.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [28], "chapter": "The verdict", "shots": [
+      { "card": { "style": "chapter", "kicker": "CHAPTER 7", "title": "The verdict" } },
+      { "img": "e-scoreboard.png", "w": 2, "nosplit": true }
+    ]},
+    { "p": [29], "shots": [
+      { "card": { "style": "text", "text": "Rules that do what they say ≠ a good investment.", "sub": "Code that keeps its promises can still be worth nothing.", "size": 92, "tone": "highlight" } }
+    ]},
+    { "p": [30], "shots": [
+      { "img": "v-checklist.png", "w": 2, "nosplit": true },
+      { "card": { "style": "text", "text": "Not financial advice.", "sub": "Crypto is high risk. You can lose everything.", "tone": "loss", "size": 120 } }
+    ]},
+    { "p": [31], "shots": [
+      { "card": { "style": "text", "text": "Airlines earn billions from a credit card.", "sub": "That one's right here.", "object": "plane", "size": 92 } }
+    ]}
+  ],
+  "end_card": { "seconds": 12, "card": { "style": "text", "text": "Next: How Airlines Really Make Money", "sub": "A new price breakdown every Tuesday & Friday", "object": "plane", "size": 96 } }
+}

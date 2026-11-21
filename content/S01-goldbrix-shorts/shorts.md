@@ -7,7 +7,7 @@ Every YouTube description gets: `Sources: github.com/GOLDBRIX-GBX (source code &
 ## Short 1 — Who gets the fees?
 - **Publish:** Sun 22 Nov, 18:00
 - **Hook text:** This launchpad burns every fee
-- **Narration (≈ 95 words):** In twenty twenty-five, Solidus Labs reported that about ninety-eight percent of tokens launched on Pump fun showed rug-pull or pump-and-dump behavior. And most launchpads keep the fees. GoldBrix, a small proof-of-work project, says it does the opposite. Its code sends every launchpad fee to a burn address that nobody can spend from. A trade that doesn't burn its fee is simply invalid. Burning fees doesn't make a coin safe, or valuable. It only answers one question: who gets paid? Here, nobody. Not financial advice. Crypto is high risk.
+- **Narration (≈ 95 words):** In twenty twenty-five, Solidus Labs reported that about ninety-eight percent of tokens launched on Pump fun showed rug-pull or pump-and-dump behavior. And the biggest launchpad, Pump fun, keeps most of its trading fee. GoldBrix, a small proof-of-work project, says it does the opposite. Its code sends every launchpad fee to a burn address that nobody can spend from. A trade that doesn't burn its fee is simply invalid. Burning fees doesn't make a coin safe, or valuable. It only answers one question: who gets paid? Here, nobody. Not financial advice. Crypto is high risk.
 - **Visuals:** `v-rugpull.png`, `v-fees.png`
 - **YouTube Shorts title:** This Crypto Launchpad Burns Every Fee (37)
 - **TikTok / Reels caption:** Who gets paid when you trade a new token? Usually the platform. Here, nobody. Not financial advice. #crypto #explained #economics #pricewhy
@@ -15,7 +15,7 @@ Every YouTube description gets: `Sources: github.com/GOLDBRIX-GBX (source code &
 ## Short 2 — The founder threw away the keys
 - **Publish:** Tue 24 Nov, 18:00
 - **Hook text:** Its founder threw away the keys
-- **Narration (≈ 95 words):** Most crypto projects have a team that can mint coins, pause trading, or pull the money. GoldBrix says it has none. According to its own records, on August twenty-fifth, twenty twenty-six, its anonymous founder, known only as Gideon Brick, burned the treasury, about four hundred seventy thousand coins, and destroyed the release keys. The project lists the transaction IDs, so anyone can check. The upside: nobody can rug it. The downside: nobody can fix it either. Not financial advice. Crypto is high risk.
+- **Narration (≈ 95 words):** Many crypto projects keep a team key that can change the rules, pause trading, or move the money. GoldBrix says it has none. According to its own records, on August twenty-fifth, twenty twenty-six, its anonymous founder, known only as Gideon Brick, burned the treasury, about four hundred seventy thousand coins, and destroyed the release keys. The project lists the transaction IDs, so anyone can check. The upside: nobody can rug it. The downside: nobody can fix it either. Not financial advice. Crypto is high risk.
 - **Visuals:** `v-keys.png`, `v-tradeoff.png`
 - **YouTube Shorts title:** The Crypto Whose Founder Threw Away the Keys (44)
 - **TikTok / Reels caption:** No owner means no rug pull. It also means no one to fix bugs. Not financial advice. #crypto #explained #blockchain #pricewhy

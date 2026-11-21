@@ -16,7 +16,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Thu 3 Dec, 18:00
 - **Hook text:** A trading fee nobody collects
 - **Narration (≈ 80 words):** Every trade on the GoldBrix launchpad pays a fee: half a percent on the curve, three tenths of a percent on the pool. Here are the actual lines of code. Both say: burned, never collected. And a trade that doesn't send its fee to the burn address is simply rejected by the network. No team wallet, no treasury, no cut. The fee exists. It just doesn't go to anyone. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-fees.png`
+- **Visuals:** `c-fees.png` (the claim), then `e-fees.png` (the proof)
 - **YouTube Shorts title:** A Crypto Trading Fee That Nobody Collects (41)
 - **TikTok / Reels caption:** 0.5% and 0.3%, burned by rule. Here's the line of code. Not financial advice. #crypto #code #explained #pricewhy
 
@@ -24,7 +24,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Fri 4 Dec, 18:00
 - **Hook text:** This coin costs work, not money
 - **Narration (≈ 85 words):** On most launchpads, anyone with a few dollars can spam out thousands of tokens. GoldBrix makes you work instead. To create a coin, your device has to do proof-of-work for that specific coin: thirty-two times easier than mining a block, and the proof must be fresh. The money minimum? One satoshi, the smallest unit there is. The barrier is time on your device, which a big wallet can't skip. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-create.png`
+- **Visuals:** `c-create.png` (the claim), then `e-create.png` (the proof)
 - **YouTube Shorts title:** A Crypto Where Creating a Coin Costs Work (41)
 - **TikTok / Reels caption:** Anti-spam by design: proof-of-work per coin, 1 satoshi minimum. Not financial advice. #crypto #proofofwork #explained #pricewhy
 
@@ -32,7 +32,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Sat 5 Dec, 18:00
 - **Hook text:** There's no withdraw button
 - **Narration (≈ 80 words):** A rug pull usually means one thing: someone withdraws the money from the pool. So we looked for the withdraw function in GoldBrix's launchpad. Here's every operation the network accepts: create, buy, sell, refund, graduate, pool buy, pool sell. That's the whole list. There is no withdraw. If an operation isn't on the list, the chain rejects it. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-ops.png`
+- **Visuals:** `c-ops.png` (the claim), then `e-ops.png` (the proof)
 - **YouTube Shorts title:** We Looked for the Withdraw Button. There Isn't One. (51)
 - **TikTok / Reels caption:** Seven operations. No withdraw. Straight from the source code. Not financial advice. #crypto #rugpull #explained #pricewhy
 
@@ -40,7 +40,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Sun 6 Dec, 18:00
 - **Hook text:** What if nobody trades your coin?
 - **Narration (≈ 80 words):** Most new tokens die quietly, and whatever you put in is stuck. GoldBrix has a rule for that. If a coin's curve sees no trading for eight hundred sixty-four thousand blocks, refunds open up. At three seconds a block, that's exactly thirty days. The number is written into the code, and the project says the refund carries no fee. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-refund.png`
+- **Visuals:** `c-refund.png` (the claim), then `e-refund.png` (the proof)
 - **YouTube Shorts title:** The 30-Day Refund Rule Written Into a Crypto (44)
 - **TikTok / Reels caption:** 864,000 blocks × 3 seconds = 30 days. Then refunds open. Not financial advice. #crypto #math #explained #pricewhy
 
@@ -48,7 +48,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Mon 7 Dec, 18:00
 - **Hook text:** After 5 minutes, it's final
 - **Narration (≈ 80 words):** One way to attack a blockchain is to rewrite its recent history with more computing power. GoldBrix puts a hard limit on that. Its code rejects any rewrite deeper than one hundred blocks. At three seconds per block, that's about five minutes. After that, a transaction can't be undone by out-mining the network. The trade-off: it relies on nodes agreeing on that rule. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-reorg.png`
+- **Visuals:** `c-reorg.png` (the claim), then `e-reorg.png` (the proof)
 - **YouTube Shorts title:** The Crypto Rule That Makes Payments Final in 5 Minutes (54)
 - **TikTok / Reels caption:** 100 blocks × 3 seconds. One line of code. Not financial advice. #crypto #blockchain #explained #pricewhy
 
@@ -56,7 +56,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Tue 8 Dec, 18:00
 - **Hook text:** We asked Solana who owns it
 - **Narration (≈ 80 words):** GoldBrix swaps with USDC through a program on Solana. The project says nobody can ever change it. So we asked the Solana blockchain directly. Every upgradeable program has an upgrade authority, the key that can replace its code. For this one, the answer came back: null. No key. Nobody, including the people who wrote it, can upgrade it. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-solana.png`
+- **Visuals:** `c-solana.png` (the claim), then `e-solana.png` (the proof)
 - **YouTube Shorts title:** We Asked Solana Who Can Change This Program (43)
 - **TikTok / Reels caption:** "authority": null. Checked on Solana mainnet, 21 Nov 2026. Not financial advice. #crypto #solana #explained #pricewhy
 
@@ -72,7 +72,7 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Publish:** Thu 10 Dec, 18:00
 - **Hook text:** We downloaded their source and hashed it
 - **Narration (≈ 80 words):** When GoldBrix's founder walked away, the project says the final code was stored forever on Arweave, with its fingerprint published. So we downloaded it, thirteen point seven megabytes, and computed the SHA-256 hash ourselves. It matched, character for character. The second archive matched too. And the core rules inside are identical to the code on GitHub. Not financial advice. Crypto is high risk.
-- **Visuals:** `e-archive.png`
+- **Visuals:** `c-archive.png` (the claim), then `e-archive.png` (the proof)
 - **YouTube Shorts title:** We Downloaded a Crypto's Source and Hashed It (45)
 - **TikTok / Reels caption:** Both archives match their published SHA-256. Proof, not promises. Not financial advice. #crypto #opensource #explained #pricewhy
 
