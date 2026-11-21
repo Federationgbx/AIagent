@@ -87,4 +87,5 @@ Aceeași regulă pentru pragurile din `tools/analytics/review.py` și pentru doc
 
 - Gata: planul complet (docs 01–13), 6 skill-uri, uneltele de voce + montaj + Shorts, video-urile 001–003 FINITE (MP4 + kit + 5 Shorts fiecare) trimise utilizatorului. 003 Costco = lansarea, vineri 20.11.2026.
 - Utilizatorul: publică după `tracking/content-calendar.csv` (ghid: docs/13). Lunea exportă datele din Studio.
+- GoldBrix (excepția crypto): 5 Shorts S01 (22–30.11, 18:00), video lung L01 „We Fact-Checked a Crypto That Says It Has No Owner” (mie. 2.12, 21:00) + 12 Shorts L01 (2–13.12, 18:00) — toate livrate. Dovezi în `content/L01-goldbrix-audit/research-evidence.md`; nodurile GBX nu răspundeau la 21.11 → arderea tezaurului rămâne neverificată.
 - Următorul pas Claude: la „start week 1” — video-urile 004 (Crăciun, marți 1.12) și 005 (Australia, vineri 4.12), complete și randate, cu Shorts.
