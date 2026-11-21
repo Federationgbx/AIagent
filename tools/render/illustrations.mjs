@@ -98,6 +98,36 @@ export const illustrations = {
   <path d="M175 240 L345 240" stroke="#9C6B12" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
 </svg>`,
 
+  gift: () => `
+<svg viewBox="0 0 420 440" xmlns="http://www.w3.org/2000/svg">
+  <rect x="52" y="196" width="316" height="226" rx="10" fill="#E63946" stroke="#1B1B1F" stroke-width="6"/>
+  <rect x="300" y="199" width="65" height="220" fill="#C62F3C"/>
+  <rect x="183" y="196" width="54" height="226" fill="#FFD23F" stroke="#1B1B1F" stroke-width="6"/>
+  <rect x="30" y="146" width="360" height="68" rx="12" fill="#F2545F" stroke="#1B1B1F" stroke-width="6"/>
+  <rect x="183" y="146" width="54" height="68" fill="#FFD23F" stroke="#1B1B1F" stroke-width="6"/>
+  <path d="M210 146 C160 62 74 82 104 132 C120 158 178 154 210 146 Z" fill="#FFD23F" stroke="#1B1B1F" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M210 146 C260 62 346 82 316 132 C300 158 242 154 210 146 Z" fill="#FFD23F" stroke="#1B1B1F" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M132 118 Q160 112 186 136 M288 118 Q260 112 234 136" fill="none" stroke="#C99A2E" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="210" cy="144" rx="26" ry="22" fill="#F2B705" stroke="#1B1B1F" stroke-width="6"/>
+</svg>`,
+
+  house: () => `
+<svg viewBox="0 0 440 420" xmlns="http://www.w3.org/2000/svg">
+  <rect x="18" y="392" width="404" height="18" rx="9" fill="#2BD38A" stroke="#1B1B1F" stroke-width="5"/>
+  <rect x="292" y="58" width="48" height="110" fill="#B5432F" stroke="#1B1B1F" stroke-width="6"/>
+  <rect x="284" y="46" width="64" height="20" rx="4" fill="#8E3324" stroke="#1B1B1F" stroke-width="5"/>
+  <rect x="72" y="186" width="296" height="208" fill="#F4F1EA" stroke="#1B1B1F" stroke-width="6"/>
+  <rect x="72" y="186" width="296" height="26" fill="#DDD6C8"/>
+  <path d="M28 206 L220 52 L412 206 Z" fill="#E63946" stroke="#1B1B1F" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M84 196 L220 86 L356 196" fill="none" stroke="#C62F3C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="186" y="268" width="68" height="126" rx="6" fill="#2E6BFF" stroke="#1B1B1F" stroke-width="6"/>
+  <circle cx="240" cy="334" r="6" fill="#FFD23F" stroke="#1B1B1F" stroke-width="3"/>
+  ${[100, 280]
+    .map((x) => `<rect x="${x}" y="236" width="62" height="58" rx="6" fill="#FFD23F" stroke="#1B1B1F" stroke-width="6"/><path d="M${x + 31} 236 V294 M${x} 265 H${x + 62}" stroke="#1B1B1F" stroke-width="4"/>`)
+    .join("")}
+  <circle cx="220" cy="150" r="22" fill="#FFD23F" stroke="#1B1B1F" stroke-width="5"/>
+</svg>`,
+
   coin: () => `
 <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <circle cx="150" cy="150" r="130" fill="#FFD23F" stroke="#1B1B1F" stroke-width="8"/>

@@ -1,0 +1,1139 @@
+{
+ "music": [
+  {
+   "file": "bed-c-dorian.wav",
+   "from_p": 1
+  },
+  {
+   "file": "bed-a-minor.wav",
+   "from_p": 16
+  }
+ ],
+ "segments": [
+  {
+   "p": [
+    1
+   ],
+   "chapter": "The $420 partridge",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "$420.18",
+      "label": "A partridge in a pear tree",
+      "sub": "PNC Christmas Price Index, 2025",
+      "object": "gift",
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Inside the $420.18",
+      "left_w": 300,
+      "rows": [
+       {
+        "left": "$20.18",
+        "right": "the partridge"
+       },
+       {
+        "left": "$400.00",
+        "right": "the pear tree",
+        "tone": "loss"
+       }
+      ],
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$51,476",
+      "label": "All twelve days of the song",
+      "sub": "2025 · $51,476.12",
+      "object": "gift",
+      "size": 180,
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    2
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "A bank's tongue-in-cheek index, kept since 1984.",
+      "size": 100,
+      "source": "PNC Christmas Price Index"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$1.013T",
+      "label": "US holiday season forecast, Nov–Dec 2026",
+      "sub": "National Retail Federation",
+      "source": "NRF forecast, Oct 15, 2026"
+     }
+    },
+    {
+     "w": 1.3,
+     "img": "toys-100.png"
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "So why does Christmas feel more expensive every year?",
+      "size": 96
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Let's keep the receipt.",
+      "tone": "highlight",
+      "object": "gift",
+      "size": 120
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    3
+   ],
+   "chapter": "Nov 1: the meter starts",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 1 · NOVEMBER 1",
+      "title": "The meter starts"
+     }
+    },
+    {
+     "w": 1.2,
+     "img": "nrf-sales.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "+4.2%",
+      "label": "forecast growth over 2025",
+      "sub": "$972 billion → $1.013 trillion",
+      "source": "NRF forecast, Oct 15, 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    4
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "That trillion is not Christmas gifts.",
+      "tone": "highlight",
+      "object": "gift"
+     }
+    },
+    {
+     "w": 1.3,
+     "img": "trillion-card.png"
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Your groceries are in there too.",
+      "size": 110
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "≈ half",
+      "label": "of the expected growth is higher prices",
+      "sub": "NRF's chief economist, October 2026",
+      "source": "NRF blog, Mark Mathews, Oct 27, 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    5
+   ],
+   "shots": [
+    {
+     "img": "per-person-step01.png"
+    },
+    {
+     "img": "per-person.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$1,011",
+      "label": "Planned gift spending per person",
+      "sub": "Gallup, October 2026",
+      "object": "gift",
+      "source": "Gallup, Nov 6, 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    6
+   ],
+   "shots": [
+    {
+     "w": 1.3,
+     "img": "receipt-step01.png",
+     "focus": [
+      0.7,
+      0.3
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Remember that number.",
+      "size": 120
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    7
+   ],
+   "chapter": "Thanksgiving weekend: the rush",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 2 · THANKSGIVING",
+      "title": "The weekend rush"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "182.7M",
+      "label": "expected to shop Thanksgiving weekend",
+      "sub": "National Retail Federation, 2026",
+      "source": "NRF, Nov 19, 2026"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "64%",
+      "label": "plan to do most of their shopping then",
+      "sub": "five years ago: 51%",
+      "source": "NRF holiday survey, Oct 2026"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "47%",
+      "label": "want gift cards, the top wish",
+      "sub": "NRF holiday survey, October 2026",
+      "object": "gift",
+      "source": "NRF, Oct 20, 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    8
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "21.6M",
+      "label": "real Christmas trees bought in 2023",
+      "sub": "National Christmas Tree Association survey",
+      "source": "NCTA, 2023 consumer survey"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$75",
+      "label": "median price of a real tree, 2023",
+      "sub": "National Christmas Tree Association",
+      "source": "NCTA, 2023 consumer survey"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Up to a decade to grow.",
+      "sub": "according to the growers' association",
+      "size": 120,
+      "source": "CBS News, Dec 10, 2024"
+     }
+    },
+    {
+     "w": 1.3,
+     "card": {
+      "style": "text",
+      "text": "Real tree or fake? What did yours cost?",
+      "sub": "Tell us in the comments. We read them.",
+      "tone": "highlight",
+      "size": 96
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    9
+   ],
+   "shots": [
+    {
+     "img": "receipt-step02.png",
+     "focus": [
+      0.7,
+      0.35
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Let's start with the song.",
+      "object": "gift",
+      "size": 110
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    10
+   ],
+   "chapter": "December: the 12 days, priced",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 3 · DECEMBER",
+      "title": "The 12 days, priced"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "A bank has priced the song every year since 1984.",
+      "size": 96,
+      "source": "PNC Christmas Price Index"
+     }
+    },
+    {
+     "w": 1.3,
+     "card": {
+      "style": "stat",
+      "value": "$51,476.12",
+      "label": "The 12 days of Christmas, 2025",
+      "sub": "+4.5% · official inflation: 3%",
+      "size": 170,
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    11
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "$218,542.98",
+      "label": "Every gift, every verse: 364 gifts",
+      "sub": "2025",
+      "size": 150,
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    },
+    {
+     "w": 1.3,
+     "img": "twelve-days.png",
+     "focus": [
+      0.7,
+      0.5
+     ]
+    },
+    {
+     "img": "twelve-split-step02.png"
+    },
+    {
+     "w": 1.2,
+     "img": "twelve-split.png"
+    }
+   ]
+  },
+  {
+   "p": [
+    12
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "+32.5%",
+      "label": "Five gold rings, the biggest jump",
+      "sub": "gold itself rose even more",
+      "source": "PNC Christmas Price Index 2025"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Pause and guess.",
+      "sub": "Which gift hasn't changed price since 2009?",
+      "tone": "loss",
+      "size": 140
+     }
+    },
+    {
+     "w": 1.15,
+     "img": "maids-math.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$7.25",
+      "label": "the federal minimum wage",
+      "sub": "unchanged since July 24, 2009",
+      "source": "US Department of Labor"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    13
+   ],
+   "shots": [
+    {
+     "w": 1.2,
+     "img": "swans-lords.png",
+     "focus": [
+      0.3,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "A quarter of the entire bill.",
+      "sub": "Seven swans-a-swimming: $13,125",
+      "source": "PNC Christmas Price Index 2025"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "+$4.14",
+      "label": "Seven swans, 1984 → 2025",
+      "sub": "$13,120.86 → $13,125.00",
+      "source": "PNC By the Numbers (Nov 2023) · PNC 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    14
+   ],
+   "shots": [
+    {
+     "img": "swans-lords.png",
+     "focus": [
+      0.78,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "×5.8",
+      "tone": "loss",
+      "label": "Ten lords-a-leaping, 1984 → 2025",
+      "sub": "$2,903 → $16,836",
+      "source": "PNC By the Numbers (Nov 2023) · PNC 2025"
+     }
+    },
+    {
+     "img": "receipt-step03.png",
+     "focus": [
+      0.7,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    15
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Is the song really pricier than in 1984?",
+      "size": 100
+     }
+    },
+    {
+     "w": 1.3,
+     "img": "pnc-1984.png",
+     "focus": [
+      0.6,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "After inflation, the song got cheaper.",
+      "tone": "highlight",
+      "size": 100,
+      "source": "PNC · BLS CPI-U · our arithmetic"
+     }
+    },
+    {
+     "card": {
+      "style": "math",
+      "expr": "×5.6",
+      "sub": "the list without the swans, 1984 → 2025",
+      "source": "PNC ($6,902.71 → $38,351.12) · our arithmetic"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    16
+   ],
+   "chapter": "The twist: what actually got expensive",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 4 · THE TWIST",
+      "title": "What actually got expensive"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "The stuff got cheaper. The people got expensive.",
+      "tone": "highlight",
+      "size": 104
+     }
+    },
+    {
+     "w": 1.3,
+     "card": {
+      "style": "stat",
+      "value": "−71%",
+      "tone": "profit",
+      "label": "US toy price index, Oct 2000 → Oct 2026",
+      "sub": "all prices: +94%",
+      "object": "gift",
+      "source": "BLS CPI-U via FRED (toys; all items)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    17
+   ],
+   "shots": [
+    {
+     "w": 1.2,
+     "img": "toys-100.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$29",
+      "tone": "profit",
+      "label": "what $100 of year-2000 toys costs now",
+      "sub": "goods: $158 · services: $221",
+      "source": "BLS CPI-U via FRED, Oct 2000 → Oct 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    18
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Price indexes try to adjust for quality.",
+      "sub": "Part of the drop is better toys for the money.",
+      "size": 96
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "+9.1%",
+      "tone": "loss",
+      "label": "US toy prices, Oct 2024 → Oct 2026",
+      "sub": "all prices: +6.9%",
+      "source": "BLS CPI-U via FRED"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Not an American quirk.",
+      "object": "gift",
+      "size": 110
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    19
+   ],
+   "shots": [
+    {
+     "w": 0.7,
+     "card": {
+      "style": "text",
+      "text": "Price Board",
+      "sub": "Official toy price indexes, 2000 → 2026",
+      "tone": "highlight",
+      "size": 150
+     }
+    },
+    {
+     "w": 1.2,
+     "img": "price-board.png",
+     "nosplit": true
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Compare the direction, not the size.",
+      "sub": "Each country measures differently.",
+      "size": 100
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Since 2000",
+      "left_w": 330,
+      "rows": [
+       {
+        "left": "Toys",
+        "right": "down in all four countries",
+        "tone": "profit"
+       },
+       {
+        "left": "Everything",
+        "right": "up 77% to 105%",
+        "tone": "loss"
+       }
+      ],
+      "source": "BLS · ONS · Statistics Canada · ABS"
+     }
+    },
+    {
+     "w": 0.8,
+     "card": {
+      "style": "text",
+      "text": "The direction is the same everywhere.",
+      "tone": "highlight",
+      "object": "gift",
+      "size": 100
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    20
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Baumol's cost disease",
+      "sub": "William Baumol & William Bowen, 1966",
+      "tone": "highlight",
+      "size": 120,
+      "source": "Baumol & Bowen, Performing Arts: The Economic Dilemma (1966)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "A string quartet still needs four musicians.",
+      "sub": "Same players, same time, as always.",
+      "size": 100
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Factories get faster. A quartet can't.",
+      "size": 110
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Anything made of human time gets relatively pricier.",
+      "tone": "highlight",
+      "size": 100
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    21
+   ],
+   "shots": [
+    {
+     "w": 1.2,
+     "img": "gallup-budget.png",
+     "focus": [
+      0.5,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "math",
+      "expr": "$1,014 → $1,084",
+      "sub": "Gallup's Oct 2024 budget, in Oct 2026 dollars",
+      "size": 120,
+      "source": "Gallup · BLS CPI-U (315.664 → 337.511)"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "−7%",
+      "tone": "loss",
+      "label": "the typical gift budget, after inflation",
+      "sub": "$1,011 in 2026 vs $1,084",
+      "source": "Gallup · BLS CPI-U · our arithmetic"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    22
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "$778",
+      "tone": "loss",
+      "label": "Gallup's November 2025 estimate",
+      "sub": "the biggest mid-season drop it has recorded",
+      "source": "Gallup, Dec 4, 2025"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "+3.1%",
+      "label": "holiday sales growth anyway, 2025",
+      "sub": "$972 billion",
+      "source": "National Retail Federation"
+     }
+    },
+    {
+     "w": 1.3,
+     "card": {
+      "style": "quote",
+      "quote": "It's likely that higher-income households will do more of the heavy lifting this holiday season.",
+      "who": "Mark Mathews, NRF chief economist, Oct 2026",
+      "size": 60,
+      "source": "NRF blog, Oct 27, 2026"
+     }
+    },
+    {
+     "img": "receipt-step04.png",
+     "focus": [
+      0.7,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    23
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Every week, one price, line by line.",
+      "sub": "Subscribe for the next one.",
+      "size": 100
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Friday: Why Is Australia So Expensive?",
+      "object": "coin",
+      "size": 96
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    24
+   ],
+   "chapter": "Dec 26: the returns",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 5 · DECEMBER 26",
+      "title": "The returns"
+     }
+    },
+    {
+     "img": "returns-step01.png"
+    },
+    {
+     "img": "returns.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "9%",
+      "tone": "loss",
+      "label": "of all returns are fraudulent",
+      "sub": "retailers' estimate, 2025",
+      "source": "NRF + Happy Returns, Oct 15, 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    25
+   ],
+   "shots": [
+    {
+     "w": 1.15,
+     "img": "waldfogel-quote.png"
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "$66–$87",
+      "tone": "loss",
+      "label": "what a $100 gift was worth to the receiver",
+      "sub": "two surveys of Yale students, 1993",
+      "size": 170,
+      "source": "Waldfogel, American Economic Review, Dec 1993 (Table 1)"
+     }
+    },
+    {
+     "img": "gift-yield.png",
+     "focus": [
+      0.3,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    26
+   ],
+   "shots": [
+    {
+     "w": 1.3,
+     "img": "gift-yield.png",
+     "focus": [
+      0.7,
+      0.5
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Sentimental value counts.",
+      "size": 120
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "47%",
+      "label": "of shoppers ask for gift cards",
+      "sub": "NRF holiday survey, October 2026",
+      "object": "gift",
+      "source": "NRF, Oct 20, 2026"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "43%",
+      "label": "of US adults hold unused gift cards",
+      "sub": "average $244 · Bankrate survey, 2024",
+      "source": "Bankrate / YouGov, Sep 23, 2024"
+     }
+    },
+    {
+     "img": "receipt-step05.png",
+     "focus": [
+      0.7,
+      0.62
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    27
+   ],
+   "chapter": "January: the bill",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 6 · JANUARY",
+      "title": "The bill"
+     }
+    },
+    {
+     "w": 1.2,
+     "img": "debt-stat.png"
+    },
+    {
+     "w": 1.3,
+     "card": {
+      "style": "list",
+      "title": "Holiday debt, survey of Dec 2025",
+      "left_w": 200,
+      "rows": [
+       {
+        "left": "62%",
+        "right": "on credit cards"
+       },
+       {
+        "left": "35%",
+        "right": "buy now, pay later loans"
+       },
+       {
+        "left": "41%",
+        "right": "still paying off the year before",
+        "tone": "loss"
+       }
+      ],
+      "source": "LendingTree survey, Dec 10–15, 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    28
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "22.36%",
+      "label": "average rate on card accounts paying interest",
+      "sub": "Federal Reserve, August 2026",
+      "object": "card",
+      "source": "Federal Reserve G.19 (via FRED)"
+     }
+    },
+    {
+     "w": 1.2,
+     "card": {
+      "style": "math",
+      "expr": "$1,223 → ≈ $153",
+      "sub": "interest over 12 equal payments at 22.36%",
+      "size": 120,
+      "source": "our arithmetic (standard amortisation)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "One more gift. For the bank.",
+      "object": "card",
+      "size": 110
+     }
+    },
+    {
+     "img": "receipt-step06.png",
+     "focus": [
+      0.7,
+      0.7
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    29
+   ],
+   "chapter": "The verdict",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 7",
+      "title": "The verdict"
+     }
+    },
+    {
+     "w": 0.7,
+     "card": {
+      "style": "text",
+      "text": "Partly.",
+      "tone": "highlight",
+      "size": 200
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Yes: the totals keep setting records.",
+      "sub": "About half of this year's expected growth is higher prices.",
+      "tone": "loss",
+      "size": 96,
+      "source": "NRF, Oct 2026"
+     }
+    },
+    {
+     "w": 1.2,
+     "card": {
+      "style": "list",
+      "title": "But…",
+      "left_w": 160,
+      "rows": [
+       {
+        "left": "NO",
+        "right": "gift budget flat for three years",
+        "tone": "profit"
+       },
+       {
+        "left": "NO",
+        "right": "smaller after inflation",
+        "tone": "profit"
+       },
+       {
+        "left": "NO",
+        "right": "toys cheaper in all four countries",
+        "tone": "profit"
+       }
+      ],
+      "source": "Gallup · BLS · ONS · StatCan · ABS"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    30
+   ],
+   "shots": [
+    {
+     "w": 1.3,
+     "img": "receipt.png",
+     "focus": [
+      0.7,
+      0.8
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Not the stuff. The hours.",
+      "tone": "highlight",
+      "size": 130
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The partridge, 2025",
+      "left_w": 300,
+      "rows": [
+       {
+        "left": "$20.18",
+        "right": "the bird"
+       },
+       {
+        "left": "$400.00",
+        "right": "the tree",
+        "tone": "loss"
+       }
+      ],
+      "source": "PNC Christmas Price Index, Nov 24, 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    31
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Next: Why Is Australia So Expensive?",
+      "sub": "On Friday",
+      "object": "coin",
+      "size": 96
+     }
+    }
+   ]
+  }
+ ],
+ "end_card": {
+  "seconds": 12,
+  "card": {
+   "style": "text",
+   "text": "Next: Why Is Australia So Expensive?",
+   "sub": "A new price breakdown every Tuesday & Friday",
+   "object": "coin",
+   "size": 96
+  }
+ }
+}

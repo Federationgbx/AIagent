@@ -1,0 +1,511 @@
+{
+ "items": [
+  {
+   "type": "thumbnail",
+   "template": "D",
+   "object": "gift",
+   "out": "out/thumb-D-toys.png",
+   "headline": "SINCE 2000",
+   "bars": [
+    {
+     "label": "TOYS",
+     "value": 29,
+     "display": "−71%",
+     "tone": "profit"
+    },
+    {
+     "label": "ALL PRICES",
+     "value": 194,
+     "display": "+94%",
+     "tone": "loss",
+     "big": true
+    }
+   ]
+  },
+  {
+   "type": "thumbnail",
+   "template": "A",
+   "object": "gift",
+   "out": "out/thumb-A-receipt.png",
+   "headline": "$51,476",
+   "receipt_title": "12 DAYS · 2025",
+   "receipt_lines": [
+    {
+     "label": "Partridge",
+     "amount": "$20"
+    },
+    {
+     "label": "Pear tree",
+     "amount": "$400",
+     "circle": true
+    },
+    {
+     "label": "7 swans",
+     "amount": "$13,125"
+    }
+   ]
+  },
+  {
+   "type": "thumbnail",
+   "template": "C",
+   "object": "gift",
+   "out": "out/thumb-C-bird-tree.png",
+   "left": {
+    "label": "THE BIRD",
+    "value": "$20",
+    "tone": "profit"
+   },
+   "right": {
+    "label": "THE TREE",
+    "value": "$400",
+    "tone": "loss"
+   },
+   "hero_left": 440,
+   "hero_top": 120,
+   "hero_w": 330,
+   "hero_h": 320
+  },
+  {
+   "type": "compare",
+   "out": "out/nrf-sales.png",
+   "title": "US holiday sales, November–December",
+   "subtitle": "All retail except car dealers, gas stations and restaurants",
+   "bars": [
+    {
+     "label": "2025 (actual)",
+     "value": 972,
+     "display": "$972B",
+     "tone": "blue"
+    },
+    {
+     "label": "2026 (forecast)",
+     "value": 1013,
+     "display": "$1.013T",
+     "tone": "highlight"
+    }
+   ],
+   "source": "National Retail Federation, Oct 15, 2026",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "stacked",
+   "out": "out/per-person.png",
+   "title": "Planned spending per person, 2025",
+   "subtitle": "$890.49 per person — NRF holiday survey",
+   "segments": [
+    {
+     "label": "Gifts",
+     "value": 627.93,
+     "display": "$627.93 · 70%",
+     "tone": "highlight"
+    },
+    {
+     "label": "Food, decorations, cards, other",
+     "value": 262.56,
+     "display": "$262.56 · 30%",
+     "tone": "blue"
+    }
+   ],
+   "source": "NRF / Prosper holiday survey, Oct 1–7, 2025 (8,247 adults)",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "compare",
+   "out": "out/gallup-budget.png",
+   "title": "What Americans expect to spend on gifts",
+   "subtitle": "Gallup's average estimate — flat for three Octobers",
+   "bars": [
+    {
+     "label": "Oct 2023",
+     "value": 923,
+     "display": "$923",
+     "tone": "neutral"
+    },
+    {
+     "label": "Oct 2024",
+     "value": 1014,
+     "display": "$1,014",
+     "tone": "neutral"
+    },
+    {
+     "label": "Oct 2025",
+     "value": 1007,
+     "display": "$1,007",
+     "tone": "neutral"
+    },
+    {
+     "label": "Nov 2025",
+     "value": 778,
+     "display": "$778",
+     "tone": "loss"
+    },
+    {
+     "label": "Oct 2026",
+     "value": 1011,
+     "display": "$1,011",
+     "tone": "highlight"
+    }
+   ],
+   "source": "Gallup, Oct 2023 – Oct 2026 (Nov 2025 = record mid-season drop)",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "receipt",
+   "object": "gift",
+   "out": "out/receipt.png",
+   "title": "The Christmas receipt",
+   "receipt_title": "SEASON 2026",
+   "lines": [
+    {
+     "label": "Gift budget",
+     "amount": "$1,011",
+     "note": "Gallup, Oct 2026"
+    },
+    {
+     "label": "Thanksgiving rush",
+     "amount": "64%",
+     "note": "do most shopping then · NRF 2026"
+    },
+    {
+     "label": "The 12 days",
+     "amount": "$51,476",
+     "note": "PNC Christmas Price Index, 2025"
+    },
+    {
+     "label": "Toys vs 2000",
+     "amount": "−71%",
+     "note": "BLS toy price index, Oct 2026",
+     "tone": "profit"
+    },
+    {
+     "label": "Returned",
+     "amount": "17%",
+     "note": "of holiday sales · NRF 2025"
+    },
+    {
+     "label": "January debt",
+     "amount": "$1,223",
+     "note": "average, for those who borrowed",
+     "tone": "loss"
+    }
+   ],
+   "total": {
+    "label": "REAL COST",
+    "amount": "TIME"
+   },
+   "source": "Gallup · NRF · PNC · BLS · LendingTree (details in the description)",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "receipt",
+   "object": "gift",
+   "out": "out/twelve-days.png",
+   "title": "The 12 days of Christmas, priced",
+   "receipt_title": "PNC INDEX · 2025",
+   "lines": [
+    {
+     "label": "Partridge",
+     "amount": "$20.18"
+    },
+    {
+     "label": "Pear tree",
+     "amount": "$400.00"
+    },
+    {
+     "label": "5 gold rings",
+     "amount": "$1,649.90",
+     "note": "+32.5% vs 2024"
+    },
+    {
+     "label": "4 kinds of birds",
+     "amount": "$2,626.46",
+     "note": "doves, hens, calling birds, geese"
+    },
+    {
+     "label": "7 swans",
+     "amount": "$13,125.00"
+    },
+    {
+     "label": "Performers",
+     "amount": "$33,654.58",
+     "note": "maids, ladies, lords, pipers, drummers",
+     "tone": "loss"
+    }
+   ],
+   "total": {
+    "label": "TOTAL",
+    "amount": "$51,476.12"
+   },
+   "source": "PNC Christmas Price Index, Nov 24, 2025",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "stacked",
+   "out": "out/twelve-split.png",
+   "title": "Who gets paid in the 12 days of Christmas",
+   "subtitle": "PNC Christmas Price Index 2025 — $51,476.12",
+   "segments": [
+    {
+     "label": "Tree + rings",
+     "value": 2049.9,
+     "display": "4%",
+     "tone": "highlight"
+    },
+    {
+     "label": "Birds, partridge to swans",
+     "value": 15771.64,
+     "display": "$15,772 · 31%",
+     "tone": "blue"
+    },
+    {
+     "label": "People: maids, ladies, lords, pipers, drummers",
+     "value": 33654.58,
+     "display": "$33,655 · 65%",
+     "tone": "loss"
+    }
+   ],
+   "source": "PNC Christmas Price Index 2025 · our arithmetic",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "compare",
+   "out": "out/pnc-1984.png",
+   "title": "The 12 days: 1984 vs 2025",
+   "subtitle": "By PNC's count, adjusted with the US consumer price index",
+   "bars": [
+    {
+     "label": "1984 price",
+     "value": 20024,
+     "display": "$20,024",
+     "tone": "neutral"
+    },
+    {
+     "label": "1984 price in 2025 dollars",
+     "value": 62045,
+     "display": "$62,045",
+     "tone": "blue"
+    },
+    {
+     "label": "2025 price",
+     "value": 51476,
+     "display": "$51,476",
+     "tone": "highlight"
+    }
+   ],
+   "source": "PNC (1984 figure, Nov 2023) · BLS CPI-U annual avg 1984 = 103.9, 2025 = 321.943",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "compare",
+   "out": "out/swans-lords.png",
+   "title": "The birds stood still. The people didn't.",
+   "subtitle": "PNC Christmas Price Index, 1984 vs 2025",
+   "bars": [
+    {
+     "label": "7 swans, 1984",
+     "value": 13121,
+     "display": "$13,121",
+     "tone": "blue"
+    },
+    {
+     "label": "7 swans, 2025",
+     "value": 13125,
+     "display": "$13,125",
+     "tone": "blue"
+    },
+    {
+     "label": "10 lords, 1984",
+     "value": 2903,
+     "display": "$2,903",
+     "tone": "neutral"
+    },
+    {
+     "label": "10 lords, 2025",
+     "value": 16836,
+     "display": "$16,836",
+     "tone": "loss"
+    }
+   ],
+   "source": "PNC \"By the Numbers\" (Nov 16, 2023) · PNC Christmas Price Index 2025",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "compare",
+   "out": "out/toys-100.png",
+   "title": "What $100 of year-2000 prices costs now",
+   "subtitle": "US consumer price indexes, October 2000 → October 2026",
+   "bars": [
+    {
+     "label": "Toys",
+     "value": 29.04,
+     "display": "$29",
+     "tone": "profit"
+    },
+    {
+     "label": "Goods",
+     "value": 158.17,
+     "display": "$158",
+     "tone": "neutral"
+    },
+    {
+     "label": "Everything",
+     "value": 193.97,
+     "display": "$194",
+     "tone": "highlight"
+    },
+    {
+     "label": "Services",
+     "value": 220.54,
+     "display": "$221",
+     "tone": "loss"
+    }
+   ],
+   "source": "BLS CPI-U, not seasonally adjusted (via FRED): toys, commodities, all items, services",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "card",
+   "style": "table",
+   "out": "out/price-board.png",
+   "title": "Price Board: toys vs all prices, 2000 → 2026",
+   "head": [
+    "",
+    "Toy price index",
+    "All prices"
+   ],
+   "rows": [
+    [
+     "United States",
+     "−71.0%",
+     "+94.0%"
+    ],
+    [
+     "United Kingdom",
+     "−25.5%",
+     "+98.2%"
+    ],
+    [
+     "Canada",
+     "−5.0%",
+     "+76.9%"
+    ],
+    [
+     "Australia",
+     "−10.6%",
+     "+104.9%"
+    ]
+   ],
+   "source": "BLS · ONS · Statistics Canada · ABS — Oct 2000 → Oct 2026 (AU: Sep quarter); each agency measures differently"
+  },
+  {
+   "type": "stacked",
+   "out": "out/returns.png",
+   "title": "2025 holiday sales: what comes back",
+   "subtitle": "$972 billion · retailers expect 17% to be returned",
+   "segments": [
+    {
+     "label": "Kept",
+     "value": 806.8,
+     "display": "≈ $807B · 83%",
+     "tone": "blue"
+    },
+    {
+     "label": "Returned",
+     "value": 165.2,
+     "display": "≈ $165B · 17%",
+     "tone": "loss"
+    }
+   ],
+   "source": "NRF + Happy Returns, Oct 15, 2025 (retailers' expectation) · NRF 2025 sales · our math",
+   "brand": "PRICEWHY"
+  },
+  {
+   "type": "compare",
+   "out": "out/gift-yield.png",
+   "title": "A $100 gift, valued by the receiver",
+   "bars": [
+    {
+     "label": "Waldfogel 1993, survey 1",
+     "value": 66.1,
+     "display": "$66",
+     "tone": "loss"
+    },
+    {
+     "label": "Waldfogel 1993, survey 2",
+     "value": 87.1,
+     "display": "$87",
+     "tone": "loss"
+    },
+    {
+     "label": "Broader survey (median)",
+     "value": 111,
+     "display": "$111",
+     "tone": "profit"
+    },
+    {
+     "label": "Real-money experiment",
+     "value": 135,
+     "display": "$135",
+     "tone": "profit"
+    }
+   ],
+   "source": "Waldfogel, American Economic Review, Dec 1993 (Table 1) · AEA Research Highlights, Dec 28, 2015",
+   "brand": "PRICEWHY",
+   "subtitle": "What recipients said it was worth, per $100 the giver spent"
+  },
+  {
+   "type": "card",
+   "style": "math",
+   "out": "out/maids-math.png",
+   "expr": "8 × $7.25 = $58",
+   "sub": "Eight maids-a-milking, priced at the federal minimum wage — unchanged since July 24, 2009",
+   "object": "gift",
+   "source": "PNC Christmas Price Index 2025 · US Department of Labor",
+   "size": 110
+  },
+  {
+   "type": "card",
+   "style": "list",
+   "out": "out/trillion-card.png",
+   "title": "The $1.013 trillion forecast includes…",
+   "left_w": 150,
+   "rows": [
+    {
+     "left": "IN",
+     "right": "nearly all retail sales, Nov 1 – Dec 31",
+     "tone": "highlight"
+    },
+    {
+     "left": "IN",
+     "right": "online sales and everyday shopping"
+    },
+    {
+     "left": "OUT",
+     "right": "car dealers, gas stations, restaurants",
+     "tone": "loss"
+    }
+   ],
+   "source": "National Retail Federation forecast, Oct 15, 2026"
+  },
+  {
+   "type": "card",
+   "style": "quote",
+   "out": "out/waldfogel-quote.png",
+   "quote": "Holiday gift-giving destroys between 10 percent and a third of the value of gifts.",
+   "who": "Joel Waldfogel, economist, AER, Dec 1993",
+   "object": "gift",
+   "source": "Waldfogel (1993), The Deadweight Loss of Christmas, p. 1328"
+  },
+  {
+   "type": "card",
+   "style": "stat",
+   "out": "out/debt-stat.png",
+   "value": "$1,223",
+   "tone": "loss",
+   "label": "Average new holiday debt",
+   "sub": "37% of consumers borrowed · survey, Dec 2025",
+   "object": "card",
+   "source": "LendingTree survey, Dec 10–15, 2025 (2,032 adults)"
+  }
+ ]
+}

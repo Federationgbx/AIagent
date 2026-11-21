@@ -1,0 +1,607 @@
+{
+  "items": [
+    {
+      "type": "thumbnail",
+      "template": "D",
+      "object": "house",
+      "out": "out/thumb-D-sydney-14x.png",
+      "bars": [
+        {
+          "label": "LONDON",
+          "value": 8.5,
+          "display": "8.5×",
+          "tone": "neutral"
+        },
+        {
+          "label": "SYDNEY",
+          "value": 14,
+          "display": "14×",
+          "tone": "loss",
+          "big": true
+        }
+      ],
+      "headline": "HOUSE ÷ PAY"
+    },
+    {
+      "type": "thumbnail",
+      "template": "C",
+      "object": "coin",
+      "out": "out/thumb-C-bigmac.png",
+      "left": {
+        "label": "BIG MAC · USA",
+        "value": "$6.22",
+        "tone": "neutral"
+      },
+      "right": {
+        "label": "AUSTRALIA",
+        "value": "$5.95",
+        "tone": "profit"
+      }
+    },
+    {
+      "type": "thumbnail",
+      "template": "B",
+      "object": "plane",
+      "out": "out/thumb-B-shipping-1c.png",
+      "slices": [
+        {
+          "label": "SHIPPING",
+          "value": "≈1¢",
+          "tone": "neutral"
+        },
+        {
+          "label": "THE REST",
+          "value": "99¢",
+          "tone": "loss",
+          "big": true
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "out": "out/housing-cities.png",
+      "title": "House price ÷ household income",
+      "subtitle": "Demographia 2026 edition (Q3 2025 data) · Sydney: 2nd least affordable of 95 markets",
+      "bars": [
+        {
+          "label": "London",
+          "value": 8.5,
+          "display": "8.5×",
+          "tone": "neutral"
+        },
+        {
+          "label": "Los Angeles",
+          "value": 10.7,
+          "display": "10.7×",
+          "tone": "neutral"
+        },
+        {
+          "label": "Vancouver",
+          "value": 10.8,
+          "display": "10.8×",
+          "tone": "neutral"
+        },
+        {
+          "label": "Sydney",
+          "value": 14.0,
+          "display": "14.0×",
+          "tone": "loss"
+        }
+      ],
+      "source": "Demographia International Housing Affordability 2026, as reported by Canstar (Jul 2026)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/price-level-now.png",
+      "title": "The same basket of household spending",
+      "subtitle": "September 2026 · US = 100 · OECD estimate at market exchange rates",
+      "bars": [
+        {
+          "label": "United States",
+          "value": 100,
+          "display": "100",
+          "tone": "neutral"
+        },
+        {
+          "label": "United Kingdom",
+          "value": 92,
+          "display": "92",
+          "tone": "neutral"
+        },
+        {
+          "label": "Canada",
+          "value": 87,
+          "display": "87",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australia",
+          "value": 103,
+          "display": "103",
+          "tone": "highlight"
+        }
+      ],
+      "source": "OECD, Monthly comparative price levels (Sep 2026)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/bigmac.png",
+      "title": "One Big Mac, in US dollars",
+      "subtitle": "July 2026 · local prices at July 2026 exchange rates",
+      "bars": [
+        {
+          "label": "United Kingdom (£5.49)",
+          "value": 7.4,
+          "display": "$7.40",
+          "tone": "loss"
+        },
+        {
+          "label": "United States ($6.22)",
+          "value": 6.22,
+          "display": "$6.22",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australia (A$8.50)",
+          "value": 5.95,
+          "display": "$5.95",
+          "tone": "highlight"
+        },
+        {
+          "label": "Canada (C$8.17)",
+          "value": 5.81,
+          "display": "$5.81",
+          "tone": "neutral"
+        }
+      ],
+      "source": "The Economist, Big Mac index data (Jul 2026)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/groceries-wages.png",
+      "title": "Late 2021 to the end of 2024, in Australia",
+      "bars": [
+        {
+          "label": "Grocery prices",
+          "value": 17,
+          "display": "+17%",
+          "tone": "loss"
+        },
+        {
+          "label": "Wages",
+          "value": 11,
+          "display": "+11%",
+          "tone": "neutral"
+        }
+      ],
+      "source": "ACCC Supermarkets Inquiry final report (2025): CPI food vs Wage Price Index",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/freight.png",
+      "title": "Shipping cost per $1 of imported goods",
+      "bars": [
+        {
+          "label": "Before COVID",
+          "value": 3.5,
+          "display": "3–4¢",
+          "tone": "neutral"
+        },
+        {
+          "label": "Peak, Feb 2022",
+          "value": 7.0,
+          "display": "7¢",
+          "tone": "loss"
+        },
+        {
+          "label": "March 2023",
+          "value": 4.6,
+          "display": "4.6¢",
+          "tone": "neutral"
+        }
+      ],
+      "source": "ABS, Spotlight on recent trends in freight costs (4 May 2023)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked",
+      "out": "out/basket.png",
+      "steps": false,
+      "title": "What's in the consumer price basket?",
+      "subtitle": "Goods that can come by ship (leaving out volatile items like fuel) are about a quarter of it",
+      "segments": [
+        {
+          "label": "Shippable goods",
+          "value": 25,
+          "display": "≈ 25%",
+          "tone": "blue"
+        },
+        {
+          "label": "Rent, services, power, volatile and government-set items",
+          "value": 75,
+          "display": "≈ 75%",
+          "tone": "neutral"
+        }
+      ],
+      "source": "RBA Bulletin, How do changes in global shipping costs affect Australian inflation? (Jul 2025)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/shipped-vs-local.png",
+      "title": "Australian prices vs US prices, 2024",
+      "subtitle": "US = 100 · shipped from far away on the left, made or taxed at home on the right",
+      "bars": [
+        {
+          "label": "Clothing & shoes",
+          "value": 69.5,
+          "display": "69.5",
+          "tone": "profit"
+        },
+        {
+          "label": "New cars",
+          "value": 78.6,
+          "display": "78.6",
+          "tone": "profit"
+        },
+        {
+          "label": "Food",
+          "value": 101,
+          "display": "101",
+          "tone": "neutral"
+        },
+        {
+          "label": "Restaurants & hotels",
+          "value": 115,
+          "display": "115",
+          "tone": "loss"
+        },
+        {
+          "label": "Alcohol",
+          "value": 152,
+          "display": "152",
+          "tone": "loss"
+        }
+      ],
+      "source": "OECD, PPP detailed results: price level indices (2024)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/australia-tax.png",
+      "title": "The same song on iTunes, 2013 inquiry",
+      "subtitle": "Most common price per track · the A$ and US$ were near parity · songs averaged +51%",
+      "bars": [
+        {
+          "label": "US store",
+          "value": 1.29,
+          "display": "US$1.29",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australian store",
+          "value": 2.19,
+          "display": "A$2.19",
+          "tone": "loss"
+        }
+      ],
+      "source": "House of Representatives, At what cost? IT pricing and the Australia tax (Jul 2013), citing Choice",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "stacked",
+      "out": "out/supermarkets.png",
+      "steps": false,
+      "title": "Who sells Australia's groceries",
+      "subtitle": "Share of supermarket grocery sales, FY2023 · total ≈ A$126.5 billion",
+      "segments": [
+        {
+          "label": "Woolworths",
+          "value": 38,
+          "display": "38%",
+          "tone": "loss"
+        },
+        {
+          "label": "Coles",
+          "value": 29,
+          "display": "29%",
+          "tone": "loss"
+        },
+        {
+          "label": "ALDI",
+          "value": 9,
+          "display": "9%",
+          "tone": "blue"
+        },
+        {
+          "label": "Metcash-supplied",
+          "value": 7,
+          "display": "7%",
+          "tone": "highlight"
+        },
+        {
+          "label": "Other",
+          "value": 17,
+          "display": "17%",
+          "tone": "neutral"
+        }
+      ],
+      "source": "ACCC Supermarkets Inquiry final report (2025), Table 2.1",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/food-board.png",
+      "title": "Food and soft drinks, 2024",
+      "subtitle": "Price level · US = 100",
+      "bars": [
+        {
+          "label": "United States",
+          "value": 100,
+          "display": "100",
+          "tone": "neutral"
+        },
+        {
+          "label": "United Kingdom",
+          "value": 85.1,
+          "display": "85",
+          "tone": "neutral"
+        },
+        {
+          "label": "Canada",
+          "value": 108,
+          "display": "108",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australia",
+          "value": 101,
+          "display": "101",
+          "tone": "highlight"
+        }
+      ],
+      "source": "OECD, PPP detailed results: price level indices (2024)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/min-wage.png",
+      "title": "Minimum wage per hour, in US dollars",
+      "subtitle": "2025 · at market exchange rates · US = federal minimum",
+      "bars": [
+        {
+          "label": "United States",
+          "value": 7.25,
+          "display": "$7.25",
+          "tone": "neutral"
+        },
+        {
+          "label": "United Kingdom",
+          "value": 15.83,
+          "display": "$15.83",
+          "tone": "neutral"
+        },
+        {
+          "label": "Canada",
+          "value": 11.85,
+          "display": "$11.85",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australia",
+          "value": 15.81,
+          "display": "$15.81",
+          "tone": "highlight"
+        }
+      ],
+      "source": "OECD, Real minimum wages (2025)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/avg-wage.png",
+      "title": "Average annual wage, 2025",
+      "subtitle": "US dollars at purchasing power parity",
+      "bars": [
+        {
+          "label": "United States",
+          "value": 86977,
+          "display": "$87.0k",
+          "tone": "neutral"
+        },
+        {
+          "label": "United Kingdom",
+          "value": 66299,
+          "display": "$66.3k",
+          "tone": "neutral"
+        },
+        {
+          "label": "Canada",
+          "value": 67901,
+          "display": "$67.9k",
+          "tone": "neutral"
+        },
+        {
+          "label": "Australia",
+          "value": 72018,
+          "display": "$72.0k",
+          "tone": "highlight"
+        }
+      ],
+      "source": "OECD, Average annual wages (2025)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/time-machine.png",
+      "title": "Australia's prices vs America's (US = 100)",
+      "subtitle": "Same basket of household spending, at market exchange rates",
+      "bars": [
+        {
+          "label": "2008",
+          "value": 128,
+          "display": "128",
+          "tone": "neutral"
+        },
+        {
+          "label": "2012",
+          "value": 160,
+          "display": "160",
+          "tone": "loss"
+        },
+        {
+          "label": "2019",
+          "value": 109,
+          "display": "109",
+          "tone": "neutral"
+        },
+        {
+          "label": "2025",
+          "value": 94,
+          "display": "94",
+          "tone": "profit"
+        },
+        {
+          "label": "Sep 2026",
+          "value": 103,
+          "display": "103",
+          "tone": "highlight"
+        }
+      ],
+      "source": "OECD PPPs ÷ exchange rates (annual); Sep 2026 = OECD monthly estimate",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "compare",
+      "out": "out/housing-5y.png",
+      "title": "Australia, five years to September 2025",
+      "bars": [
+        {
+          "label": "Household income",
+          "value": 20.0,
+          "display": "+20%",
+          "tone": "neutral"
+        },
+        {
+          "label": "Home values",
+          "value": 53.5,
+          "display": "+53.5%",
+          "tone": "loss"
+        },
+        {
+          "label": "Rents",
+          "value": 53.3,
+          "display": "+53.3%",
+          "tone": "loss"
+        }
+      ],
+      "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)",
+      "brand": "PRICEWHY"
+    },
+    {
+      "type": "card",
+      "style": "table",
+      "out": "out/price-board.png",
+      "title": "Price Board",
+      "head": [
+        "",
+        "US",
+        "UK",
+        "Canada",
+        "Australia"
+      ],
+      "rows": [
+        [
+          "Basket (US = 100)",
+          "100",
+          "92",
+          "87",
+          "103"
+        ],
+        [
+          "Big Mac (US$)",
+          "6.22",
+          "7.40",
+          "5.81",
+          "5.95"
+        ],
+        [
+          "Min. wage (US$/h)",
+          "7.25",
+          "15.83",
+          "11.85",
+          "15.81"
+        ],
+        [
+          "Avg wage (US$k)",
+          "87.0",
+          "66.3",
+          "67.9",
+          "72.0"
+        ],
+        [
+          "City house ÷ pay",
+          "10.7 LA",
+          "8.5 London",
+          "10.8 Van.",
+          "14.0 Sydney"
+        ]
+      ],
+      "source": "OECD (basket Sep 2026; wages 2025, avg at PPP); The Economist (Jul 2026); Demographia 2026 via Canstar"
+    },
+    {
+      "type": "card",
+      "style": "list",
+      "out": "out/verdict.png",
+      "title": "The verdict",
+      "left_w": 340,
+      "rows": [
+        {
+          "left": "Distance",
+          "right": "Small accomplice: ≈1¢ per $1 in a city",
+          "tone": "profit"
+        },
+        {
+          "left": "Supermarkets",
+          "right": "A contributor, not the mastermind",
+          "tone": "highlight"
+        },
+        {
+          "left": "Tobacco tax",
+          "right": "Guilty, on purpose",
+          "tone": "loss"
+        },
+        {
+          "left": "Wages",
+          "right": "The price of higher pay",
+          "tone": "neutral"
+        },
+        {
+          "left": "Currency",
+          "right": "Made 2012 look 60% dearer",
+          "tone": "neutral"
+        },
+        {
+          "left": "Housing",
+          "right": "Sydney: 14 years of income",
+          "tone": "loss"
+        }
+      ],
+      "source": "Pricewhy analysis of OECD, ABS, RBA, ACCC, Cotality and Demographia data"
+    },
+    {
+      "type": "card",
+      "style": "stat",
+      "out": "out/fx.png",
+      "value": "A$1 = US$0.64",
+      "size": 170,
+      "label": "in 2025. In 2012, it bought slightly more than US$1.",
+      "sub": "Annual averages: 1.552 and 0.966 A$ per US$",
+      "source": "OECD, annual exchange rates (2012, 2025)"
+    }
+  ]
+}
