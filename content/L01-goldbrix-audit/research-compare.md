@@ -78,3 +78,10 @@ Confidence: **proven** = primary source (official docs, report, filing, DefiLlam
 - "Gotbit's founder served 8 months in prison" (time served).
 - Satoshi's holdings (~1M BTC estimates are unverified); "halves exactly every 4 years" (it's 210,000 blocks).
 - S01 line "Most crypto projects have a team that can mint coins, pause trading, or pull the money": no dataset supports "most"; use "many projects keep such controls".
+
+## 7b. Addendum (21 Nov 2026): Bitcoin's founder walked away
+| Claim | Value | Source | Confidence |
+|---|---|---|---|
+| Satoshi Nakamoto's last public forum post | 12 Dec 2010 (Bitcointalk; some records show a login on 13 Dec) | https://blockworks.co/news/satoshi-nakamoto-last-online ; https://news.bit2me.com/en/December-12--2010-Satoshi-Nakamoto-wrote-his-last-message | proven (date of post) |
+| Last known private emails | April 2011 (to Mike Hearn, 23 Apr; to Gavin Andresen, 26 Apr): had "moved on to other things" (wording varies by outlet) | https://cointelegraph.com/news/satoshi-nakamoto-final-email-revisited-after-13-years | probable |
+Do NOT claim: an exact quote beyond "moved on"; that Bitcoin is "abandoned" (its founder left; development continued by others).

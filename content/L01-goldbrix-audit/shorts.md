@@ -83,3 +83,11 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Visuals:** `e-unchecked.png`, `e-risks.png`
 - **YouTube Shorts title:** What We Could Not Verify About This Crypto (42)
 - **TikTok / Reels caption:** Honest limits of our check. Code ≠ investment. Not financial advice. #crypto #factcheck #explained #pricewhy
+
+## Short 11 — Abandoned, like Bitcoin?
+- **Publish:** Sat 12 Dec, 18:00
+- **Hook text:** Abandoned — like Bitcoin?
+- **Narration (≈ 85 words):** GoldBrix's founder walked away on purpose. So did Bitcoin's. Satoshi Nakamoto posted publicly for the last time in December twenty ten, and in April twenty eleven told other developers he had moved on. Bitcoin didn't die, because independent people all over the world kept running it. That's the real test for any network without an owner: does anyone else keep it alive? When we checked GoldBrix, its public servers didn't answer. Not financial advice. Crypto is high risk.
+- **Visuals:** `e-founders.png`, `e-unchecked.png`
+- **YouTube Shorts title:** Abandoned on Purpose, Like Bitcoin? (35)
+- **TikTok / Reels caption:** Two founders who walked away. One test that matters. Not financial advice. #crypto #bitcoin #explained #pricewhy

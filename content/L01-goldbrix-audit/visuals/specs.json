@@ -425,6 +425,29 @@
    "style": "chapter",
    "kicker": "THE CLAIM",
    "title": "The final code is stored forever"
+  },
+  {
+   "type": "card",
+   "out": "out/e-founders.png",
+   "style": "list",
+   "title": "Two founders who walked away",
+   "left_w": 300,
+   "rows": [
+    {
+     "left": "Bitcoin",
+     "right": "Satoshi: last post Dec 2010, moved on Apr 2011"
+    },
+    {
+     "left": "GoldBrix",
+     "right": "'Gideon Brick': exit 25 Aug 2026 (project docs)"
+    },
+    {
+     "left": "The test",
+     "right": "does anyone else keep it running?",
+     "tone": "highlight"
+    }
+   ],
+   "source": "Blockworks; Cointelegraph; GoldBrix docs/GATE-R.md"
   }
  ]
 }

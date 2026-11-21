@@ -74,7 +74,7 @@ Sources: `research-evidence.md` (our own checks) and `research-compare.md` (mark
 
 ¶26 And the mistake. In the document describing the founder's exit, the Base contract address has a one-digit typo. At the address as written, there's no contract at all. The real one, listed in another file, is where we found the code. It's not a hidden key. But it's exactly the kind of detail you only catch by checking.
 
-¶27 And there's a lot the code can't tell you. Whether anyone actually uses it. What it's worth, if anything. On GitHub, it has three repositories and a handful of stars. We found no independent security audit. And no owner cuts both ways. Nobody can rug it. Nobody can fix a bug either.
+¶27 Is it abandoned? By design, yes. Its founder walked away on purpose, the way Bitcoin's did. Satoshi Nakamoto posted publicly for the last time in December twenty ten, and in April twenty eleven told other developers he had moved on. Bitcoin survived because independent people all over the world kept running it. Whether GoldBrix survives depends on exactly the same thing. And when we checked, its public servers didn't answer. [pause] And there's a lot the code can't tell you. Whether anyone actually uses it. What it's worth, if anything. On GitHub, it has three repositories and a handful of stars. We found no independent security audit. And no owner cuts both ways. Nobody can rug it. Nobody can fix a bug either.
 
 **[CHAPTER 7 — The verdict]**
 
@@ -112,3 +112,4 @@ Sources: `research-evidence.md` (our own checks) and `research-compare.md` (mark
 | ≈ 470,000 GBX treasury burn claim, 25 Aug 2026; nodes unreachable | research-evidence D |
 | Typo in exit document | research-evidence B (mismatch) |
 | 3 repos, a handful of stars; no audit found | research-evidence E |
+| Satoshi: last public post Dec 2010; told developers he had moved on, Apr 2011 | research-compare §7 addendum (Blockworks, Cointelegraph) |
