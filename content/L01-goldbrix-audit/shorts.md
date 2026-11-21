@@ -91,3 +91,11 @@ Every YouTube description gets: `Every check in this Short can be repeated: sour
 - **Visuals:** `e-founders.png`, `e-unchecked.png`
 - **YouTube Shorts title:** Abandoned on Purpose, Like Bitcoin? (35)
 - **TikTok / Reels caption:** Two founders who walked away. One test that matters. Not financial advice. #crypto #bitcoin #explained #pricewhy
+
+## Short 12 — GoldBrix vs Bitcoin
+- **Publish:** Sun 13 Dec, 18:00
+- **Hook text:** Same engine as Bitcoin, different rules
+- **Narration (≈ 95 words):** GoldBrix versus Bitcoin. Same engine: GoldBrix is built on Bitcoin's own code, and its files still carry Satoshi Nakamoto's copyright line. Same mining algorithm. Different rules. Fifteen million coins instead of twenty-one. A block every three seconds instead of every ten minutes. And something Bitcoin's base layer doesn't have: a token launchpad built into the consensus rules, where every launchpad fee is burned. Ordinary transaction fees still go to miners, just like in Bitcoin. Not financial advice. Crypto is high risk.
+- **Visuals:** `e-vs-btc.png`, `e-fees.png`
+- **YouTube Shorts title:** GoldBrix vs Bitcoin: Same Engine, Different Rules (49)
+- **TikTok / Reels caption:** 21M vs 15M, 10 minutes vs 3 seconds, and a launchpad Bitcoin doesn't have. Not financial advice. #bitcoin #crypto #explained #pricewhy

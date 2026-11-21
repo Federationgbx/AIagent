@@ -277,21 +277,26 @@
    ],
    "shots": [
     {
+     "img": "e-vs-btc.png",
+     "w": 3,
+     "nosplit": true
+    },
+    {
      "card": {
-      "style": "list",
-      "title": "Same idea, different clock",
-      "left_w": 300,
-      "rows": [
+      "style": "code",
+      "title": "Inherited from Bitcoin",
+      "file": "goldbrix-core · src/bitcoind.cpp : 1–2",
+      "lines": [
        {
-        "left": "Bitcoin",
-        "right": "21M cap · ~10-minute blocks"
+        "text": "// Copyright (c) 2009-2010 Satoshi Nakamoto",
+        "hl": true
        },
        {
-        "left": "GoldBrix",
-        "right": "15M cap · 3-second blocks"
+        "text": "// Copyright (c) 2009-2022 The Bitcoin Core developers"
        }
       ],
-      "source": "bitcoin.org; GoldBrix source code"
+      "size": 40,
+      "source": "github.com/GOLDBRIX-GBX/goldbrix-core"
      }
     }
    ]

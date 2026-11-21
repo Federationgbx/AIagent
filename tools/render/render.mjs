@@ -277,8 +277,17 @@ function cardPage(s) {
             <div style="font:800 ${s.compact ? 28 : 32}px ${BRAND.mono};color:${c};white-space:nowrap">${esc(label)}</div></div>`;
         }).join("")}`;
       break;
+    case "table": {
+      // Comparison table: head = column titles, rows = arrays of cells (first cell = row label).
+      const cols = (s.head || []).length || 3;
+      const cell = (v, i, isHead) => `<div style="flex:${i === 0 ? 1.1 : 1};font:${isHead ? 800 : i === 0 ? 700 : 600} ${isHead ? 36 : 38}px/1.2 ${i === 0 && !isHead ? BRAND.head : isHead ? BRAND.head : BRAND.mono};color:${isHead ? BRAND.yellow : i === 0 ? BRAND.gray : BRAND.paper}">${esc(v)}</div>`;
+      body = `${s.title ? `<div style="font:900 64px/1.1 ${BRAND.head};margin-bottom:26px">${esc(s.title)}</div>` : ""}
+        <div style="display:flex;gap:30px;padding:0 0 14px;border-bottom:3px solid ${BRAND.yellow}">${(s.head || []).map((h, i) => cell(h, i, true)).join("")}</div>
+        ${(s.rows || []).map((r) => `<div style="display:flex;gap:30px;padding:13px 0;border-bottom:2px solid #2A2D36">${r.slice(0, cols).map((v, i) => cell(v, i, false)).join("")}</div>`).join("")}`;
+      break;
+    }
     default:
-      throw new Error(`card style must be chapter|stat|quote|text|list|math|code|terminal|verdict (got ${s.style})`);
+      throw new Error(`card style must be chapter|stat|quote|text|list|math|code|terminal|verdict|table (got ${s.style})`);
   }
   return page(1920, 1080, `
     <div style="position:absolute;left:120px;top:0;bottom:0;width:${textW}px;display:flex;flex-direction:column;justify-content:center">${body}</div>

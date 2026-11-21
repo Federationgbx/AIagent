@@ -448,6 +448,60 @@
     }
    ],
    "source": "Blockworks; Cointelegraph; GoldBrix docs/GATE-R.md"
+  },
+  {
+   "type": "card",
+   "out": "out/e-vs-btc.png",
+   "style": "table",
+   "title": "Same engine, different rules",
+   "head": [
+    "",
+    "Bitcoin",
+    "GoldBrix"
+   ],
+   "rows": [
+    [
+     "Code base",
+     "Bitcoin Core",
+     "built on Bitcoin Core"
+    ],
+    [
+     "Max supply",
+     "21,000,000",
+     "15,000,000"
+    ],
+    [
+     "Block time",
+     "~10 minutes",
+     "3 seconds"
+    ],
+    [
+     "Halving",
+     "210,000 blocks (~4 y)",
+     "28M blocks (~2.7 y)"
+    ],
+    [
+     "Mining",
+     "SHA-256d",
+     "SHA-256d"
+    ],
+    [
+     "Launchpad in consensus",
+     "no",
+     "yes"
+    ],
+    [
+     "Network fees",
+     "to miners",
+     "to miners"
+    ],
+    [
+     "Launchpad fees",
+     "—",
+     "100% burned"
+    ]
+   ],
+   "source": "bitcoin.org; GoldBrix source code (headers: © Satoshi Nakamoto, Bitcoin Core developers)"
   }
  ]
 }

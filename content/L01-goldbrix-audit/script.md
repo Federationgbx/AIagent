@@ -32,7 +32,7 @@ Sources: `research-evidence.md` (our own checks) and `research-compare.md` (mark
 
 ¶9 But a cap is only honest if the issuing schedule actually adds up to it. So we did the math. The first twenty thousand blocks paid fifty coins each. That's one million. Then blocks speed up to one every three seconds, paying a quarter coin, and the reward halves every twenty-eight million blocks, about every two point seven years. Seven million, then three and a half, then one point seven five, and so on, adding up to fourteen million. Plus the first million. [pause] Exactly fifteen million. Claims one and two: checked.
 
-¶10 For comparison, Bitcoin caps at twenty-one million, with blocks about every ten minutes, halving every two hundred ten thousand blocks. Same idea, different clock.
+¶10 For comparison: GoldBrix is actually built on Bitcoin's own code. Its files still carry Satoshi Nakamoto's copyright line, and it's mined with the same algorithm. But the rules differ. Bitcoin caps at twenty-one million, with a block about every ten minutes, halving every two hundred ten thousand blocks. And Bitcoin's base layer has no launchpad. GoldBrix built one into its consensus rules. One thing they share: ordinary transaction fees go to miners in both.
 
 **[CHAPTER 3 — The launchpad rules]**
 
@@ -78,7 +78,7 @@ Sources: `research-evidence.md` (our own checks) and `research-compare.md` (mark
 
 **[CHAPTER 7 — The verdict]**
 
-¶28 So, the receipt. Twelve claims. Eleven checked and confirmed against the code and three other blockchains. One we couldn't verify. One typo in the paperwork. And no part of the fees we could trace goes to anyone.
+¶28 So, the receipt. Twelve claims. Eleven checked and confirmed against the code and three other blockchains. One we couldn't verify. One typo in the paperwork. And none of the launchpad fees goes to anyone. Ordinary network fees go to miners, as in Bitcoin.
 
 ¶29 Here's what that means, and what it doesn't. It means this project's rules are written where anyone can read them, and the ones we tested do what they say. It doesn't mean it's a good investment. Code that keeps its promises can still be worth nothing.
 
@@ -100,6 +100,7 @@ Sources: `research-evidence.md` (our own checks) and `research-compare.md` (mark
 | 15M cap (`MAX_MONEY`) | research-evidence A |
 | 20,000 × 50; 0.25; 28M halving; 3 s; = 15,000,000; ≈ 2.7 years | research-evidence A + arithmetic |
 | Bitcoin 21M, ~10 min, 210,000 blocks | research-compare: bitcoin.org |
+| Built on Bitcoin Core; Satoshi copyright line; SHA-256d; L1 fees to miners | goldbrix-core src/bitcoind.cpp header; README table ("L1 transaction fees go to miners") |
 | 0.50% / 0.30% burned; BAD_FEE | research-evidence A |
 | 32× easier, < 100 blocks old, 1 satoshi | research-evidence A |
 | x·y=k example 11.1 / 100 | S01 research (arithmetic) |
