@@ -1,5 +1,8 @@
 # CHANGELOG — packaging
 
+## 2026-11-21 — v1.2 (user correction, approved with "Ok")
+- The L01 description had "->" arrows; YouTube rejects "<" and ">" in descriptions, so the user had to fix it by hand. New rule: no "<" or ">" in titles, descriptions or tags; bundle.py now refuses to build a kit that contains them.
+
 ## 2026-11-20 — v1.1
 - Added YouTube limits (description ≤ 5,000, tags ≤ 500 characters) after checking 003 (3,439 / 243).
 - Renderer fixes from the 001/002 tests: compare-chart labels now have a fixed height (long labels no longer lift bars off the baseline); receipt charts accept `"show_total": false` so the total isn't revealed early. All three videos re-rendered.

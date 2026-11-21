@@ -25,6 +25,9 @@ One job: produce `content/<NNN>/package.md` and `content/<NNN>/visuals/` (specs 
 - No ALL-CAPS titles; max one emphasised word.
 - Chapters only if ≥ 3 and each ≥ 10 s (YouTube requirement).
 - YouTube limits: title ≤ 100 characters (we aim ≤ 55), description ≤ 5,000 characters, tags ≤ 500 characters in total — count them and print the counts.
+- No "<" or ">" anywhere in titles, descriptions or tags: YouTube rejects them.
+  Write "returns" / "reverts" / "has" instead of "->" (Unicode arrows like → are fine).
+  Check with: grep -c "[<>]" description.txt  (must print 0). `tools/export/bundle.py` refuses to build a kit that breaks this.
 - Nothing is uploaded or published by Claude — the user does it.
 
 ## Good example 1 — title set excerpt

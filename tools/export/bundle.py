@@ -74,6 +74,10 @@ def upload_kit(folder: Path, out: Path) -> list[Path]:
     made.append(mp4)
     kit = out / f"Pricewhy-{folder.name}-UPLOAD-KIT.zip"
     pkg = (folder / "package.md").read_text(encoding="utf-8")
+    desc_file = build / "description-final.txt"
+    check = (desc_file.read_text(encoding="utf-8") if desc_file.exists() else description(pkg)) + upload_text(pkg).split("SETTINGS")[0]
+    if "<" in check or ">" in check:
+        sys.exit(f"{folder.name}: title/description/tags contain '<' or '>' — YouTube rejects them. Fix package.md first.")
     with zipfile.ZipFile(kit, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr("upload.txt", upload_text(pkg))
         guide = ROOT / "docs" / "13-cum-publici.md"
