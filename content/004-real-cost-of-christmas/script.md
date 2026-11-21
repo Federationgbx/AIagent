@@ -1,6 +1,6 @@
 # Script: The Real Cost of Christmas
 Video: 004 · Structure: **Timeline** (the Christmas season walked date by date: Nov 1 → Thanksgiving weekend → December → the twist → Dec 26 → January → verdict; inside December, a 1984 → 2025 price timeline of the "12 days") · Hook type: 1 (shock number) + 2 (contradiction) · Target length: ~11 min
-Narration words: **1,728** (≈ 11:09 at 155 wpm, ≈ 11:40 with pauses and chapter gaps). Counted over the ¶ lines of the VOICE-READY section only, excluding `[pause]` and the ¶ labels. Twist starts at word 817 of 1,728 (47%), subscribe line at 73%, comment question at 25%.
+Narration words: **1,728** (≈ 11:09 at 155 wpm; real voice file: 11:10 narration, final video 11:22 with the 12 s end card). Counted over the ¶ lines of the VOICE-READY section only, excluding `[pause]` and the ¶ labels. Twist starts at word 817 of 1,728 (47%), subscribe line at 73%, comment question at 25%.
 Twist (from research verdict): the stuff got cheaper, the people got expensive — the official toy price index is 71% lower than in 2000 (and lower in all four Pricewhy countries) while services rose 121%; the typical gift budget is flat (≈7% smaller after inflation). Lands at ¶16 (≈ 50–55% of runtime).
 Price Board: **yes** — official toy price indexes vs all prices, Oct 2000 → Oct 2026, US/UK/Canada/Australia (¶19). Per-person spending surveys were NOT compared (different definitions; research.md).
 Structure check: 003 = Detective, 002 = Autopsy, 001 = Follow-the-Dollar (`tracking/video-log.csv`) → 004 = **Timeline**, used for the first time.

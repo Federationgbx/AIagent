@@ -38,13 +38,13 @@ We walk through the season date by date: the trillion-dollar forecast, the 12 Da
 
 CHAPTERS
 0:00 The $420 partridge
-0:50 Nov 1: the meter starts
-2:05 Thanksgiving weekend: the rush
-3:10 December: the 12 days, priced
-5:45 The twist: what actually got expensive
-8:45 Dec 26: the returns
-10:00 January: the bill
-10:50 The verdict
+0:44 Nov 1: the meter starts
+1:55 Thanksgiving weekend: the rush
+2:50 December: the 12 days, priced
+5:17 The twist: what actually got expensive
+8:11 Dec 26: the returns
+9:28 January: the bill
+10:16 The verdict
 
 SOURCES
 - National Retail Federation, 2026 holiday forecast (Oct 15, 2026) — https://nrf.com/media-center/press-releases/nrf-forecasts-2026-holiday-sales-growth-as-consumers-remain-resilient

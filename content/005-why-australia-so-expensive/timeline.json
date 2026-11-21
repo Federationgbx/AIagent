@@ -1,156 +1,1112 @@
 {
-  "music": [
-    { "file": "bed-e-minor.wav", "from_p": 1 },
-    { "file": "bed-g-major.wav", "from_p": 22 }
-  ],
-  "segments": [
-    { "p": [1], "chapter": "Why is Australia so expensive?", "shots": [
-      { "card": { "style": "stat", "value": "14×", "size": 230, "label": "A typical Sydney house ÷ a typical year of household income", "sub": "Only Hong Kong is worse, of 95 markets", "tone": "loss", "object": "house", "source": "Demographia 2026 edition, via Canstar (Jul 2026)" } },
-      { "img": "housing-cities.png", "w": 1.3, "nosplit": true },
-      { "card": { "style": "text", "size": 92, "text": "And yet a Big Mac costs less in Australia than in America.", "object": "coin", "source": "The Economist, Big Mac index data, Jul 2026" } }
-    ]},
-    { "p": [2], "shots": [
-      { "card": { "style": "text", "text": "Suspect #1: distance", "sub": "Everything has to cross an ocean.", "object": "plane" } },
-      { "card": { "style": "list", "title": "The suspects", "left_w": 120, "rows": [ { "left": "#1", "right": "Distance" }, { "left": "#2", "right": "The supermarkets" }, { "left": "#3", "right": "Taxes" }, { "left": "#4", "right": "Wages" } ] } },
-      { "card": { "style": "text", "text": "It has an alibi.", "tone": "profit", "size": 150 } },
-      { "card": { "style": "text", "text": "And the real culprit didn't arrive on a ship.", "size": 96, "object": "plane" } }
-    ]},
-    { "p": [3], "chapter": "The crime scene", "shots": [
-      { "card": { "style": "chapter", "kicker": "CHAPTER 1", "title": "The crime scene" } },
-      { "img": "price-level-now.png", "w": 2.4, "focus": [0.62, 0.55] }
-    ]},
-    { "p": [4], "shots": [
-      { "card": { "style": "text", "text": "Expensive? Yes. The most expensive? No.", "size": 100 } },
-      { "w": 2, "card": { "style": "list", "title": "Household prices, 2024 (US = 100)", "left_w": 120, "rows": [
-        { "left": "1", "right": "Switzerland 121" }, { "left": "2", "right": "Iceland 113" }, { "left": "3", "right": "United States 100" },
-        { "left": "4", "right": "Denmark 98.2" }, { "left": "5", "right": "Israel 97.5" }, { "left": "6", "right": "Ireland 95.5" },
-        { "left": "7", "right": "Australia 94.2 (of 48 countries)", "tone": "highlight" } ], "source": "OECD, PPP detailed results: price level indices (2024)" } }
-    ]},
-    { "p": [5], "shots": [
-      { "img": "bigmac.png", "w": 2, "focus": [0.55, 0.6] },
-      { "card": { "style": "stat", "value": "US$5.95", "label": "A Big Mac in Australia (A$8.50)", "sub": "US $6.22 · Canada $5.81 · Britain $7.40 · July 2026", "tone": "highlight", "object": "coin", "source": "The Economist, Big Mac index data, Jul 2026" } }
-    ]},
-    { "p": [6], "shots": [
-      { "img": "groceries-wages.png", "w": 1.3 },
-      { "card": { "style": "stat", "value": "8.2×", "label": "Median Australian home ÷ median household income", "sub": "September 2025 · a record", "tone": "loss", "object": "house", "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)" } },
-      { "card": { "style": "stat", "value": "11 years", "size": 180, "label": "to save a 20% deposit", "sub": "September 2025 · also a record", "tone": "loss", "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)" } }
-    ]},
-    { "p": [7], "shots": [
-      { "card": { "style": "text", "text": "Now, the suspects.", "tone": "highlight", "size": 140 } }
-    ]},
-    { "p": [8], "chapter": "Suspect one: distance", "shots": [
-      { "card": { "style": "chapter", "kicker": "SUSPECT #1", "title": "Distance", "object": "plane" } },
-      { "img": "freight.png", "w": 2.4, "focus": [0.5, 0.5] }
-    ]},
-    { "p": [9], "shots": [
-      { "img": "basket.png", "w": 1.5, "nosplit": true },
-      { "card": { "style": "text", "size": 96, "text": "Most of the basket never sees a ship.", "sub": "Rent, services, power, government-set prices", "source": "RBA Bulletin, Jul 2025" } }
-    ]},
-    { "p": [10], "shots": [
-      { "card": { "style": "text", "text": "PAUSE & GUESS", "tone": "highlight", "size": 150, "sub": "How much of every dollar is distance?" } },
-      { "w": 1.6, "card": { "style": "math", "expr": "25% × 4% ≈ 1¢", "sub": "per $1 of the basket · our rough math, if anything on the high side", "tone": "profit", "source": "ABS 2023 (freight ≈ 3–4¢ per $1 of imports) × RBA 2025 (shippable ≈ ¼ of basket) · Pricewhy estimate" } }
-    ]},
-    { "p": [11], "shots": [
-      { "img": "shipped-vs-local.png", "w": 2.2, "focus": [0.3, 0.62] },
-      { "card": { "style": "stat", "value": "69.5", "label": "Clothing & shoes in Australia (US = 100)", "sub": "2024 · 45th of 48 countries", "tone": "profit", "source": "OECD, PPP price level indices (2024)" } },
-      { "card": { "style": "text", "size": 90, "text": "No local car factory since October 2017.", "sub": "Holden closed the last one. New cars arrive by ship.", "object": "plane", "source": "GoAuto, 20 Oct 2017" } }
-    ]},
-    { "p": [12], "shots": [
-      { "card": { "style": "quote", "size": 58, "quote": "Grocery prices in remote areas are higher, sometimes significantly so, primarily due to higher costs to serve these areas.", "who": "ACCC, Supermarkets inquiry, 2025", "source": "ACCC supermarkets inquiry summary (Feb 2025)" } },
-      { "card": { "style": "text", "text": "Suspect one: walks free.", "tone": "profit", "size": 130, "sub": "For a city basket." } }
-    ]},
-    { "p": [13], "shots": [
-      { "img": "australia-tax.png", "w": 1.6, "focus": [0.45, 0.6] },
-      { "w": 1.3, "card": { "style": "quote", "size": 58, "quote": "…in many cases, the price differences for IT products cannot be explained by the cost of doing business in Australia.", "who": "House of Representatives committee, July 2013", "source": "At what cost? IT pricing and the Australia tax (Jul 2013)" } },
-      { "card": { "style": "text", "text": "Zero freight. The \"Australia tax\".", "tone": "loss", "size": 110 } }
-    ]},
-    { "p": [14], "shots": [
-      { "card": { "style": "text", "size": 96, "text": "What's the most overpriced thing where you live?", "sub": "Tell us in the comments. We read them.", "tone": "highlight" } }
-    ]},
-    { "p": [15], "chapter": "Suspect two: the supermarkets", "shots": [
-      { "card": { "style": "chapter", "kicker": "SUSPECT #2", "title": "The supermarkets" } },
-      { "img": "supermarkets.png", "w": 1.8, "focus": [0.35, 0.4] },
-      { "w": 1.2, "card": { "style": "quote", "size": 56, "quote": "…an oligopolistic market structure in which Coles and Woolworths have limited incentive to compete vigorously with each other on price.", "who": "ACCC, Supermarkets inquiry final report, 2025", "source": "ACCC final report (Feb 2025, released 21 Mar 2025)" } }
-    ]},
-    { "p": [16], "shots": [
-      { "card": { "style": "quote", "size": 62, "quote": "ALDI, Coles and Woolworths appear to be among the most profitable supermarket businesses globally.", "who": "ACCC, 2025 · average product margins up over 5 years", "source": "ACCC final report (2025)" } }
-    ]},
-    { "p": [17], "shots": [
-      { "card": { "style": "text", "text": "Case closed? Not so fast.", "size": 120 } },
-      { "w": 2.2, "card": { "style": "list", "title": "The same report, the other side", "left_w": 230, "rows": [
-        { "left": "Costs", "right": "drove most of the grocery price rises" },
-        { "left": "OECD", "right": "grocery inflation lower than in many countries" },
-        { "left": "Coles", "right": "margin rise mostly a lease-accounting change (its submission)" } ], "source": "ACCC final report (2025)" } }
-    ]},
-    { "p": [18], "shots": [
-      { "img": "food-board.png", "w": 1.4 },
-      { "card": { "style": "stat", "value": "122", "label": "Dairy & eggs in Australia (US = 100)", "sub": "2024 · the exception", "tone": "loss", "source": "OECD, PPP price level indices (2024)" } },
-      { "card": { "style": "text", "text": "A contributor, not the mastermind.", "tone": "highlight", "size": 110 } }
-    ]},
-    { "p": [19], "chapter": "Suspects three and four: taxes and wages", "shots": [
-      { "card": { "style": "chapter", "kicker": "SUSPECTS #3 & #4", "title": "Taxes and wages" } },
-      { "card": { "style": "stat", "value": "3×", "label": "Tobacco in Australia vs US prices", "sub": "2024 · 2nd highest of 48 countries, after New Zealand", "tone": "loss", "source": "OECD, PPP price level indices (2024): 312 vs 100" } },
-      { "card": { "style": "stat", "value": "1.5×", "label": "Alcohol vs US prices", "sub": "2024 · 152 vs 100", "tone": "loss", "source": "OECD, PPP price level indices (2024)" } },
-      { "card": { "style": "stat", "value": "77%", "label": "of a best-selling cigarette pack's price is tax", "sub": "WHO data", "tone": "loss", "source": "Tobacco in Australia (Cancer Council Victoria), 13.9" } },
-      { "card": { "style": "text", "text": "A choice made by government. Not a cost of distance.", "size": 92 } }
-    ]},
-    { "p": [20], "shots": [
-      { "card": { "style": "stat", "value": "A$26.44", "label": "Australia's minimum wage, per hour", "sub": "from 1 July 2026", "tone": "highlight", "source": "Fair Work Commission, Annual Wage Review 2026 (via Hall & Wilcox)" } },
-      { "img": "min-wage.png", "w": 1.6, "focus": [0.5, 0.6] }
-    ]},
-    { "p": [21], "shots": [
-      { "card": { "style": "stat", "value": "115", "label": "Restaurants & hotels in Australia (US = 100)", "sub": "2024 · 5th highest of 48 countries", "tone": "loss", "source": "OECD, PPP price level indices (2024)" } },
-      { "img": "avg-wage.png", "w": 2, "focus": [0.55, 0.6] },
-      { "card": { "style": "text", "text": "Higher pay than Britain and Canada. Lower than America.", "size": 92, "source": "OECD, Average annual wages (2025)" } }
-    ]},
-    { "p": [22], "chapter": "The twist: a time machine", "shots": [
-      { "card": { "style": "chapter", "kicker": "THE TWIST", "title": "A time machine" } },
-      { "img": "time-machine.png", "w": 2.2, "focus": [0.35, 0.45] }
-    ]},
-    { "p": [23], "shots": [
-      { "card": { "style": "text", "text": "The distance didn't change.", "size": 130, "object": "plane" } },
-      { "card": { "style": "math", "size": 96, "expr": "2012: 1.546 ÷ 0.966 = 160\n2025: 1.465 ÷ 1.552 = 94", "sub": "PPP ÷ exchange rate · prices rose at about the same pace; the currency moved", "tone": "highlight", "source": "OECD, Annual PPPs and exchange rates" } },
-      { "img": "fx.png" },
-      { "card": { "style": "quote", "size": 64, "quote": "The increase in the terms of trade led to an appreciation of the Australian dollar.", "who": "Reserve Bank of Australia (in 2011, terms of trade ≈ 75% above the previous century's average)", "source": "RBA explainer: The Terms of Trade Boom" } }
-    ]},
-    { "p": [24], "shots": [
-      { "card": { "style": "text", "text": "\"Twice as expensive\"? Check the year.", "tone": "highlight", "size": 110 } },
-      { "card": { "style": "text", "text": "So why does it still hurt?", "size": 120 } }
-    ]},
-    { "p": [25], "shots": [
-      { "w": 2, "card": { "style": "list", "title": "What Australian prices are made of", "left_w": 250, "rows": [
-        { "left": "Labour", "right": "the biggest share", "tone": "highlight" },
-        { "left": "Rents", "right": "a persistent push since late 2022", "tone": "loss" },
-        { "left": "Imports", "right": "pressure eased from 2023", "tone": "profit" },
-        { "left": "Profits", "right": "rose early after the pandemic" } ], "source": "RBA Bulletin, An input-cost decomposition of the household consumption deflator (Aug 2026)" } },
-      { "card": { "style": "text", "text": "Not the ship. The things made right there.", "tone": "highlight", "size": 100 } }
-    ]},
-    { "p": [26], "shots": [
-      { "card": { "style": "text", "text": "One price. Line by line. Sources on screen.", "sub": "Subscribe for the next one.", "size": 100, "object": "coin" } }
-    ]},
-    { "p": [27], "chapter": "The verdict", "shots": [
-      { "card": { "style": "chapter", "kicker": "THE VERDICT", "title": "The one thing you can't ship", "object": "house" } },
-      { "img": "housing-5y.png", "w": 1.6, "focus": [0.6, 0.45] },
-      { "card": { "style": "stat", "value": "33.4%", "label": "of a typical household's income goes on rent", "sub": "September 2025 · a record", "tone": "loss", "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)" } }
-    ]},
-    { "p": [28], "shots": [
-      { "w": 1.3, "card": { "style": "list", "title": "4 of the 10 least affordable markets", "left_w": 140, "rows": [
-        { "left": "#2", "right": "Sydney 14.0×", "tone": "loss" }, { "left": "#4", "right": "Adelaide 11.2×" },
-        { "left": "#8", "right": "Brisbane 9.9×" }, { "left": "#9", "right": "Melbourne 9.5×" } ], "source": "Demographia 2026 edition (95 markets), via Canstar (Jul 2026)" } },
-      { "card": { "style": "text", "text": "Why? Supply, interest rates, migration, tax.", "sub": "Its own fight — and its own episode.", "size": 96, "object": "house" } }
-    ]},
-    { "p": [29], "shots": [
-      { "img": "verdict.png", "w": 1, "nosplit": true },
-      { "img": "verdict.png", "focus": [0.45, 0.55] }
-    ]},
-    { "p": [30], "shots": [
-      { "img": "price-board.png", "nosplit": true },
-      { "img": "price-board.png", "focus": [0.75, 0.85] }
-    ]},
-    { "p": [31], "shots": [
-      { "card": { "style": "text", "text": "A home: 14 years of pay. A Big Mac: cheaper than America.", "size": 90, "object": "house" } },
-      { "card": { "style": "text", "text": "Is McDonald's really a burger company?", "sub": "Next on Pricewhy", "tone": "highlight", "size": 100, "object": "coin" } }
-    ]}
-  ],
-  "end_card": { "seconds": 12, "card": { "style": "text", "text": "Next: McDonald's Isn't a Burger Company", "sub": "Pricewhy · new breakdown every Tuesday & Friday", "object": "coin" } }
+ "music": [
+  {
+   "file": "bed-e-minor.wav",
+   "from_p": 1
+  },
+  {
+   "file": "bed-g-major.wav",
+   "from_p": 22
+  }
+ ],
+ "segments": [
+  {
+   "p": [
+    1
+   ],
+   "chapter": "Why is Australia so expensive?",
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "14×",
+      "size": 230,
+      "label": "A typical Sydney house ÷ a typical year of household income",
+      "sub": "Only Hong Kong is worse, of 95 markets",
+      "tone": "loss",
+      "object": "house",
+      "source": "Demographia 2026 edition, via Canstar (Jul 2026)"
+     }
+    },
+    {
+     "img": "housing-cities.png",
+     "w": 1.3,
+     "nosplit": true
+    },
+    {
+     "card": {
+      "style": "text",
+      "size": 92,
+      "text": "And yet a Big Mac costs less in Australia than in America.",
+      "object": "coin",
+      "source": "The Economist, Big Mac index data, Jul 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    2
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Suspect #1: distance",
+      "sub": "Everything has to cross an ocean.",
+      "object": "plane"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The suspects",
+      "left_w": 120,
+      "rows": [
+       {
+        "left": "#1",
+        "right": "Distance"
+       },
+       {
+        "left": "#2",
+        "right": "The supermarkets"
+       },
+       {
+        "left": "#3",
+        "right": "Taxes"
+       },
+       {
+        "left": "#4",
+        "right": "Wages"
+       }
+      ]
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "It has an alibi.",
+      "tone": "profit",
+      "size": 150
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "And the real culprit didn't arrive on a ship.",
+      "size": 96,
+      "object": "plane"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    3
+   ],
+   "chapter": "The crime scene",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "CHAPTER 1",
+      "title": "The crime scene"
+     }
+    },
+    {
+     "img": "price-level-now.png",
+     "w": 2.4,
+     "focus": [
+      0.62,
+      0.55
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    4
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Expensive? Yes. The most expensive? No.",
+      "size": 100
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Household prices, 2024 (US = 100)",
+      "left_w": 120,
+      "rows": [
+       {
+        "left": "1",
+        "right": "Switzerland 121"
+       },
+       {
+        "left": "2",
+        "right": "Iceland 113"
+       },
+       {
+        "left": "3",
+        "right": "United States 100"
+       }
+      ],
+      "source": "OECD, PPP detailed results: price level indices (2024)"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Household prices, 2024 (US = 100)",
+      "left_w": 120,
+      "rows": [
+       {
+        "left": "1",
+        "right": "Switzerland 121"
+       },
+       {
+        "left": "2",
+        "right": "Iceland 113"
+       },
+       {
+        "left": "3",
+        "right": "United States 100"
+       },
+       {
+        "left": "4",
+        "right": "Denmark 98.2"
+       },
+       {
+        "left": "5",
+        "right": "Israel 97.5"
+       },
+       {
+        "left": "6",
+        "right": "Ireland 95.5"
+       },
+       {
+        "left": "7",
+        "right": "Australia 94.2 (of 48 countries)",
+        "tone": "highlight"
+       }
+      ],
+      "source": "OECD, PPP detailed results: price level indices (2024)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    5
+   ],
+   "shots": [
+    {
+     "img": "bigmac.png",
+     "w": 2,
+     "focus": [
+      0.55,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "US$5.95",
+      "label": "A Big Mac in Australia (A$8.50)",
+      "sub": "US $6.22 · Canada $5.81 · Britain $7.40 · July 2026",
+      "tone": "highlight",
+      "object": "coin",
+      "source": "The Economist, Big Mac index data, Jul 2026"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    6
+   ],
+   "shots": [
+    {
+     "img": "groceries-wages.png",
+     "w": 1.3
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "8.2×",
+      "label": "Median Australian home ÷ median household income",
+      "sub": "September 2025 · a record",
+      "tone": "loss",
+      "object": "house",
+      "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "11 years",
+      "size": 180,
+      "label": "to save a 20% deposit",
+      "sub": "September 2025 · also a record",
+      "tone": "loss",
+      "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    7
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Now, the suspects.",
+      "tone": "highlight",
+      "size": 140
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    8
+   ],
+   "chapter": "Suspect one: distance",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "SUSPECT #1",
+      "title": "Distance",
+      "object": "plane"
+     }
+    },
+    {
+     "img": "freight.png",
+     "w": 2.4,
+     "focus": [
+      0.5,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    9
+   ],
+   "shots": [
+    {
+     "img": "basket.png",
+     "w": 1.5,
+     "focus": [
+      0.3,
+      0.4
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "size": 96,
+      "text": "Most of the basket never sees a ship.",
+      "sub": "Rent, services, power, government-set prices",
+      "source": "RBA Bulletin, Jul 2025"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    10
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "PAUSE & GUESS",
+      "tone": "highlight",
+      "size": 150,
+      "sub": "How much of every dollar is distance?"
+     }
+    },
+    {
+     "card": {
+      "style": "math",
+      "expr": "25% × 4% ≈ 1¢",
+      "sub": "per $1 of the basket · our rough math, if anything on the high side",
+      "tone": "profit",
+      "source": "ABS 2023 (freight ≈ 3–4¢ per $1 of imports) × RBA 2025 (shippable ≈ ¼ of basket) · Pricewhy estimate"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "If anything, on the high side.",
+      "sub": "We count every shippable good as imported, at border prices.",
+      "size": 110,
+      "tone": "profit"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    11
+   ],
+   "shots": [
+    {
+     "img": "shipped-vs-local.png",
+     "w": 2.2,
+     "focus": [
+      0.3,
+      0.62
+     ]
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "69.5",
+      "label": "Clothing & shoes in Australia (US = 100)",
+      "sub": "2024 · 45th of 48 countries",
+      "tone": "profit",
+      "source": "OECD, PPP price level indices (2024)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "size": 90,
+      "text": "No local car factory since October 2017.",
+      "sub": "Holden closed the last one. New cars arrive by ship.",
+      "object": "plane",
+      "source": "GoAuto, 20 Oct 2017"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    12
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "size": 58,
+      "quote": "Grocery prices in remote areas are higher, sometimes significantly so, primarily due to higher costs to serve these areas.",
+      "who": "ACCC, Supermarkets inquiry, 2025",
+      "source": "ACCC supermarkets inquiry summary (Feb 2025)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Suspect one: walks free.",
+      "tone": "profit",
+      "size": 130,
+      "sub": "For a city basket."
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    13
+   ],
+   "shots": [
+    {
+     "img": "australia-tax.png",
+     "w": 1.6,
+     "focus": [
+      0.45,
+      0.6
+     ]
+    },
+    {
+     "w": 0.8,
+     "card": {
+      "style": "text",
+      "text": "Downloaded games: even bigger gaps.",
+      "size": 110,
+      "source": "At what cost? IT pricing and the Australia tax (Jul 2013), citing Choice"
+     }
+    },
+    {
+     "w": 1.2,
+     "card": {
+      "style": "quote",
+      "size": 58,
+      "quote": "…in many cases, the price differences for IT products cannot be explained by the cost of doing business in Australia.",
+      "who": "House of Representatives committee, July 2013",
+      "source": "At what cost? IT pricing and the Australia tax (Jul 2013)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "The \"Australia tax\"",
+      "sub": "Zero freight. Same download, higher price.",
+      "tone": "loss",
+      "size": 130
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    14
+   ],
+   "shots": [
+    {
+     "w": 0.8,
+     "card": {
+      "style": "text",
+      "text": "Quick question.",
+      "size": 150
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "size": 96,
+      "text": "What's the most overpriced thing where you live?",
+      "sub": "Tell us in the comments. We read them.",
+      "tone": "highlight"
+     },
+     "w": 1.2
+    }
+   ]
+  },
+  {
+   "p": [
+    15
+   ],
+   "chapter": "Suspect two: the supermarkets",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "SUSPECT #2",
+      "title": "The supermarkets"
+     }
+    },
+    {
+     "img": "supermarkets.png",
+     "w": 1.8,
+     "focus": [
+      0.35,
+      0.4
+     ]
+    },
+    {
+     "w": 1.2,
+     "card": {
+      "style": "quote",
+      "size": 56,
+      "quote": "…an oligopolistic market structure in which Coles and Woolworths have limited incentive to compete vigorously with each other on price.",
+      "who": "ACCC, Supermarkets inquiry final report, 2025",
+      "source": "ACCC final report (Feb 2025, released 21 Mar 2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    16
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "quote",
+      "size": 62,
+      "quote": "ALDI, Coles and Woolworths appear to be among the most profitable supermarket businesses globally.",
+      "who": "ACCC, 2025 · average product margins up over 5 years",
+      "source": "ACCC final report (2025)"
+     },
+     "w": 1.3
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "5 years",
+      "size": 180,
+      "label": "of rising average product margins",
+      "sub": "ALDI, Coles and Woolworths",
+      "tone": "loss",
+      "source": "ACCC Supermarkets inquiry final report (2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    17
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "Case closed? Not so fast.",
+      "size": 120
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The same report, the other side",
+      "left_w": 230,
+      "rows": [
+       {
+        "left": "Costs",
+        "right": "drove most of the grocery price rises"
+       }
+      ],
+      "source": "ACCC final report (2025)"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The same report, the other side",
+      "left_w": 230,
+      "rows": [
+       {
+        "left": "Costs",
+        "right": "drove most of the grocery price rises"
+       },
+       {
+        "left": "OECD",
+        "right": "grocery inflation lower than in many countries"
+       }
+      ],
+      "source": "ACCC final report (2025)"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "The same report, the other side",
+      "left_w": 230,
+      "rows": [
+       {
+        "left": "Costs",
+        "right": "drove most of the grocery price rises"
+       },
+       {
+        "left": "OECD",
+        "right": "grocery inflation lower than in many countries"
+       },
+       {
+        "left": "Coles",
+        "right": "margin rise mostly a lease-accounting change (its submission)"
+       }
+      ],
+      "source": "ACCC final report (2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    18
+   ],
+   "shots": [
+    {
+     "img": "food-board.png",
+     "w": 1.4
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "122",
+      "label": "Dairy & eggs in Australia (US = 100)",
+      "sub": "2024 · the exception",
+      "tone": "loss",
+      "source": "OECD, PPP price level indices (2024)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "A contributor, not the mastermind.",
+      "tone": "highlight",
+      "size": 110
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    19
+   ],
+   "chapter": "Suspects three and four: taxes and wages",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "SUSPECTS #3 & #4",
+      "title": "Taxes and wages"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "3×",
+      "label": "Tobacco in Australia vs US prices",
+      "sub": "2024 · 2nd highest of 48 countries, after New Zealand",
+      "tone": "loss",
+      "source": "OECD, PPP price level indices (2024): 312 vs 100"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "1.5×",
+      "label": "Alcohol vs US prices",
+      "sub": "2024 · 152 vs 100",
+      "tone": "loss",
+      "source": "OECD, PPP price level indices (2024)"
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "77%",
+      "label": "of a best-selling cigarette pack's price is tax",
+      "sub": "WHO data",
+      "tone": "loss",
+      "source": "Tobacco in Australia (Cancer Council Victoria), 13.9"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "A choice made by government. Not a cost of distance.",
+      "size": 92
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    20
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "A$26.44",
+      "label": "Australia's minimum wage, per hour",
+      "sub": "from 1 July 2026",
+      "tone": "highlight",
+      "source": "Fair Work Commission, Annual Wage Review 2026 (via Hall & Wilcox)"
+     }
+    },
+    {
+     "img": "min-wage.png",
+     "w": 1.6,
+     "focus": [
+      0.5,
+      0.6
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    21
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "stat",
+      "value": "115",
+      "label": "Restaurants & hotels in Australia (US = 100)",
+      "sub": "2024 · 5th highest of 48 countries",
+      "tone": "loss",
+      "source": "OECD, PPP price level indices (2024)"
+     }
+    },
+    {
+     "img": "avg-wage.png",
+     "w": 2,
+     "focus": [
+      0.55,
+      0.6
+     ]
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Higher pay than Britain and Canada. Lower than America.",
+      "size": 92,
+      "source": "OECD, Average annual wages (2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    22
+   ],
+   "chapter": "The twist: a time machine",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "THE TWIST",
+      "title": "A time machine"
+     }
+    },
+    {
+     "img": "time-machine.png",
+     "w": 2.2,
+     "focus": [
+      0.35,
+      0.45
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    23
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "The distance didn't change.",
+      "size": 130,
+      "object": "plane"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "Price level = PPP ÷ exchange rate",
+      "left_w": 200,
+      "rows": [
+       {
+        "left": "2012",
+        "right": "1.546 ÷ 0.966 = 160",
+        "tone": "loss"
+       },
+       {
+        "left": "2025",
+        "right": "1.465 ÷ 1.552 = 94",
+        "tone": "profit"
+       },
+       {
+        "left": "PPP",
+        "right": "barely moved: prices rose at a similar pace"
+       },
+       {
+        "left": "Rate",
+        "right": "moved a lot: the currency did it",
+        "tone": "highlight"
+       }
+      ],
+      "source": "OECD, Annual PPPs and exchange rates (A$ per US$)"
+     }
+    },
+    {
+     "img": "fx.png"
+    },
+    {
+     "card": {
+      "style": "quote",
+      "size": 64,
+      "quote": "The increase in the terms of trade led to an appreciation of the Australian dollar.",
+      "who": "Reserve Bank of Australia (in 2011, terms of trade ≈ 75% above the previous century's average)",
+      "source": "RBA explainer: The Terms of Trade Boom"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    24
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "\"Twice as expensive\"? Check the year.",
+      "tone": "highlight",
+      "size": 110
+     }
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "160 → 94",
+      "size": 190,
+      "label": "Australia's price level vs the US (US = 100)",
+      "sub": "2012 → 2025",
+      "tone": "highlight",
+      "source": "OECD, Annual PPPs and exchange rates"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "So why does it still hurt?",
+      "size": 120
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    25
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "list",
+      "title": "What Australian prices are made of",
+      "left_w": 250,
+      "rows": [
+       {
+        "left": "Labour",
+        "right": "the biggest share",
+        "tone": "highlight"
+       },
+       {
+        "left": "Rents",
+        "right": "a persistent push since late 2022",
+        "tone": "loss"
+       }
+      ],
+      "source": "RBA Bulletin, An input-cost decomposition of the household consumption deflator (Aug 2026)"
+     }
+    },
+    {
+     "card": {
+      "style": "list",
+      "title": "What Australian prices are made of",
+      "left_w": 250,
+      "rows": [
+       {
+        "left": "Labour",
+        "right": "the biggest share",
+        "tone": "highlight"
+       },
+       {
+        "left": "Rents",
+        "right": "a persistent push since late 2022",
+        "tone": "loss"
+       },
+       {
+        "left": "Imports",
+        "right": "pressure eased from 2023",
+        "tone": "profit"
+       },
+       {
+        "left": "Profits",
+        "right": "picked up first after the pandemic"
+       }
+      ],
+      "source": "RBA Bulletin, An input-cost decomposition of the household consumption deflator (Aug 2026)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Not the ship. The things made right there.",
+      "tone": "highlight",
+      "size": 100
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    26
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "This is what Pricewhy does.",
+      "size": 120
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "One price. Line by line. Sources on screen.",
+      "sub": "Subscribe for the next one.",
+      "size": 100,
+      "object": "coin"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    27
+   ],
+   "chapter": "The verdict",
+   "shots": [
+    {
+     "card": {
+      "style": "chapter",
+      "kicker": "THE VERDICT",
+      "title": "The one thing you can't ship",
+      "object": "house"
+     }
+    },
+    {
+     "img": "housing-5y.png",
+     "w": 1.6,
+     "focus": [
+      0.6,
+      0.45
+     ]
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "33.4%",
+      "label": "of a typical household's income goes on rent",
+      "sub": "September 2025 · a record",
+      "tone": "loss",
+      "source": "Cotality & ANU, Housing Affordability Report (Nov 2025)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    28
+   ],
+   "shots": [
+    {
+     "img": "housing-cities.png",
+     "focus": [
+      0.75,
+      0.45
+     ]
+    },
+    {
+     "w": 1,
+     "card": {
+      "style": "list",
+      "title": "4 of the 10 least affordable markets",
+      "left_w": 140,
+      "rows": [
+       {
+        "left": "#2",
+        "right": "Sydney 14.0×",
+        "tone": "loss"
+       },
+       {
+        "left": "#4",
+        "right": "Adelaide 11.2×"
+       },
+       {
+        "left": "#8",
+        "right": "Brisbane 9.9×"
+       },
+       {
+        "left": "#9",
+        "right": "Melbourne 9.5×"
+       }
+      ],
+      "source": "Demographia 2026 edition (95 markets), via Canstar (Jul 2026)"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Why? Supply, interest rates, migration, tax.",
+      "sub": "Its own fight. It deserves its own episode.",
+      "size": 96,
+      "object": "house"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    29
+   ],
+   "shots": [
+    {
+     "img": "verdict.png",
+     "focus": [
+      0.4,
+      0.5
+     ]
+    }
+   ]
+  },
+  {
+   "p": [
+    30
+   ],
+   "shots": [
+    {
+     "img": "price-board.png",
+     "w": 2.2,
+     "focus": [
+      0.4,
+      0.55
+     ]
+    },
+    {
+     "card": {
+      "style": "stat",
+      "value": "14.0×",
+      "label": "A Sydney house ÷ a year of household income",
+      "sub": "London: 8.5× · the line that doesn't fit",
+      "tone": "loss",
+      "object": "house",
+      "source": "Demographia 2026 edition, via Canstar (Jul 2026)"
+     }
+    }
+   ]
+  },
+  {
+   "p": [
+    31
+   ],
+   "shots": [
+    {
+     "card": {
+      "style": "text",
+      "text": "A home: 14 years of pay. A Big Mac: cheaper than America.",
+      "size": 90,
+      "object": "house"
+     }
+    },
+    {
+     "card": {
+      "style": "text",
+      "text": "Is McDonald's really a burger company?",
+      "sub": "Next on Pricewhy",
+      "tone": "highlight",
+      "size": 100,
+      "object": "coin"
+     }
+    }
+   ]
+  }
+ ],
+ "end_card": {
+  "seconds": 12,
+  "card": {
+   "style": "text",
+   "text": "Next: McDonald's Isn't a Burger Company",
+   "sub": "Pricewhy · new breakdown every Tuesday & Friday",
+   "object": "coin"
+  }
+ }
 }
