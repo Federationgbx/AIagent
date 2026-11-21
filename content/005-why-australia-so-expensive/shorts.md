@@ -7,7 +7,7 @@ Every YouTube description gets: `Full breakdown with every source: "Why Is Austr
 - **Publish:** Fri 4 Dec, 21:00 (same day as the long video)
 - **Hook text (frame 1, ≤ 7 words):** Big Mac: cheaper in Australia?
 - **Narration (86 words):** Everyone says Australia is expensive. So here's a test. In July twenty twenty-six, a Big Mac cost eight dollars fifty in Australia, according to The Economist's data. In US dollars, that's five ninety-five. In the United States, six twenty-two. In Britain, seven forty. In Canada, five eighty-one. So Australia had the second cheapest Big Mac of the four. And the OECD says Australia's everyday basket costs about the same as America's. So why does it feel so expensive? The answer isn't distance. Full breakdown on Pricewhy.
-- **Visuals / cut source:** long video ¶5 and ¶3 — `bigmac.png`, then `price-level-now.png`
+- **Visuals / cut source:** long video ¶5 and ¶3 — `bigmac-stat.png`, then `bigmac.png`, then `price-level-now.png`
 - **YouTube Shorts title (≤ 60 chars):** A Big Mac Costs Less in Australia Than the US (45)
 - **TikTok / Reels caption (≤ 150 chars + 3–5 hashtags):** "Australia is so expensive"… so why is the Big Mac cheaper than in the US? 🍔 #australia #costofliving #bigmacindex #economics
 - **Related video:** Why Is Australia So Expensive?
@@ -16,7 +16,7 @@ Every YouTube description gets: `Full breakdown with every source: "Why Is Austr
 - **Publish:** Sun 6 Dec, 21:00
 - **Hook text (frame 1, ≤ 7 words):** Guess how much shipping adds
 - **Narration (98 words):** Australia is far from everything, so shipping must be why it's expensive. Right? Pause and guess: of every dollar Australians spend, how much is international freight? [pause] Roughly one cent. Before the pandemic, freight cost three to four cents per dollar of imported goods, according to the Bureau of Statistics. And the Reserve Bank says goods that can come by ship are about a quarter of the price basket. That's our rough math: about one cent. And clothes and new cars, which almost all arrive by ship, cost less in Australia than in the US. Full breakdown on Pricewhy.
-- **Visuals / cut source:** long video ¶8–11 — `freight.png`, `basket.png`, `shipped-vs-local.png`
+- **Visuals / cut source:** long video ¶8–11 — `far.png`, then `freight.png`, `basket.png`, `shipped-vs-local.png`
 - **YouTube Shorts title (≤ 60 chars):** How Much Does Distance Add to Australian Prices? (48)
 - **TikTok / Reels caption (≤ 150 chars + 3–5 hashtags):** Comment your guess before the reveal 🚢 Is distance really why Australia is expensive? #australia #shipping #costofliving #economics
 - **Related video:** Why Is Australia So Expensive?

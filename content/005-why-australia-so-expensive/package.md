@@ -23,8 +23,8 @@ Main title = the exact phrase Australians type into Google (docs/01 §3), so sea
 
 | File | Template | Text on image | Idea | Why it gets the click |
 |---|---|---|---|---|
+| `visuals/out/thumb-C-bigmac.png` | C — two prices (**default**: 004 led with D) | BIG MAC · USA $6.22 → AUSTRALIA $5.95 | "So expensive" — yet the burger is cheaper | Contradicts the title → curiosity; confirmed at ~0:17 (end of ¶1) and on the Price Board |
 | `visuals/out/thumb-D-sydney-14x.png` | D — chart | HOUSE ÷ PAY · LONDON 8.5× · SYDNEY 14× | Housing is the one thing that's extreme | Validates the viewer's pain with one shocking bar; confirmed in the first sentence (¶1) |
-| `visuals/out/thumb-C-bigmac.png` | C — two prices | BIG MAC · USA $6.22 → AUSTRALIA $5.95 | "So expensive" — yet the burger is cheaper | Contradicts the title → curiosity; confirmed at 0:15 (¶1) and on the Price Board |
 | `visuals/out/thumb-B-shipping-1c.png` | B — sliced | SHIPPING ≈1¢ · THE REST 99¢ | Distance is a tiny slice of the dollar | Attacks the belief everyone holds; confirmed in ¶8–10 (labelled as our rough math) |
 
 All thumbnail numbers are in `research.md`: Sydney 14.0 / London 8.5 (Demographia 2026 via Canstar, probable); Big Mac US$6.22 / A$8.50 = US$5.95 (Economist, Jul 2026); ≈1¢ = 25% × 4% (RBA × ABS, Pricewhy estimate). No flags, no logos, no faces. New original illustration: `house` (tools/render/illustrations.mjs).
@@ -37,12 +37,12 @@ We put four suspects on trial: distance, the supermarkets, taxes and wages. The 
 
 CHAPTERS
 0:00 Why is Australia so expensive?
-0:40 The crime scene
-2:20 Suspect one: distance
-5:00 Suspect two: the supermarkets
-6:35 Suspects three and four: taxes and wages
-8:00 The twist: a time machine
-9:50 The verdict
+0:41 The crime scene
+2:15 Suspect one: distance
+4:50 Suspect two: the supermarkets
+6:12 Suspects three and four: taxes and wages
+7:34 The twist: a time machine
+9:06 The verdict
 
 SOURCES
 - OECD, PPP detailed results: price level indices, 2024 (dataflow DSD_PPP@DF_PPP_CPL) — https://data-explorer.oecd.org

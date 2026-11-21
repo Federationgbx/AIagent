@@ -1,6 +1,6 @@
 # Script: Why Is Australia So Expensive?
 Video: 005 · Structure: **Detective** (crime scene → four suspects → clues → twist → verdict) · Hook type: 1 (shock number) + 3 (false accusation: "it's distance") · Target length: ~11 min
-Narration words: **1,671** (≈ 10.8 min at 155 wpm; Kokoro read 003 at ≈ 160 wpm incl. pauses → ≈ 10.4 min). Scene times below are estimates — the real ones come from the voice file.
+Narration words: **1,671** (≈ 10.8 min at 155 wpm; Kokoro read 003 at ≈ 160 wpm incl. pauses → ≈ 10.4 min). Scene times below are estimates; real render: narration 10:45, final video 10:57 (chapters in build/chapters.txt).
 Twist (from research verdict): distance is **not** the culprit — freight adds roughly a cent per dollar of the basket and the most-shipped goods (clothes, cars) are among the cheapest of 48 countries. The "60% dearer than America" reputation was a 2012 currency peak; what is truly extreme today is the one thing you can't ship: a home (Sydney = 14 × income).
 Price Board: Big Mac in US$ (Jul 2026) + OECD price level (Sep 2026) in ¶5–6; full 4-country board (price level, minimum wage, average wage, big-city housing) in ¶30.
 
