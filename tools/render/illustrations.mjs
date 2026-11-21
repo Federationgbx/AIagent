@@ -89,6 +89,15 @@ export const illustrations = {
   <path d="M46 200 L174 200 L170 250 L50 250 Z" fill="#F8F4EC"/>
 </svg>`,
 
+  goldbar: () => `
+<svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="gb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6D365"/><stop offset="1" stop-color="#C8902A"/></linearGradient></defs>
+  <path d="M110 120 L410 120 L490 300 L30 300 Z" fill="url(#gb)" stroke="#1B1B1F" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M110 120 L150 60 L370 60 L410 120 Z" fill="#FBE29A" stroke="#1B1B1F" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M150 200 L370 200" stroke="#9C6B12" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  <path d="M175 240 L345 240" stroke="#9C6B12" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+</svg>`,
+
   coin: () => `
 <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
   <circle cx="150" cy="150" r="130" fill="#FFD23F" stroke="#1B1B1F" stroke-width="8"/>

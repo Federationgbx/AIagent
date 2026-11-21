@@ -210,7 +210,7 @@ function comparePage(s) {
 }
 
 // ---------- narration cards (1920x1080), used by tools/video/assemble.py ----------
-// style: chapter | stat | quote | text | list | math. Optional "object" (illustration) on the right.
+// style: chapter | stat | quote | text | list | math | code | terminal | verdict. Optional "object" (illustration) on the right.
 
 function cardPage(s) {
   const tone = toneColor(s.tone || "highlight");
@@ -251,8 +251,34 @@ function cardPage(s) {
       body = `<div style="font:800 ${s.size || 130}px/1.1 ${BRAND.mono};color:${tone}">${esc(s.expr || "")}</div>
         ${s.sub ? `<div style="font:700 48px/1.3 ${BRAND.head};color:${BRAND.gray};margin-top:40px">${esc(s.sub)}</div>` : ""}`;
       break;
+    case "code":
+      // Evidence card: a real line of source code with its file and line number.
+      body = `${s.title ? `<div style="font:900 64px/1.1 ${BRAND.head};margin-bottom:34px">${esc(s.title)}</div>` : ""}
+        <div style="background:#07080A;border:2px solid #2A2D36;border-radius:18px;padding:34px 40px;font:600 ${s.size || 38}px/1.45 ${BRAND.mono};color:${BRAND.paper};white-space:pre-wrap">${(s.lines || []).map((l) => `<div style="${l.hl ? `background:rgba(255,210,63,.16);border-left:6px solid ${BRAND.yellow};margin-left:-40px;padding-left:34px;` : ""}">${esc(l.text ?? l)}</div>`).join("")}</div>
+        <div style="font:600 30px ${BRAND.mono};color:${BRAND.gray};margin-top:22px">${esc(s.file || "")}</div>
+        ${s.note ? `<div style="font:700 44px/1.25 ${BRAND.head};color:${toneColor(s.tone || "profit")};margin-top:28px">${esc(s.note)}</div>` : ""}`;
+      break;
+    case "terminal":
+      // Evidence card: a check anyone can repeat (command) and what came back (result).
+      body = `${s.title ? `<div style="font:900 64px/1.1 ${BRAND.head};margin-bottom:34px">${esc(s.title)}</div>` : ""}
+        <div style="background:#07080A;border:2px solid #2A2D36;border-radius:18px;padding:30px 40px;font:600 ${s.size || 34}px/1.45 ${BRAND.mono}">
+          <div style="color:${BRAND.gray}">$ ${esc(s.command || "")}</div>
+          <div style="color:${toneColor(s.tone || "profit")};margin-top:14px;white-space:pre-wrap">${esc(s.result || "")}</div></div>
+        ${s.note ? `<div style="font:700 44px/1.25 ${BRAND.head};color:${BRAND.paper};margin-top:30px">${esc(s.note)}</div>` : ""}`;
+      break;
+    case "verdict":
+      // Scoreboard: claim -> result badge (proven / claimed / mismatch).
+      body = `${s.title ? `<div style="font:900 64px/1.1 ${BRAND.head};margin-bottom:26px">${esc(s.title)}</div>` : ""}
+        ${(s.rows || []).map((r) => {
+          const c = { proven: BRAND.green, claimed: BRAND.yellow, mismatch: BRAND.coral }[r.result] || BRAND.gray;
+          const label = { proven: "CHECKED ✓", claimed: "NOT CHECKED", mismatch: "MISMATCH ✗" }[r.result] || r.result;
+          return `<div style="display:flex;justify-content:space-between;gap:30px;align-items:center;padding:${s.compact ? 9 : 14}px 0;border-bottom:2px solid #2A2D36">
+            <div style="font:700 ${s.compact ? 36 : 44}px/1.2 ${BRAND.head}">${esc(r.claim)}</div>
+            <div style="font:800 ${s.compact ? 28 : 32}px ${BRAND.mono};color:${c};white-space:nowrap">${esc(label)}</div></div>`;
+        }).join("")}`;
+      break;
     default:
-      throw new Error(`card style must be chapter|stat|quote|text|list|math (got ${s.style})`);
+      throw new Error(`card style must be chapter|stat|quote|text|list|math|code|terminal|verdict (got ${s.style})`);
   }
   return page(1920, 1080, `
     <div style="position:absolute;left:120px;top:0;bottom:0;width:${textW}px;display:flex;flex-direction:column;justify-content:center">${body}</div>
