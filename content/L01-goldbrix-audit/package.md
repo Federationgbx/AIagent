@@ -29,7 +29,7 @@ Publish: **Wednesday 2 December 2026, 21:00 Germany (15:00 New York)** — extra
 
 ```
 A small crypto called GoldBrix says it has no owner, no admin key, and burns every fee. We didn't take its word for it: we checked 12 claims against its source code, three other blockchains and its own archives. 11 held up, 1 we couldn't verify, and we found a typo in its exit document.
-Not financial advice. Crypto is high risk; you can lose everything. We are not affiliated with GoldBrix and hold no GBX.
+Not financial advice. Crypto is high risk; you can lose everything. We are not affiliated with GoldBrix.
 
 CHAPTERS
 0:00 12 claims, checked
@@ -43,11 +43,11 @@ CHAPTERS
 
 CHECK IT YOURSELF (21 Nov 2026)
 - Source: github.com/GOLDBRIX-GBX/goldbrix-core (commit 4441eb34) — src/consensus/amount.h:26, src/kernel/chainparams.cpp:112-123, src/consensus/gbx_curve.h:43-44, src/consensus/gbx_launchpad.h:27, 53-55, 80
-- Solana: getAccountInfo 3BVHXX3SKP9Z9hDe5SoiRP8TCNHd9kFK9va1JyXd4k7Q (program AAbKiRpmY5jYfC37DuQ9aTsWnNqxZXLe4fvyGSb3YS1F) -> "authority": null
-- Base: owner() on 0x8e351c32dfb27aa22334a20dcf7262f54f78e0c0 -> reverts
-- Arbitrum: owner() on 0xa43813d90adb98a5c400113ce2cc29d43d4ab867 -> reverts
-- Arweave: xsVFhwVAkHyZwc7zT2X4Ml_Qhx8c9EofAk3tbizAhmc -> SHA-256 bd5cdf3eed5c7ca314d19c22b2a5a50cbe8c6957ef255b44b822c3e6a330c5a2 ; nVkgMqVScD8iq5e5RyxxCzImsREJkKCR7Qs-VSj2kOc -> 368814f002bb0b21e8d78072dd3756323b0ade43b06c0a6a6c531ec0b3f6585a
-- Typo: GATE-R.md lists 0x8e35...dcf7272f... (no contract there)
+- Solana: getAccountInfo 3BVHXX3SKP9Z9hDe5SoiRP8TCNHd9kFK9va1JyXd4k7Q (program AAbKiRpmY5jYfC37DuQ9aTsWnNqxZXLe4fvyGSb3YS1F) returns "authority": null
+- Base: owner() on 0x8e351c32dfb27aa22334a20dcf7262f54f78e0c0 reverts (the function does not exist)
+- Arbitrum: owner() on 0xa43813d90adb98a5c400113ce2cc29d43d4ab867 reverts (the function does not exist)
+- Arweave: xsVFhwVAkHyZwc7zT2X4Ml_Qhx8c9EofAk3tbizAhmc has SHA-256 bd5cdf3eed5c7ca314d19c22b2a5a50cbe8c6957ef255b44b822c3e6a330c5a2 ; nVkgMqVScD8iq5e5RyxxCzImsREJkKCR7Qs-VSj2kOc has SHA-256 368814f002bb0b21e8d78072dd3756323b0ade43b06c0a6a6c531ec0b3f6585a
+- Typo: GATE-R.md lists 0x8e35...dcf7272f... where there is no contract
 - Not verified: treasury burn and "no premine" (GoldBrix nodes did not answer us)
 
 MARKET SOURCES
