@@ -67,7 +67,7 @@ def upload_kit(folder: Path, out: Path) -> list[Path]:
     build = folder / "build"
     final = build / "final.mp4"
     if not final.exists():
-        return []
+        return shorts_only_kit(folder, out)
     made = []
     mp4 = out / f"Pricewhy-{folder.name}.mp4"
     shutil.copyfile(final, mp4)
@@ -91,6 +91,27 @@ def upload_kit(folder: Path, out: Path) -> list[Path]:
     made.append(kit)
     shorts_dir = build / "shorts"
     for f in sorted(shorts_dir.glob("short-*.mp4")) if shorts_dir.exists() else []:
+        dst = out / f"Pricewhy-{folder.name}-{f.name}"
+        shutil.copyfile(f, dst)
+        made.append(dst)
+    return made
+
+
+def shorts_only_kit(folder: Path, out: Path) -> list[Path]:
+    """Folders with Shorts but no long video (e.g. content/S01-...)."""
+    shorts = sorted((folder / "build" / "shorts").glob("short-*.mp4")) if (folder / "build" / "shorts").exists() else []
+    if not shorts:
+        return []
+    made = []
+    kit = out / f"Pricewhy-{folder.name}-SHORTS-KIT.zip"
+    with zipfile.ZipFile(kit, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted((folder / "shorts").glob("*.txt")):
+            z.write(f, f"shorts/{f.name}")
+        guide = ROOT / "docs" / "13-cum-publici.md"
+        if guide.exists():
+            z.write(guide, "CUM-PUBLICI.txt")
+    made.append(kit)
+    for f in shorts:
         dst = out / f"Pricewhy-{folder.name}-{f.name}"
         shutil.copyfile(f, dst)
         made.append(dst)

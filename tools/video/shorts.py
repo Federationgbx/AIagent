@@ -165,10 +165,15 @@ def main():
     k = Kokoro(str(KDIR / "model.onnx"), str(KDIR / "voices.bin"))
     for i, s in enumerate(shorts):
         out, dur = render_short(video_dir, s, k, BEDS[(s["num"] + len(video_dir.name)) % len(BEDS)], out_dir)
+        md = (video_dir / "shorts.md").read_text(encoding="utf-8")
+        extra = re.search(r"Every YouTube description gets: `(.+?)`", md)
+        has_long = (video_dir / "package.md").exists()
         (txt_dir / f"short-{s['num']}.txt").write_text(
             f"PUBLISH: {s['publish']}\nYOUTUBE SHORTS TITLE: {s['title']}\n"
-            f"TIKTOK / REELS CAPTION: {s['caption']}\nRELATED VIDEO (YouTube): the long video of this folder\n"
-            "AI use: Yes (synthetic voice)\n", encoding="utf-8")
+            f"TIKTOK / REELS CAPTION: {s['caption']}\n"
+            + (f"YOUTUBE DESCRIPTION: {extra.group(1)}\n" if extra else "")
+            + ("RELATED VIDEO (YouTube): the long video of this folder\n" if has_long else "")
+            + "AI use: Yes (synthetic voice)\n", encoding="utf-8")
         print(f"short-{s['num']}: {dur:.1f}s, {len(s['pngs'])} visuals -> {out.name}", flush=True)
 
 

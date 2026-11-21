@@ -172,7 +172,7 @@ function stackedPage(s, upto) {
       const w = (g.value / sum) * width;
       const visible = i < upto;
       const html = `<div style="position:absolute;left:${x}px;top:0;width:${w}px;height:180px;background:${visible ? toneColor(g.tone || "neutral") : "#2A2D36"};border-right:4px solid ${BRAND.ink}"></div>
-        ${visible ? `<div style="position:absolute;left:${x}px;top:${i % 2 ? 260 : 200}px;width:${Math.max(w, 220)}px;font:800 34px ${BRAND.head};color:${toneColor(g.tone || "neutral")}">${esc(g.display ?? g.value)}<div style="font:600 26px ${BRAND.head};color:${BRAND.gray}">${esc(g.label)}</div></div>` : ""}`;
+        ${visible ? `<div style="position:absolute;left:${x}px;top:${i % 2 ? 300 : 200}px;width:${Math.max(w, 220)}px;font:800 34px ${BRAND.head};color:${toneColor(g.tone || "neutral")}">${esc(g.display ?? g.value)}<div style="font:600 26px ${BRAND.head};color:${BRAND.gray}">${esc(g.label)}</div></div>` : ""}`;
       x += w;
       return html;
     })

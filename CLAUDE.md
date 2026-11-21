@@ -26,6 +26,7 @@
 | Ritm | 2 video-uri lungi/săpt. (marți, vineri, 15:00 New York) + 5–7 Shorts | docs/06 §4, docs/10 |
 | Ținta | 1.000 abonați + **8.000 ore** în 365 zile (pragul YPP pentru aplicanți noi de la 1 feb 2027) | docs/08 §1 |
 | Lansare | **Devansată:** primul video (003 Costco) vineri 20 noiembrie 2026; 001 marți 24.11, 002 vineri 27.11; calendarul valabil: `tracking/content-calendar.csv` | docs/10 §3 |
+| Excepție crypto (21.11.2026) | Utilizatorul a ales să publice pe Pricewhy 5 Shorts **neutre** despre GoldBrix (GBX), deși recomandarea a fost un canal separat; declară că **nu e implicat** în proiect. Reguli pentru orice astfel de conținut: „the project says / the code says”, fără preț, fără randamente, fără „buy”, fără link spre aplicație, mereu „Not financial advice. Crypto is high risk.”, surse în descriere | `content/S01-goldbrix-shorts/research.md` |
 
 ## Harta fișierelor
 
